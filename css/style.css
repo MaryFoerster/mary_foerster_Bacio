@@ -194,3 +194,12 @@ dialog::backdrop {
   background-color: red;
 }
 /* -------------formular */
+
+
+.container-footer {
+  width: 20rem;
+}
+
+.logo-footer {
+  width: 6rem;
+}
