@@ -186,3 +186,7 @@ dialog::backdrop {
     }
   }
 /* -------------nav */
+
+.maps {
+  border-radius: var(----color-border-radius);
+}

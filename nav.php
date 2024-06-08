@@ -6,10 +6,10 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end pt-3 pt-md-1 pb-3 pb-md-0" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active me-2 text-white" href="index.html#lineUp">Pizza</a>
-          <a class="nav-link active me-2 text-white" href="index.html#video">Artikel</a>
-          <a class="nav-link active me-2 text-white" href="index.html#ticket">Über uns</a>
-          <a class="nav-link active me-2 text-white" href="index.html#info">Kontakt</a>
+          <a class="nav-link active me-2 text-white" href="pizza.php">Pizza</a>
+          <a class="nav-link active me-2 text-white" href="artikel.php">Artikel</a>
+          <a class="nav-link active me-2 text-white" href="ueberUns.php">Über uns</a>
+          <a class="nav-link active me-2 text-white" href="kontakt.php">Kontakt</a>
         </div>
       </div>
     </div>
