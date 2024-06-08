@@ -48,7 +48,7 @@
 </section>
 
 <section id="index__beschreibung">
-        <div class="container blackred mt-5 mb-5">
+        <div class="container mt-5 mb-5">
           <div class="row p-4">
             <div class="col-lg-6">
             <h2>Beschreibung</h2>

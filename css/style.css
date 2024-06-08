@@ -40,6 +40,11 @@ body p {
   font-weight: 400;
 }
 
+img {
+  border: none;
+  box-shadow: none;
+}
+
 h1 {
   font-family: 'Be Vietnam Pro';
   color: var(----color-red);
@@ -60,6 +65,13 @@ h4 {
   color: var(----color-red);
   font-weight: 900;
 }
+h5 {
+  font-size: .9rem;
+  font-family: 'Be Vietnam Pro';
+  color: var(----color-red);
+  font-weight: 900;
+}
+
 
 
 .bg-red {
@@ -82,6 +94,7 @@ h4 {
 .card:hover {
   transform: scale(1.1);
   cursor: pointer;
+  border: none;
 }
 
 /* -----------scrollbar */
