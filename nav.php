@@ -1,16 +1,16 @@
-<nav class="navbar navbar-expand-lg bg-red">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><img id="austria-rock-logo" src="img/tomat.png"/></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon-custom"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active me-2" href="index.html#lineUp">Line Up</a>
-              <a class="nav-link active me-2" href="index.html#video">Video</a>
-              <a class="nav-link active me-2" href="index.html#ticket">Ticket</a>
-              <a class="nav-link active me-2" href="index.html#info">Info</a>
-            </div>
-          </div>
+<nav class="navbar navbar-expand-md bg-red pt-3 pb-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.php"><img id="bacio-logo" class="logo-nav" src="img/bacio-logo-white.png"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img class="img-nav" src="img/mozzarella.png" alt=""></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end pt-3 pt-md-1 pb-3 pb-md-0" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active me-2 text-white" href="index.html#lineUp">Pizza</a>
+          <a class="nav-link active me-2 text-white" href="index.html#video">Artikel</a>
+          <a class="nav-link active me-2 text-white" href="index.html#ticket">Über uns</a>
+          <a class="nav-link active me-2 text-white" href="index.html#info">Kontakt</a>
         </div>
-</nav>
+      </div>
+    </div>
+  </nav>

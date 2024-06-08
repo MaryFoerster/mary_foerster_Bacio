@@ -72,13 +72,8 @@ h5 {
   font-weight: 900;
 }
 
-
-
 .bg-red {
   background-color: var(----color-red);
-}
-.card-title {
-  color: var(----color-text-white);
 }
 .container {
   max-width: 65rem;
@@ -86,16 +81,23 @@ h5 {
 .custom-radius {
   border-radius: var(----color-border-radius);
 }
+
+/* -----------scrollbar */
 .card {
   width: 16rem;
   border: none;
   transition: transform 0.3s ease;
+}
+.card-title {
+  color: var(----color-text-white);
 }
 .card:hover {
   transform: scale(1.1);
   cursor: pointer;
   border: none;
 }
+/* -----------scrollbar */
+
 
 /* -----------scrollbar */
 html::-webkit-scrollbar{
@@ -113,7 +115,7 @@ html::-webkit-scrollbar{
   
 
 
-  /* -----------dialog */
+/* -----------dialog */
   dialog {
     width: 70%;
     max-height: 50rem;
@@ -124,7 +126,6 @@ html::-webkit-scrollbar{
     overflow: hidden;
      padding: 0; /* Entfernt das Standard-Padding */
 }
-
 dialog::backdrop {
     background: rgba(0, 0, 0, 0.8); /* Dunklerer Hintergrund */
 }
@@ -137,7 +138,6 @@ dialog::backdrop {
 .img-dialog-anzeige {
   width: 4rem;
 }
-
 .dialog-content {
     border: none;
     background-color: var(----color-text-white);
@@ -158,5 +158,31 @@ dialog::backdrop {
     opacity: .7;
     text-decoration: none;
 }
-  /* -----------dialog */
+/* -----------dialog */
 
+
+/* -------------nav */
+.nav-link {
+  font-family: 'Be Vietnam Pro';
+  font-weight: 900;
+}
+
+.img-nav {
+  width: 3rem;
+}
+
+.logo-nav {
+  width: 7rem;
+}
+  /* Zentriert die Links in der mobilen Ansicht */
+  @media (max-width: 767.98px) {
+    .navbar-nav {
+      text-align: center;
+      width: 100%;
+    }
+    .navbar-nav .nav-link {
+      display: inline-block;
+      float: none;
+    }
+  }
+/* -------------nav */
