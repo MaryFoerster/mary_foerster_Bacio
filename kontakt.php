@@ -31,33 +31,33 @@
         </div>
 </section>
 
-
-
 <section id="kontaktformular">
-        <div class="container mt-5 mb-5">
+        <div class="container custom-radius bg-red mt-5 mb-5">
         <form>
           <div class="row p-4">
             <div class="col-lg-6">
             <div class="form-custom">
-                  <input type="text" class="form-custom" id="name" name="name" placeholder="Name" />
+            <label class="form-label" for="textAreaExample"><p class="text-white">Name</p></label>
+                  <input type="text" class="form-custom" id="name" name="name"/>
                 </div>
                 <div class="form-custom">
-                  <input type="email" class="form-custom" id="email1" name="email" placeholder="E-mail" />
+                <label class="form-label" for="textAreaExample"><p class="text-white">e-mail</p></label>
+                  <input type="email" class="form-custom" id="email1" name="email"/>
                 </div>
             </div>
             <div class="col-lg-6">
-            <div class="form-custom">
-                  <input type="text" class="nachricht" id="nachricht" name="nachricht" placeholder="Nachricht" />
-                </div>
-                <div class="form-custom">
+            <div data-mdb-input-init class="form-outline">
+            <label class="form-label" for="textAreaExample"><p class="text-white">Nachricht</p></label>
+              <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
+              <div class="form-custom pt-2">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                  <label class="form-check-label text-red" for="exampleCheck1">Ich akzeptiere die Nutzungsbedingungen</label>
+                  <label class="form-check-label text-red" for="exampleCheck1"><p class="text-white">Ich akzeptiere die Nutzungsbedingungen</p></label>
                 </div>
             </div>
           </div>
           <div class="row p-4">
             <div class="col-lg-12">
-            <div class="form-custom">
+            <div class="form-custom d-flex justify-content-end">
                   <button type="submit" class="btn-form">Senden</button>
                 </div>
             </div>
