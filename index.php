@@ -10,7 +10,7 @@
 <body>
 
 <header>
-
+<?php include("nav.php") ?>
 
 
 
@@ -141,14 +141,9 @@
 <br>
 
 </main>
-  
-<footer>
 
+<?php include("footer.php") ?>
 
-
-
-</footer>
-
-
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

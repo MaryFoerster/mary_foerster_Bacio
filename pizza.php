@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-
+<?php include("nav.php") ?>
 
 </header>
   <main>
@@ -340,6 +340,10 @@
         </dialog>
 
   </main>
+
+ <?php include("footer.php") ?>
+
+<script src="js/bootstrap.min.js"></script>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
