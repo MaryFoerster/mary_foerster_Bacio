@@ -33,9 +33,38 @@
 
 
 
-
-
-
+<section id="kontaktformular">
+        <div class="container mt-5 mb-5">
+        <form>
+          <div class="row p-4">
+            <div class="col-lg-6">
+            <div class="form-custom">
+                  <input type="text" class="form-custom" id="name" name="name" placeholder="Name" />
+                </div>
+                <div class="form-custom">
+                  <input type="email" class="form-custom" id="email1" name="email" placeholder="E-mail" />
+                </div>
+            </div>
+            <div class="col-lg-6">
+            <div class="form-custom">
+                  <input type="text" class="nachricht" id="nachricht" name="nachricht" placeholder="Nachricht" />
+                </div>
+                <div class="form-custom">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                  <label class="form-check-label text-red" for="exampleCheck1">Ich akzeptiere die Nutzungsbedingungen</label>
+                </div>
+            </div>
+          </div>
+          <div class="row p-4">
+            <div class="col-lg-12">
+            <div class="form-custom">
+                  <button type="submit" class="btn-form">Senden</button>
+                </div>
+            </div>
+          </div>
+        </form>
+        </div>
+</section>
 
 
 

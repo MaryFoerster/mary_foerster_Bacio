@@ -6,7 +6,8 @@
    ----color-orange: #ff6300;
    ----color-text-grey: #696969;
    ----color-text-white: #ffffff;
-   ----color-border-radius:.2rem;
+   ----color-white: #ffffff;
+   ----border-radius:.2rem;
    
 }
 /* be-vietnam-pro-regular - latin */
@@ -79,7 +80,7 @@ h5 {
   max-width: 65rem;
 }
 .custom-radius {
-  border-radius: var(----color-border-radius);
+  border-radius: var(----border-radius);
 }
 
 /* -----------scrollbar */
@@ -98,36 +99,33 @@ h5 {
 }
 /* -----------scrollbar */
 
-
 /* -----------scrollbar */
 html::-webkit-scrollbar{
   width: 6px;
   }
   html {
   scrollbar-width: thin;
-  scrollbar-color:  var(----color-red)  var(----color-text-white);
+  scrollbar-color:  var(----color-red)  var(----color-white);
   }
   html::-webkit-scrollbar-thumb {
   border-radius: 0;
   border: none;
   }
-  /* -----------scrollbar */
+/* -----------scrollbar */
   
-
-
 /* -----------dialog */
   dialog {
     width: 70%;
     max-height: 50rem;
     border: none;
     box-shadow: none;
-    background-color: var(----color-text-white);
-    border-radius: var(----color-border-radius);
+    background-color: var(----color-white);
+    border-radius: var(----border-radius);
     overflow: hidden;
-     padding: 0; /* Entfernt das Standard-Padding */
+     padding: 0;
 }
 dialog::backdrop {
-    background: rgba(0, 0, 0, 0.8); /* Dunklerer Hintergrund */
+    background: rgba(0, 0, 0, 0.8);
 }
 :focus-visible {
   outline: none;
@@ -140,7 +138,7 @@ dialog::backdrop {
 }
 .dialog-content {
     border: none;
-    background-color: var(----color-text-white);
+    background-color: var(----color-white);
     padding: 20px;
     text-align: center;
 }
@@ -160,7 +158,6 @@ dialog::backdrop {
 }
 /* -----------dialog */
 
-
 /* -------------nav */
 .nav-link {
   font-family: 'Be Vietnam Pro';
@@ -174,7 +171,6 @@ dialog::backdrop {
 .logo-nav {
   width: 7rem;
 }
-  /* Zentriert die Links in der mobilen Ansicht */
   @media (max-width: 767.98px) {
     .navbar-nav {
       text-align: center;
@@ -187,6 +183,14 @@ dialog::backdrop {
   }
 /* -------------nav */
 
+/* -------------nmaps */
 .maps {
-  border-radius: var(----color-border-radius);
+  border-radius: var(----border-radius);
 }
+/* -------------nmaps */
+
+/* -------------formular */
+.form-custom {
+  background-color: red;
+}
+/* -------------formular */
