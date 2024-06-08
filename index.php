@@ -24,6 +24,31 @@
 
 
 
+
+<section id="video" class="d-flex justify-content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <h2>Video</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <video class="w-100 custom-radius" controls autoplay muted loop>
+                <source src="viedeo/viedeo.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
 <section id="index__zutaten">
         <div class="pb-5 pt-5">
           <div class="container">
