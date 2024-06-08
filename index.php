@@ -25,7 +25,7 @@
 
 
 <section id="index__zutaten">
-        <div class="pb-5 pt-5 bg-red">
+        <div class="pb-5 pt-5">
           <div class="container">
           <div class="row">
             <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Zutaten
@@ -71,13 +71,49 @@
 </section>
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="index__pizza">
+        <div class="pb-5 pt-5">
+          <div class="container">
+          <div class="row">
+            <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Zutaten
+            </h2>
+            <div class="col-md-4 text-center bg-primary d-flex justify-content-center">
+            <div class="card custom-radius bg-red m-2">
+                <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Margerita</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center d-flex justify-content-center">
+            <div class="card card__hover custom-radius bg-red m-2">
+              <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Margerita</h5>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4 text-center d-flex justify-content-center">
+            <div class="card custom-radius bg-red m-2">
+              <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Margerita</h5>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+</section>
 
-
-
-
-
-
-
+<br>
+<br>
 
 </main>
   

@@ -62,10 +62,24 @@ h4 {
 }
 
 
-
+.bg-red {
+  background-color: var(----color-red);
+}
+.card-title {
+  color: var(----color-text-white);
+}
 .container {
   max-width: 65rem;
 }
 .custom-radius {
   border-radius: var(----color-border-radius);
+}
+.card {
+  width: 16rem;
+  border: none;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
