@@ -63,6 +63,7 @@
                 </div>
               </div>
             </div>
+       
             <div class="col-md-4 text-center d-flex justify-content-center">
             <div id="ProsciuttoFunghi" class="card custom-radius bg-red mt-5 mt-md-1">
               <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
@@ -140,7 +141,26 @@
 </section>
 
 
-
+       <!-- Modal -->
+       <div class="modal fade" id="pizzaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Pizza Margherita</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- Hier kommen die Details zur Pizza Margherita rein -->
+                      <p>Leckere Pizza Margherita mit frischen Tomaten, Mozzarella und Basilikum.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
 
@@ -154,6 +174,10 @@
 
 </footer>
 
-
+<script>
+  document.getElementById('pizzaMargherita').addEventListener('click', function () {
+    $('#pizzaModal').modal('show');
+  });
+</script>
 </body>
 </html>
