@@ -11,6 +11,7 @@
 <header>
 <?php include("nav.php") ?>
 
+<div class="header"></div>
 </header>
   <main>
 
