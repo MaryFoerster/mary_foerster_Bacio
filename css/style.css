@@ -1,0 +1,35 @@
+@import url(bootstrap.min.css);
+:root {
+   ----color-red: #ff1e00;
+   ----color-green: #85be08;
+   ----color-blue-grey: #e9eaff;
+   ----color-orange: #ff6300;
+   ----color-text-grey: #696969;
+   ----color-text-white: #ffffff;
+   ----color-border-radius:1rem;
+   
+}
+/* be-vietnam-pro-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/be-vietnam-pro-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* be-vietnam-pro-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/be-vietnam-pro-v11-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mitr-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/mitr-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
