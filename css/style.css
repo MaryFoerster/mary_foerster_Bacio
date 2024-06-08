@@ -83,3 +83,18 @@ h4 {
   transform: scale(1.1);
   cursor: pointer;
 }
+
+/* -----------scrollbar */
+html::-webkit-scrollbar{
+  width: 6px;
+  }
+  html {
+  scrollbar-width: thin;
+  scrollbar-color:  var(----color-red)  var(----color-text-white);
+  }
+  html::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  border: none;
+  }
+  /* -----------scrollbar */
+  
