@@ -8,15 +8,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php include("head.php") ?>
     <title>DANKE</title>
 </head>
 <body>
 
     <?php
-        $vorname = $_POST['vorname'];
-        $nachname = $_POST['nachname'];
+        $name = $_POST['name'];
         $nachricht = $_POST['nachricht'];
         $email = $_POST['email'];
 
@@ -59,14 +57,15 @@
 
             $mail->addCC('lisamari9500@gmail.com', "Mary Förster");
 
-            $mail->Body = "<br>Von: " . $vorname . " " . $nachname 
-            . "<br>Email:" . $email 
-            . "<i>Das ist eine Kontaktaufnahme</i>" . $nachricht .
-            "Der DSGVO wurde zugestimmt!";
+           // Email body content
+           $mail->Body = "<br>Von: " . $name . 
+           "<br>Email: " . $email . 
+           "<br><i>Das ist eine Kontaktaufnahme</i><br>" . $nachricht . 
+           "<br>Der DSGVO wurde zugestimmt!";
 
             try {
                 $mail->send();
-                echo '<h1>Danke</h1><h2>Wir melden uns bei ihnen! ' . $vorname .  '</h2>';
+                echo '<h1>Danke</h1><h2>Wir melden uns bei ihnen! ' . $name .  '</h2>';
             } catch (Exception $ex) { 
                 echo 'es ist ein Fehler aufgetreten' . $mail->ErrorInfo;
             }

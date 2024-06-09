@@ -11,40 +11,6 @@
 
 </header>
 
-
-
-        <form action="action_page.php" method="post">
-            <div class="container__KontaktFormular_box1">
-                <div class="inputBox">
-                    <input class="input" type="text" id="name" name="firstname" placeholder="Name*">
-                </div>
-                <div class="inputBox">
-                    <input class="input" type="email" id="email" name="email" placeholder="E-Mail*">
-                </div>
-                <div class="inputBox">
-                    <input class="input" type="text" id="telefon" name="telefon" placeholder="Telefon*">
-                </div>
-                <div class="inputBox">
-                    <input class="input" type="text" id="straße" name="straße" placeholder="Straße*">
-                </div>
-                <div class="inputBox">
-                    <input class="input" type="text" id="ort" name="ort" placeholder="Ort*">
-                </div>
-                <div class="inputBox">
-                    <input class="input" type="text" id="plz" name="plz" placeholder="PLZ*">
-                </div>
-            </div>
-            <div class="container__KontaktFormular_box2">
-                <textarea class="textBox" id="subject" name="subject" placeholder="Nachricht"></textarea>
-                <input class="sendeBtn" type="submit" value="Submit">
-            </div>
-        </form>
-    </div>
-
-
-
-
-
 <main>
 
 <section id="kontakt__beschreibung">
@@ -62,41 +28,6 @@
 </section>
 
 <?php include("formular.php") ?>
-
-<section id="kontaktformular">
-        <div class="container custom-radius bg-red mt-5 mb-5">
-        <form method="post" action="formular_danke.php">
-          <div class="row p-4">
-            <div class="col-lg-6">
-            <div class="form-custom">
-            <label class="form-label" for="textAreaExample"><p class="text-white">Name</p></label>
-            <input type="text" id="vorname" name="vorname"> 
-                </div>
-                <div class="form-custom">
-                <label class="form-label" for="textAreaExample"><p class="text-white">e-mail</p></label>
-                <input type="email" id="email" name="email"> 
-                </div>
-            </div>
-            <div class="col-lg-6">
-            <div data-mdb-input-init class="form-outline">
-            <label class="form-label" for="textAreaExample"><p class="text-white">Nachricht</p></label>
-              <textarea class="form-control" id="nachricht" name="nachricht"  rows="4"></textarea>
-              <div class="form-custom pt-2">
-                  <input type="checkbox" class="form-check-input" id="dsgvo-check" name="dsgvo-check" required />
-                  <label class="form-check-label text-red" for="exampleCheck1"><p class="text-white">Ich akzeptiere die Nutzungsbedingungen</p></label>
-                </div>
-            </div>
-          </div>
-          <div class="row p-4">
-            <div class="col-lg-12">
-            <div class="form-custom d-flex justify-content-end">
-                  <button type="submit" name="submit" class="btn-form">Senden</button>
-                </div>
-            </div>
-          </div>
-        </form>
-        </div>
-</section>
 
 <section id="google__maps">
         <div class="container">
