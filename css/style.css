@@ -208,13 +208,23 @@ input {
 /* -------------formular */
 
 
-.container-footer {
-  width: 20rem;
+/* -------------footer */
+.img-footer {
+  width: 2rem;
 }
 
 .logo-footer {
   width: 6rem;
 }
+.footer-link {
+  text-decoration: none;
+}
+footer a:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+/* -------------footer */
+
 
 .header {
   background-image: url(../img/header.jpg);
@@ -236,4 +246,35 @@ input {
 }
 .bg4 {
   background-color: rgb(32, 199, 218);
+}
+
+
+
+.card-custom {
+  background-color: var(----color-red);
+  width: 12rem;
+  border: none;
+  border-radius: var(----border-radius);
+}
+.card-img-top-custom {
+  width: 12rem;
+  border-radius: var(----border-radius);
+}
+.card-body-custom {
+  border-radius: var(----border-radius);
+  background-color: var(----color-red);
+}
+.card-title-custom {
+  padding: 1rem;
+  color: var(----color-text-white);
+  border-radius: var(----border-radius);
+}
+.card-custom-big {
+  width: 14rem;
+  border: none;
+  border-radius: var(----border-radius);
+}
+.card-img-top-custom-big {
+  width: 14rem;
+  border-radius: var(----border-radius);
 }

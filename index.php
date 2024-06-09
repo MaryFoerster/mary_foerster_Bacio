@@ -93,46 +93,53 @@
 </section>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<section id="index__pizza">
-        <div class="pb-5 pt-5">
-          <div class="container">
-          <div class="row">
-            <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Zutaten
-            </h2>
-            <div class="col-md-4 text-center bg-primary d-flex justify-content-center">
-            <div class="card custom-radius bg-red m-2">
-                <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Margerita</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center d-flex justify-content-center">
-            <div class="card card__hover custom-radius bg-red m-2">
-              <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Margerita</h5>
-              </div>
-            </div>
-            </div>
-            <div class="col-md-4 text-center d-flex justify-content-center">
-            <div class="card custom-radius bg-red m-2">
-              <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Margerita</h5>
-              </div>
-            </div>
-            </div>
-          </div>
-          </div>
+<div class="card-custom">
+      <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
+      <div class="card-body-custom">
+        <h5 class="card-title-custom">Margerita</h5>
+      </div>
+</div>
+
+<div class="card-custom-big">
+        <img class="card-img-top-custom-big" src="img/p-pizzas.jpg" alt="Card image cap">
+        <div class="card-body-custom">
+          <h5 class="card-title-custom">Margerita</h5>
         </div>
-</section>
+</div>
+
+
+<br>
+<br>
+
+<div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4 text-center d-flex justify-content-center">
+                    <div class="card-custom">
+                          <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
+                          <div class="card-body-custom">
+                            <h5 class="card-title-custom">Margerita</h5>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 text-center d-flex justify-content-center">
+                    <div class="card-custom">
+                          <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
+                          <div class="card-body-custom">
+                            <h5 class="card-title-custom">Margerita</h5>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 text-center d-flex justify-content-center">
+                    <div class="card-custom">
+                          <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
+                          <div class="card-body-custom">
+                            <h5 class="card-title-custom">Margerita</h5>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
 
 <br>
 <br>
