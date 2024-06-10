@@ -10,17 +10,11 @@
 <?php include("nav.php") ?>
 
 
-
+<div class="index-header"></div>
 
 </header>
 
-
 <main>
-
-
-
-
-
 
 <section id="video" class="d-flex justify-content-center">
         <div class="container">
@@ -38,13 +32,6 @@
           </div>
         </div>
 </section>
-
-
-
-
-
-
-
 
 <section id="index__zutaten">
         <div class="pb-5 pt-5">

@@ -8,14 +8,13 @@
             </div>
             <div class="col-6 col-md-3 col-lg-3">
                 <div class="text-white bg2">
-                <p class="text-white">Adress Hötzendorfstraße 6.</p>
-                <p class="text-white">tele 2836928368</p>
+                <img class="img-footer" src="img/Instagram.png" alt=""><p class="text-white">Adress Hötzendorfstraße 6.</p>
+                <img class="img-footer" src="img/Instagram.png" alt=""><p class="text-white">tele 2836928368</p>
                 <p class="text-white">email fhedhfweofjpoe</p>
                 </div>
             </div>
             <div class="col-6 col-md-3 col-lg-3">
             <div class="text-white bg4 flex-column d-flex justify-content-end align-items-end">
-
                 <a class="footer-link text-white mb-3" href="">Datenschutz</a>
                 <a class="footer-link text-white mb-3" href="">Impressum</a>
                 <a class="footer-link text-white" href="">AGB</a>

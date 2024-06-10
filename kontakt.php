@@ -17,8 +17,18 @@
         <div class="container mt-5 mb-5">
           <div class="row p-4">
             <div class="col-lg-6">
-            <h1>Kontakt</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
+            <h1 class="mb-4">Kontakt</h1>
+              <div class="box d-flex mb-4">
+              <img class="kontakt-icon" src="img/location.png" alt="">
+              <p> ADressseee eeehf</p></div>
+              <div class="box d-flex mb-4">
+              <img class="kontakt-icon" src="img/phone.png" alt="">
+              <p> telefon3290840309480</p></div>
+           
+              <div class="box d-flex mb-4">
+              <img class="kontakt-icon" src="img/email.png" alt="">
+              <p>emaildienineif</p></div>
+           
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
            <img class="img-fluid custom-radius" src="img/platzhalter.jpg" alt="">
