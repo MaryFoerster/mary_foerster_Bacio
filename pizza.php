@@ -45,7 +45,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="pizzaMargherita" class="card custom-radius bg-red mt-5 mt-md-1" data-dialog="dialog1">
+                        <div id="pizzaMargherita" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog1">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">Margherita</h5>
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="ProsciuttoFunghi" class="card custom-radius bg-red mt-5 mt-md-1" data-dialog="dialog2">
+                        <div id="ProsciuttoFunghi" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog2">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">PROSCIUTTO E FUNGHI</h5>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="salame" class="card custom-radius bg-red mt-5 mt-md-1" data-dialog="dialog3">
+                        <div id="salame" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog3">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">SALAME</h5>
@@ -74,7 +74,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="tonnoCipolla" class="card custom-radius bg-red mt-1 mt-md-1" data-dialog="dialog4">
+                        <div id="tonnoCipolla" class="card custom-radius mt-1 mt-md-1" data-dialog="dialog4">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">TONNO E CIPOLLA</h5>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="spinaciRicotta" class="card custom-radius bg-red mt-5 mt-md-1" data-dialog="dialog5">
+                        <div id="spinaciRicotta" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog5">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">SPINACI E RICOTTA</h5>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="salamePiccante" class="card custom-radius bg-red mt-5 mt-md-1" data-dialog="dialog6">
+                        <div id="salamePiccante" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog6">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">SALAME PICCANTE</h5>
@@ -103,7 +103,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="ananas" class="card custom-radius bg-red mt-1 mt-md-1" data-dialog="dialog7">
+                        <div id="ananas" class="card custom-radius mt-1 mt-md-1" data-dialog="dialog7">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">PROSCIUTTO E ANANAS</h5>
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="quattroFormaggi" class="card custom-radius bg-red mt-5 mt-md-1" data-dialog="dialog8">
+                        <div id="quattroFormaggi" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog8">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">QUATTRO FORMAGGI</h5>
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
-                        <div id="solo" class="card custom-radius bg-red mt-5 mt-md-1" data-dialog="dialog9">
+                        <div id="solo" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog9">
                             <img class="card-img-top custom-radius" src="img/p-pizzas.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-start">SOLO</h5>

@@ -4,7 +4,7 @@
    ----color-green: #85be08;
    ----color-blue-grey: #e9eaff;
    ----color-orange: #ff6300;
-   ----color-text-grey: #696969;
+   ----color-text-grey: #000000;
    ----color-text-white: #ffffff;
    ----color-white: #ffffff;
    ----border-radius:.2rem;
@@ -88,9 +88,6 @@ h5 {
   width: 13rem;
   border: none;
   transition: transform 0.3s ease;
-}
-.card-title {
-  color: var(----color-text-white);
 }
 .card:hover {
   transform: scale(1.1);
@@ -310,7 +307,7 @@ footer a:hover {
 .index-header {
   width: 100%;
   height: 35rem;
-  background-image: url(../img/index-header.png);
+  background-image: url(../img/head.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,4 +337,8 @@ button {
 button:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.bg-none {
+  background-color: none;
 }

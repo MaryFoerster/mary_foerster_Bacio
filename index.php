@@ -6,11 +6,8 @@
 </head>
 <body>
 
-<header>
+<header class="index-header">
 <?php include("nav.php") ?>
-
-
-<div class="index-header"></div>
 
 </header>
 
