@@ -77,19 +77,7 @@
 </section>
 
 
-<div class="card-custom">
-      <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
-      <div class="card-body-custom">
-        <h5 class="card-title-custom">Margerita</h5>
-      </div>
-</div>
 
-<div class="card-custom-big">
-        <img class="card-img-top-custom-big" src="img/p-pizzas.jpg" alt="Card image cap">
-        <div class="card-body-custom">
-          <h5 class="card-title-custom">Margerita</h5>
-        </div>
-</div>
 
 
 <br>

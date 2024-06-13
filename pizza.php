@@ -34,9 +34,9 @@
         </section>
 
         <section id="pizza__h2">
-          <div class="bg-red">
+          <div>
                 <div class="container p-4">
-                      <h2 class="text-white">Unser Sortiment</h2>
+                      <h2>Unser Sortiment</h2>
                 </div>
           </div>
         </section>
@@ -174,21 +174,20 @@
         <dialog id="dialog3">
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
-                    <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
                         <img class="img-dialog custom-radius" src="img/p-pizzas.jpg" alt="">
                     </div>
-                    <div class="col-lg-6 d-flex flex-column justify-content-between">
+                    <div class="col-xxl-7 col-lg-6 d-flex flex-column justify-content-between">
                         <span class="close">&times;</span>
                         <h2>Unsere Tiefkühlpizza</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
-                        <h3 class="d-flex justify-content-end text-white">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                 </div>
             </div>
         </dialog>
-
 
         <dialog id="dialog4">
         <div class="container mt-5 mb-5">
@@ -331,9 +330,6 @@
         <div class="container pt-5 pb-5">
         <img class="img-fluid" src="img/pizza.png" alt="">
         </div>
-
-
-
 
   </main>
 
