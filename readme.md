@@ -47,3 +47,17 @@ Grund: Schafft zusÃ¤tzliches Interesse und Verlangen durch die Hervorhebung de
 Grund: Unterstützt die Handlung durch eine zusätzliche auditive Erinnerung an das Angebot und motiviert zur sofortigen Reaktion.
 7 Section: CTA zu unserer Pizza Seite
 Grund: Leitet den Nutzer zur Handlung an, indem er ihn auffordert, die Pizza-Seite zu besuchen und eine Bestellung aufzugeben.
+
+
+
+AOS
+
+clip phaf
+
+text groß auf verpackung
+
+
+https://www.magicpattern.design/tools/blob-generator
+
+
+

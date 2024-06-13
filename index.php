@@ -13,8 +13,8 @@
 
 <main>
 
-<section id="video" class="d-flex justify-content-center">
-        <div class="container">
+<section id="video" class="d-flex justify-content-center mt-5">
+        <div class="container mt-3">
           <div class="row">
             <div class="col-xl-12">
               <h2>Video</h2>
@@ -61,7 +61,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/platzhalter.jpg" alt="">
+           <img class="img-fluid custom-radius" src="img/platzhalter.png" alt="">
             </div>
           </div>
           <div class="row p-4">
@@ -78,43 +78,19 @@
 
 
 
+   <!-- SVG Definitionsfile -->
+   <svg width="0" height="0" style="position: absolute; visibility: hidden;">
+        <defs>
+            <clipPath id="clipPathId">
+                <path d="M216.37,120.17c.41-3.83.63-7.72.63-11.67C217,48.58,168.42,0,108.5,0S0,48.58,0,108.5c0,49.56,33.23,91.36,78.63,104.33-.41,3.83-.63,7.72-.63,11.67,0,59.92,48.58,108.5,108.5,108.5s108.5-48.58,108.5-108.5c0-49.56-33.23-91.36-78.63-104.33Z" />
+            </clipPath>
+        </defs>
+    </svg>
+    <div class="clip-container"></div>
 
 
-<br>
-<br>
 
-<div class="container mt-5">
-                <div class="row">
-                    <div class="col-md-4 text-center d-flex justify-content-center">
-                    <div class="card-custom">
-                          <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
-                          <div class="card-body-custom">
-                            <h5 class="card-title-custom">Margerita</h5>
-                          </div>
-                    </div>
-                    </div>
-                    <div class="col-md-4 text-center d-flex justify-content-center">
-                    <div class="card-custom">
-                          <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
-                          <div class="card-body-custom">
-                            <h5 class="card-title-custom">Margerita</h5>
-                          </div>
-                    </div>
-                    </div>
-                    <div class="col-md-4 text-center d-flex justify-content-center">
-                    <div class="card-custom">
-                          <img class="card-img-top-custom" src="img/p-pizzas.jpg" alt="Card image cap">
-                          <div class="card-body-custom">
-                            <h5 class="card-title-custom">Margerita</h5>
-                          </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-
-<br>
-<br>
+<div class="clip-container"></div>
 
 </main>
 

@@ -4,11 +4,10 @@
    ----color-green: #85be08;
    ----color-blue-grey: #e9eaff;
    ----color-orange: #ff6300;
-   ----color-text-grey: #000000;
+   ----color-text-grey: #390600;
    ----color-text-white: #ffffff;
    ----color-white: #ffffff;
    ----border-radius:.2rem;
-   
 }
 /* be-vietnam-pro-regular - latin */
 @font-face {
@@ -175,11 +174,9 @@ dialog::backdrop {
   font-family: 'Be Vietnam Pro';
   font-weight: 900;
 }
-
 .img-nav {
   width: 3rem;
 }
-
 .logo-nav {
   width: 7rem;
 }
@@ -243,11 +240,12 @@ footer a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   height: 20rem;
 }
 
-.bg1 {
+/* .bg1 {
   background-color: goldenrod;
 }
 .bg2 {
@@ -258,8 +256,8 @@ footer a:hover {
 }
 .bg4 {
   background-color: rgb(32, 199, 218);
-}
-
+} */
+/* 
 
 
 .card-custom {
@@ -289,13 +287,13 @@ footer a:hover {
 .card-img-top-custom-big {
   width: 14rem;
   border-radius: var(----border-radius);
-}
+} */
 
 
 .index-header {
   width: 100%;
   height: 35rem;
-  background-image: url(../img/head.jpg);
+  background-image: url(../img/head1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -329,4 +327,18 @@ button:hover {
 
 .bg-none {
   background-color: none;
+}
+
+.card-title {
+   color: var(----color-text-grey);
+}
+
+.clip-container {
+  width: 300px;
+  height: 300px;
+  background-image: url('../img/platzhalter\ Kopie.jpg'); /* Ersetze 'dein-bild-url.jpg' mit dem Pfad zu deinem Bild */
+  background-size: cover;
+  background-position: center;
+  clip-path: url(../tryout.svg/#svgClip);
+  -webkit-clip-path: url(../tryout.svg/#svgClip);
 }
