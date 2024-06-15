@@ -77,7 +77,6 @@
 </section>
 
 
-
    <!-- SVG Definitionsfile -->
    <svg width="0" height="0" style="position: absolute; visibility: hidden;">
         <defs>
