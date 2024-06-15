@@ -20,14 +20,13 @@
             <h1 class="mb-4">Kontakt</h1>
               <div class="box d-flex mb-4">
               <img class="kontakt-icon" src="img/location.png" alt="">
-              <p> ADressseee eeehf</p></div>
+              <p>Hofgasse 4, 6020 Innsbruck</p></div>
               <div class="box d-flex mb-4">
               <img class="kontakt-icon" src="img/phone.png" alt="">
-              <p> telefon3290840309480</p></div>
-           
+              <p>+43 664 4132694</p></div>
               <div class="box d-flex mb-4">
               <img class="kontakt-icon" src="img/email.png" alt="">
-              <p>emaildienineif</p></div>
+              <p>www.pizzabacio.com</p></div>
            
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
