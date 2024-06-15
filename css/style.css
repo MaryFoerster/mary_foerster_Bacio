@@ -231,6 +231,10 @@ footer a:hover {
   opacity: .6;
   cursor: pointer;
 }
+
+footer p {
+  font-size: .8rem;
+}
 /* -------------footer */
 
 .header {
@@ -309,4 +313,9 @@ audio {
   background-size: cover;
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.text-red {
+ color: var(----color-red);
+ font-weight: bold;
 }
