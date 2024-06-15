@@ -221,7 +221,6 @@ input {
 .img-footer {
   width: 2rem;
 }
-
 .logo-footer {
   width: 7rem;
 }
@@ -234,7 +233,6 @@ footer a:hover {
 }
 /* -------------footer */
 
-
 .header {
   background-image: url(../img/header.jpg);
   background-position: center;
@@ -245,50 +243,6 @@ footer a:hover {
   height: 20rem;
 }
 
-/* .bg1 {
-  background-color: goldenrod;
-}
-.bg2 {
-  background-color: rgb(66, 218, 32);
-}
-.bg3 {
-  background-color: rgb(218, 32, 181);
-}
-.bg4 {
-  background-color: rgb(32, 199, 218);
-} */
-/* 
-
-
-.card-custom {
-  background-color: var(----color-red);
-  width: 12rem;
-  border: none;
-  border-radius: var(----border-radius);
-}
-.card-img-top-custom {
-  width: 12rem;
-  border-radius: var(----border-radius);
-}
-.card-body-custom {
-  border-radius: var(----border-radius);
-  background-color: var(----color-red);
-}
-.card-title-custom {
-  padding: 1rem;
-  color: var(----color-text-white);
-  border-radius: var(----border-radius);
-}
-.card-custom-big {
-  width: 14rem;
-  border: none;
-  border-radius: var(----border-radius);
-}
-.card-img-top-custom-big {
-  width: 14rem;
-  border-radius: var(----border-radius);
-} */
-
 
 .index-header {
   width: 100%;
@@ -297,6 +251,7 @@ footer a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .kontakt-icon {
@@ -341,4 +296,17 @@ button:hover {
   background-position: center;
   clip-path: url(../tryout.svg/#svgClip);
   -webkit-clip-path: url(../tryout.svg/#svgClip);
+}
+
+audio {
+  width: 100%;
+}
+
+.custom-cta {
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
