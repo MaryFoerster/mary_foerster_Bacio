@@ -42,7 +42,7 @@
         <section id="pizza__sortiment">
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-md-4 text-center d-flex justify-content-center">
+                <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="pizzaMargherita" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog1">
                             <img class="card-img-top custom-radius" src="img/pizza.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center d-flex justify-content-center">
+                    <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="salame" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog3">
                             <img class="card-img-top custom-radius" src="img/pizza.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -71,7 +71,7 @@
 
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-md-4 text-center d-flex justify-content-center">
+                <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="tonnoCipolla" class="card custom-radius mt-1 mt-md-1" data-dialog="dialog4">
                             <img class="card-img-top custom-radius" src="img/pizza.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -87,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center d-flex justify-content-center">
+                    <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="salamePiccante" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog6">
                             <img class="card-img-top custom-radius" src="img/pizza.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -100,7 +100,7 @@
 
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-md-4 text-center d-flex justify-content-center">
+                <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="ananas" class="card custom-radius mt-1 mt-md-1" data-dialog="dialog7">
                             <img class="card-img-top custom-radius" src="img/pizza.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -116,7 +116,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center d-flex justify-content-center">
+                    <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="solo" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog9">
                             <img class="card-img-top custom-radius" src="img/pizza.jpg" alt="Card image cap">
                             <div class="card-body">
