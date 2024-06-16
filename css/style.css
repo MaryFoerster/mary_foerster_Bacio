@@ -314,8 +314,10 @@ audio {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
-
 .text-red {
  color: var(----color-red);
  font-weight: bold;
+}
+.custom-beschreibung {
+  max-width: 40rem;
 }
