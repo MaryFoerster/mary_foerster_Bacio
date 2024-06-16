@@ -93,6 +93,13 @@ h5 {
   cursor: pointer;
   border: none;
 }
+@media screen and (max-width:770px) {
+  .card {
+    width: 19rem;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+}
 /* -----------card */
 
 /* -----------scrollbar */
@@ -133,6 +140,9 @@ dialog::backdrop {
 .img-dialog-anzeige {
   width: 4rem;
 }
+dialog h2 {
+  margin-top: 0rem;
+}
 .dialog-content {
   border: none;
   /* background-color: var(----color-white); */
@@ -144,7 +154,7 @@ dialog::backdrop {
   position: absolute;
   top: 10px;
   right: 20px;
-  color: var(--color-red);
+  color: var(----color-red);
   font-size: 30px;
   font-weight: bold;
   cursor: pointer;
@@ -152,19 +162,37 @@ dialog::backdrop {
 .close:hover,
 .close:focus {
   opacity: .7;
+  cursor: pointer;
   text-decoration: none;
 }
 
 /* Mobile styles */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 990px) {
   .dialog-icon {
     display: none;
   }
   dialog h2 {
-    font-size: .9rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+  }
+  dialog h3 {
+    font-size: 1.1rem;
   }
   dialog p {
-    font-size: .8rem;
+    font-size: .9rem;
+  }
+  .img-dialog {
+    width: 15rem;
+  }
+  dialog {
+    width: 90%;
+    max-height: 50rem;
+    border: none;
+    box-shadow: none;
+    background-color: var(----color-white);
+    border-radius: var(----border-radius);
+    overflow: hidden;
+    padding: 0;
   }
 }
 /* -----------dialog */
