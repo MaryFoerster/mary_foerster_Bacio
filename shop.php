@@ -12,7 +12,7 @@
     <header>
         <?php include 'menu.php'; ?>
     </header>
-    <main>
+    <main class="bg-red">
         <?php include 'artikel.php'; ?>
 
         <div class="container">

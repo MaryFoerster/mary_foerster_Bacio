@@ -114,7 +114,7 @@
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">16 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
