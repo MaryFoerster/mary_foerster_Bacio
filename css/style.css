@@ -95,7 +95,7 @@ h5 {
 }
 @media screen and (max-width:770px) {
   .card {
-    width: 19rem;
+    width: 27rem;
     border: none;
     transition: transform 0.3s ease;
   }
