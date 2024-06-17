@@ -373,7 +373,7 @@ audio {
   font-size: 18px; /* Schriftgröße */
   border: none; /* Keine Umrandung */
   outline: none; /* Keine Umrandung bei Fokus */
-  background-color: #555; /* Hintergrundfarbe */
+  background-color: var(----color-red); /* Hintergrundfarbe */
   color: white; /* Schriftfarbe */
   cursor: pointer; /* Mauszeiger wird zur Hand */
   padding: 15px; /* Innenabstand */

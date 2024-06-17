@@ -30,23 +30,13 @@
            
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/platzhalter.jpg" alt="">
+            <iframe class="maps custom-radius" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.3455663838236!2d11.391373676373934!3d47.268498971160845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6bfbbf0942dd%3A0x77d4de38076e6d24!2sAltstadt%20Innsbruck!5e0!3m2!1sde!2sat!4v1717872586145!5m2!1sde!2sat" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
 </section>
 
 <?php include("formular.php") ?>
-
-<section id="google__maps">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center">
-            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.3455663838236!2d11.391373676373934!3d47.268498971160845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6bfbbf0942dd%3A0x77d4de38076e6d24!2sAltstadt%20Innsbruck!5e0!3m2!1sde!2sat!4v1717872586145!5m2!1sde!2sat" width="95%" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-</section>
 
 </main>
 

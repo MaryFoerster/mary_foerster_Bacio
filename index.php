@@ -52,15 +52,15 @@
             </h2>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/basilikum.png" alt="">
-              <p class="text-grey"><strong>Basilikum</strong></p>
+              <h4 class="text-grey"><strong>Basilikum</strong></h4>
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/mozzarella.png" alt="">
-              <p class="text-grey"><strong>Mozzarella</strong></p>
+              <h4 class="text-grey"><strong>Mozzarella</strong></h4>
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/tomate.png" alt="">
-              <p class="text-grey"><strong>Tomate</strong></p>
+              <h4 class="text-grey"><strong>Tomate</strong></h4>
             </div>
           </div>
           </div>
@@ -107,11 +107,42 @@
   </div>
 
 
+  <section class="vh-100" style="background-color: #eee;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-lg-9 col-xl-7">
+        <div class="card" style="border-radius: 15px;">
+          <div class="card-body p-5">
+
+            <div class="text-center mb-4 pb-2">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-quotes/bulb.webp"
+                alt="Bulb" width="100">
+            </div>
+
+            <figure class="text-center mb-0">
+              <blockquote class="blockquote">
+                <p class="pb-3">
+                  <i class="fas fa-quote-left fa-xs text-primary"></i>
+                  <span class="lead font-italic">Many of life's failures are people who did not realize how
+                    close they were to success when they gave up.</span>
+                  <i class="fas fa-quote-right fa-xs text-primary"></i>
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0">
+                Thomas Edison
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
-
-<section id="index__zutaten">
+  <section id="index__zutaten">
         <div class="pb-5 pt-5">
           <div class="container">
           <div class="row">
@@ -119,20 +150,21 @@
             </h2>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/basilikum.png" alt="">
-              <p class="text-grey"><strong>Basilikum</strong></p>
+              <h4 class="text-grey"><strong>Basilikum</strong></h4>
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/mozzarella.png" alt="">
-              <p class="text-grey"><strong>Mozzarella</strong></p>
+              <h4 class="text-grey"><strong>Mozzarella</strong></h4>
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/tomate.png" alt="">
-              <p class="text-grey"><strong>Tomate</strong></p>
+              <h4 class="text-grey"><strong>Tomate</strong></h4>
             </div>
           </div>
           </div>
         </div>
 </section>
+
 
 
 

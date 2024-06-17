@@ -80,6 +80,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     <div class="container_danke">
         <?php
         $mail->send();
+        
+        ?>
+
+        
+
+
+
+        <?php
             echo "<h1>Danke, $vorname!</h1><h3>Wir haben Ihre Bestellung erhalten und werden uns bald bei Ihnen melden.</h3>";
         } catch (Exception $e) {
             echo "Ihre Nachricht konnte leider nicht versendet werden. Fehler: {$mail->ErrorInfo}";
