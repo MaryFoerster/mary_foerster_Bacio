@@ -51,7 +51,7 @@
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="salame" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog3">
-                            <img class="card-img-top custom-radius" src="img/apron.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/teller.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-center">Kochschürze</h5>
                             </div>
@@ -106,7 +106,7 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/apron.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/teller.jpg" alt="">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
