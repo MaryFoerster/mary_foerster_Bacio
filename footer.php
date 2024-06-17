@@ -55,13 +55,13 @@
              <img class="img-footer" src="img/phone-white.png" alt=""><p class="text-white">+43 664 4132694</p>
             </li>
             <li>
-              <img class="img-footer" src="img/email-white.png" alt=""><p class="text-white">www.pizzabacio.com</p>
+              <img class="img-footer" src="img/email-white.png" alt=""><p class="text-white">mail@pizzabacio.com</p>
             </li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-lg-1 mt-md-4">
-        <h5 class="text-uppercase text-white">links</h5>
+        <h5 class="text-uppercase text-white">Rechtliches</h5>
           <ul class="list-unstyled">
           <li class="pt-4">
                 <a class="footer-link text-white" href="">Datenschutz</a>
@@ -90,6 +90,13 @@
     </section>
   </div>
   <div class="text-center p-3 bg-white mt-2">
-   <p class="text-red">© 2024 Bacio</p>
+   <p class="text-red">© <span id="current-year"></span> Bacio</p>
   </div>
 </footer>
+
+<script>
+        // Get the current year
+        var currentYear = new Date().getFullYear();
+        // Set the current year to the span with id "current-year"
+        document.getElementById('current-year').textContent = currentYear;
+</script>
