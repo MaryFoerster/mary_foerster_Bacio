@@ -10,8 +10,8 @@
           <a class="nav-link active me-2 text-white" href="artikel-page.php">Artikel</a>
           <a class="nav-link active me-2 text-white" href="ueberUns.php">Über uns</a>
           <a class="nav-link active me-2 text-white" href="kontakt.php">Kontakt</a>
-          <a class="nav-link active me-2 text-white" href="shop.php"><img class="icon-shop" src="img/shop.png" alt=""></a>
         </div>
       </div>
     </div>
   </nav>
+
