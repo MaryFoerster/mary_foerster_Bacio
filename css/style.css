@@ -1,6 +1,6 @@
 
 :root {
-   ----color-red: #ff1e00;
+   ----color-red: #E81B00;
    ----color-green: #85be08;
    ----color-blue-grey: #e9eaff;
    ----color-orange: #ff6300;
@@ -9,6 +9,9 @@
    ----color-white: #ffffff;
    ----border-radius:.2rem;
 }
+/* ----color-red: #E81B00; */
+/* ----color-red: #ff1e00; */
+
 
 /* be-vietnam-pro-regular - latin */
 @font-face {
@@ -282,10 +285,15 @@ footer p {
   height: 9rem;
 }
 
+.gif {
+  width: 10rem;
+  margin-top: 8rem;
+}
+
 .index-header {
   width: 100%;
   height: 35rem;
-  background-image: url(../img/head1.png);
+  background-image: url(../img/pizzaheader.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,4 +393,40 @@ audio {
 nav a:hover {
   opacity: .8;
   cursor: pointer;
+}
+
+
+.viedeo {
+  max-width: 63.5rem;
+}
+
+.carousel-prev-icon {
+  background-image: url(../img/email.png);
+}
+
+.img-carousel {
+  width: 20rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: var(----color-red);
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid #0d6dfd00;
+  border-bottom: 10px solid #ffc10700;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+.height {
+  height: 25rem;
 }

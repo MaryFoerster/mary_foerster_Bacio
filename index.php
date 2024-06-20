@@ -8,7 +8,13 @@
 
 <header class="index-header">
 <?php include("nav.php") ?>
-
+<div class="container">
+  <div class="row">
+  <div class="col-12 d-flex justify-content-center align-content-center">
+    <img class="gif" src="img/shop.png" alt="">
+  </div>
+  </div>
+</div>
 </header>
 
 <main>
@@ -17,11 +23,13 @@
         <div class="container mt-5 mb-5">
           <div class="row p-4">
             <div class="col-lg-6">
-            <h1>Pizzeria Bacio</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
+            <h1>Pizza Bacio</h1>
+            <p>
+            Willkommen bei BACIO – Die Beste Tiefkühlpizza <br>
+            BACIO bringt Ihnen das authentische Geschmackserlebnis einer italienischen Pizzeria direkt nach Hause. Jede Pizza wird nach original italienischem Rezept mit handgemachtem Teig und hochwertigen Zutaten hergestellt und im Steinofen vorgebacken. Genießen Sie die erste Tiefkühlpizza, die schmeckt wie frisch beim Italiener – knusprig, lecker und von höchster Qualität. Erleben Sie den Unterschied mit Pizza BACIO!</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/platzhalter.png" alt="">
+           <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="Pizza-Belegt-mit-Tomaten-und-Bailikum" title="Pizza-Belegt-mit-Tomaten-und-Bailikum">
             </div>
           </div>
         </div>
@@ -30,14 +38,9 @@
 <section id="video" class="d-flex justify-content-center mt-5">
         <div class="container mt-3">
           <div class="row">
-            <div class="col-xl-12">
-              <h2>Video</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-12">
-              <video class="w-100 custom-radius" controls autoplay muted loop>
-                <source src="viedeo/viedeo.mp4" type="video/mp4" />
+            <div class="col-xl-12 d-flex justify-content-center">
+              <video class="viedeo custom-radius" controls autoplay muted loop>
+                <source src="viedeo/viedeo.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Viedeo" title="Pizza-Bacio-Werbe-Viedeo"/>
               </video>
             </div>
           </div>
@@ -48,51 +51,35 @@
         <div class="pb-5 pt-5">
           <div class="container">
           <div class="row">
-            <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Zutaten
+            <h2 class="text-grey pb-5 d-flex justify-content-center">Nur beste Zutaten
             </h2>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/basilikum.png" alt="">
-              <h4 class="text-grey"><strong>Basilikum</strong></h4>
+            <img class="img-fluid custom-radius" src="img/basilikum.jpg" alt="Basilikum-Pflanze" title="Basilikum-Pflanze">
+              <h4 class="mt-4"><strong>Basilikum</strong></h4>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/mozzarella.png" alt="">
-              <h4 class="text-grey"><strong>Mozzarella</strong></h4>
+            <img class="img-fluid custom-radius" src="img/mozzarella.jpg" alt="Mini-Mozzarella" title="Mini-Mozzarella">
+              <h4 class="mt-4"><strong>Mozzarella</strong></h4>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/tomate.png" alt="">
-              <h4 class="text-grey"><strong>Tomate</strong></h4>
+            <img class="img-fluid custom-radius" src="img/tomaten.jpg" alt="Cocktail-Tomaten" title="Cocktail-Tomaten">
+              <h4 class="mt-4"><strong>Tomate</strong></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/mozzarella.png" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/tomate.png" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
           </div>
           </div>
         </div>
 </section>
-
-<section id="index__beschreibung">
-        <div class="container mt-5 mb-5">
-          <div class="row p-4">
-            <div class="col-lg-6">
-            <h2>Beschreibung</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
-            </div>
-            <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/platzhalter.png" alt="">
-            </div>
-          </div>
-          <div class="row p-4">
-            <div class="col-lg-6">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
-            </div>
-            <div class="col-lg-6">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto.</p>
-             <img class="img-fluid custom-radius" src="img/icon-tomate.png" alt="">
-            </div>
-          </div>
-        </div>
-</section>
-
-
-
-
 
 <div class="container mt-5">
     <div class="card">
@@ -104,92 +91,93 @@
         </audio>
       </div>
     </div>
-  </div>
+</div>
 
-
-  <section class="vh-100" style="background-color: #eee;">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col col-lg-9 col-xl-7">
-        <div class="card" style="border-radius: 15px;">
-          <div class="card-body p-5">
-
-            <div class="text-center mb-4 pb-2">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-quotes/bulb.webp"
-                alt="Bulb" width="100">
-            </div>
-
-            <figure class="text-center mb-0">
-              <blockquote class="blockquote">
-                <p class="pb-3">
-                  <i class="fas fa-quote-left fa-xs text-primary"></i>
-                  <span class="lead font-italic">Many of life's failures are people who did not realize how
-                    close they were to success when they gave up.</span>
-                  <i class="fas fa-quote-right fa-xs text-primary"></i>
-                </p>
-              </blockquote>
-              <figcaption class="blockquote-footer mb-0">
-                Thomas Edison
-              </figcaption>
-            </figure>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-  <section id="index__zutaten">
+<section id="index__Pizza Bacio">
         <div class="pb-5 pt-5">
           <div class="container">
           <div class="row">
-            <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Zutaten
+            <h2 class="text-grey pb-5 d-flex justify-content-center">Pizza Bacio
             </h2>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/basilikum.png" alt="">
-              <h4 class="text-grey"><strong>Basilikum</strong></h4>
+            <img class="img-fluid custom-radius" src="img/pizzamacher2.jpg" alt="Ein-Pizzabaecker-der-Teig-knetet" title="Ein-Pizzabaecker-der-Teig-knetet">
+              <h4 class="mt-4"><strong>Handgemacht</strong></h4>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/mozzarella.png" alt="">
-              <h4 class="text-grey"><strong>Mozzarella</strong></h4>
+            <img class="img-fluid custom-radius" src="img/pizzahand.jpg" alt="Pizza-Belegen" title="Pizza-Belegen">
+              <h4 class="mt-4"><strong>Beste Qualität</strong></h4>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/tomate.png" alt="">
-              <h4 class="text-grey"><strong>Tomate</strong></h4>
+            <img class="img-fluid custom-radius" src="img/pizza-belegen.jpg" lt="Pizza-Belegen" title="Pizza-Belegen">
+              <h4 class="mt-4"><strong>Vegane Optionen</strong></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/hand.png" alt="Illustration-Hand" title="Illustration-Hand">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/tomato-big.png" alt="Illustration-Tomate" title="Illustration-Tomate">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/vegan.png" alt="Illustration-Vegan" title="Illustration-Vegan">
             </div>
           </div>
           </div>
         </div>
 </section>
 
-
-
-
-
-
-
-
-
-<div>
-<div class="container custom-cta custom-radius">
-<!-- row -->
-<div class="row justify-content-center text-center">
-  <div class="col-md-9 col-12">
-    <!-- heading -->
-    <h2 class="">Hol dir jetzt deine Lieblings Tiefkühlpizza</h2>
-    <p class="lead px-lg-12 mb-6">Effective learning starts with assessment. Learning a new skill is
-      hard work—Signal makes it easier.</p>
-    <!-- button -->
-    <div class="d-grid d-md-block">
-      <a href="#" class="btn btn-primary mb-2 mb-md-0">Click Me !</a>
+<div id="carouselExampleIndicators" class="carousel slide height">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-prev-icon" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="container">
+          <div class="row p-4">
+            <div class="col-lg-6">
+            <h3>Pizza Bacio</h3>
+            <p>
+            Willkommen bei BACIO – Die Beste Tiefkühlpizza <br>
+            BACIO bringt Ihnen das authentische Geschmackserlebnis einer italienischen Pizzeria direkt nach Hause. Jede Pizza wird nach original italienischem Rezept mit handgemachtem Teig und hochwertigen Zutaten hergestellt und im Steinofen vorgebacken. Genießen Sie die erste Tiefkühlpizza, die schmeckt wie frisch beim Italiener – knusprig, lecker und von höchster Qualität. Erleben Sie den Unterschied mit Pizza BACIO!</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+           <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="Pizza-Belegt-mit-Tomaten-und-Bailikum" title="Pizza-Belegt-mit-Tomaten-und-Bailikum">
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+    <div class="container">
+          <div class="row p-4">
+            <div class="col-lg-6">
+            <h3>Pizza Bacio</h3>
+            <p>
+            Willkommen bei BACIO – Die Beste Tiefkühlpizza <br>
+            BACIO bringt Ihnen das authentische Geschmackserlebnis einer italienischen Pizzeria direkt nach Hause. Jede Pizza wird nach original italienischem Rezept mit handgemachtem Teig und hochwertigen Zutaten hergestellt und im Steinofen vorgebacken. Genießen Sie die erste Tiefkühlpizza, die schmeckt wie frisch beim Italiener – knusprig, lecker und von höchster Qualität. Erleben Sie den Unterschied mit Pizza BACIO!</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+           <img class="img-fluid custom-radius" src="img/zitat-andreas.jpg" alt="Andreas-Schmid" title="Andreas-Schmid">
+            </div>
+          </div>
+        </div>
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon carousel-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon carousel-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-</div>
-</div>
+
+
+
+
+
 
 </main>
 

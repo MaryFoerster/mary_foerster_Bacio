@@ -20,8 +20,9 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-6">
-                    <h2>Unsere Tiefkühlpizza</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehend.</p>
+                    <h2> Tiefkühlpizza-Pizza in Handarbeit</h2>
+                    <p>
+                        Mag verrückt klingen, aber bei Pizza BACIO breitet man jeden einzelnen Teig tatsächlich schonend von Hand aus. Eben das macht diese Pizza so authentisch und knusprig. Keine Maschinen also, die den Teig ausrollen und belegen, es stehen Menschen dahinter.</p>
                     <img class="img-fluid custom-radius" src="img/icon-tomate.png" alt="">
                     </div>
                     <div class="col-lg-6 d-flex justify-content-center">
@@ -33,14 +34,14 @@
 
         <section id="pizza__h2">
           <div>
-                <div class="container">
-                      <h2>Unser Sortiment</h2>
+                <div class="container mt-4">
+                      <h2>Unser Menu</h2>
                 </div>
           </div>
         </section>
 
-        <section id="pizza__sortiment" class="bg-sortiment pt-5 pb-5">
-            <div class="container mt-3">
+        <section id="pizza__sortiment" class="bg-sortiment pt-1 pb-5">
+            <div class="container">
                 <div class="row">
                 <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="pizzaMargherita" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog1">
@@ -309,17 +310,7 @@
         </dialog>
 
 
-        <div class="container">
-            <div class="row">
-            <div class="col-12 text-center d-flex justify-content-center align-items-center flex-column">
-            <p class="custom-beschreibung"><strong>Allergenhinweis
 
-(GL) (MI) (SO) (EI) (SE) Kann in Sojasauce oder Sojaöl enthalten sein (je nach Variante)
-
-Dieses Produkt wird in einer Anlage hergestellt, die auch andere Lebensmittel verarbeitet. Es kann daher Spuren von Nüssen (NU), Erdnüssen (ER), Sellerie (SE) und anderen Allergenen enthalten.</strong></p>
-            </div>
-            </div>
-        </div>
 
 
 
