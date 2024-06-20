@@ -344,10 +344,6 @@ button:hover {
   -webkit-clip-path: url(../tryout.svg/#svgClip);
 }
 
-audio {
-  width: 100%;
-}
-
 .custom-cta {
   background-image: url(../img/header.jpg);
   background-position: center;
@@ -396,10 +392,7 @@ nav a:hover {
 }
 
 
-.viedeo {
-  max-width: 63.5rem;
-}
-
+/* carousel */
 .carousel-prev-icon {
   background-image: url(../img/email.png);
 }
@@ -427,6 +420,41 @@ nav a:hover {
   transition: opacity .6s ease;
 }
 
-.height {
+.carousel-height {
   height: 25rem;
 }
+
+@media screen and (max-width:1200px) {
+  .carousel-height {
+    height: 25rem;
+    margin-bottom: 9rem;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+}
+/* carousel */
+
+.img-radio {
+  width: 5rem;
+}
+
+.audio {
+  background-image: url(../img/pizzaofen.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+audio {
+  max-width: 30rem;
+}
+
+    /* Stil für das Audio-Element */
+    audio {
+      padding: .7rem;
+      border: 2px solid #ffffff;
+      border-radius: var(----border-radius);
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0);
+  }

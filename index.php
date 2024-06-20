@@ -35,11 +35,20 @@
         </div>
 </section>
 
+
+
+
+
+
+
+
+
+
 <section id="video" class="d-flex justify-content-center mt-5">
         <div class="container mt-3">
           <div class="row">
             <div class="col-xl-12 d-flex justify-content-center">
-              <video class="viedeo custom-radius" controls autoplay muted loop>
+              <video class="img-fluid custom-radius" controls autoplay muted loop>
                 <source src="viedeo/viedeo.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Viedeo" title="Pizza-Bacio-Werbe-Viedeo"/>
               </video>
             </div>
@@ -81,17 +90,29 @@
         </div>
 </section>
 
-<div class="container mt-5">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Hören Sie unseren Radio-Spot</h5>
+
+
+<section id="audio" class="audio pt-3 pb-3">
+  <div class="container pt-5 pb-5">
+    <div class="row pt-5 pb-5">
+      <div class="col-12 d-flex justify-content-center flex-column align-items-center">
+        <h2 class="text-white d-flex justify-content-center mb-5">Unser Radio-Spot</h2>
+        <img class="img-radio mb-5" src="img/footer-img.png" alt="">
         <audio controls>
           <source src="URL_ZU_IHRER_AUDIO_DATEI.mp3" type="audio/mpeg">
           Ihr Browser unterstützt das Audio-Element nicht.
         </audio>
       </div>
     </div>
-</div>
+  </div>
+</section>
+
+
+
+
+
+
+
 
 <section id="index__Pizza Bacio">
         <div class="pb-5 pt-5">
@@ -127,7 +148,7 @@
         </div>
 </section>
 
-<div id="carouselExampleIndicators" class="carousel slide height">
+<div id="carouselExampleIndicators" class="carousel slide carousel-height">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-prev-icon" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -136,14 +157,14 @@
     <div class="carousel-item active">
     <div class="container">
           <div class="row p-4">
-            <div class="col-lg-6">
-            <h3>Pizza Bacio</h3>
+          <div class="col-lg-6 d-flex justify-content-center flex-column">
+            <h3>Armando-Ammirati</h3>
+            <h5>-einer der beiden Inhaber</h5>
             <p>
-            Willkommen bei BACIO – Die Beste Tiefkühlpizza <br>
-            BACIO bringt Ihnen das authentische Geschmackserlebnis einer italienischen Pizzeria direkt nach Hause. Jede Pizza wird nach original italienischem Rezept mit handgemachtem Teig und hochwertigen Zutaten hergestellt und im Steinofen vorgebacken. Genießen Sie die erste Tiefkühlpizza, die schmeckt wie frisch beim Italiener – knusprig, lecker und von höchster Qualität. Erleben Sie den Unterschied mit Pizza BACIO!</p>
+            „Ganz egal, welche Sorte du gerade isst: Du wirst sie lieben. Denn die wichtigste Zutat haben sie alle gemein: allerhöchsten Anspruch an die Qualität.“</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="Pizza-Belegt-mit-Tomaten-und-Bailikum" title="Pizza-Belegt-mit-Tomaten-und-Bailikum">
+           <img class="img-fluid custom-radius" src="img/Zitat-Armando.jpg" alt="Armando-Ammirati" title="Armando-Ammirati">
             </div>
           </div>
         </div>
@@ -151,13 +172,13 @@
     <div class="carousel-item">
     <div class="container">
           <div class="row p-4">
-            <div class="col-lg-6">
-            <h3>Pizza Bacio</h3>
+            <div class="col-xs-6 d-flex justify-content-center flex-column">
+            <h3>Andreas Schmid</h3>
+            <h5>-einer der beiden Inhaber</h5>
             <p>
-            Willkommen bei BACIO – Die Beste Tiefkühlpizza <br>
-            BACIO bringt Ihnen das authentische Geschmackserlebnis einer italienischen Pizzeria direkt nach Hause. Jede Pizza wird nach original italienischem Rezept mit handgemachtem Teig und hochwertigen Zutaten hergestellt und im Steinofen vorgebacken. Genießen Sie die erste Tiefkühlpizza, die schmeckt wie frisch beim Italiener – knusprig, lecker und von höchster Qualität. Erleben Sie den Unterschied mit Pizza BACIO!</p>
+            „Wir haben nicht geschaut, wie man eine weitere Tiefkühlpizza hinbekommt. Sondern wie man als Erster eine hochwertige Restaurant-Pizza ohne Qualitätsverlust zu den Menschen nach Hause bringt.“</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center">
+            <div class="col-xs-6 d-flex justify-content-center">
            <img class="img-fluid custom-radius" src="img/zitat-andreas.jpg" alt="Andreas-Schmid" title="Andreas-Schmid">
             </div>
           </div>
