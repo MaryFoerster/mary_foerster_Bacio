@@ -45,25 +45,25 @@
                 <div class="row">
                 <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="pizzaMargherita" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog1">
-                            <img class="card-img-top custom-radius" src="img/pizza1.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/margherita.jpg" alt="pizza-margherita" title="pizza-margherita">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">Margherita</h5>
+                                <h4 class="h5-card d-flex justify-content-center ">Margherita</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
                         <div id="ProsciuttoFunghi" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog2">
-                            <img class="card-img-top custom-radius" src="img/pizza2.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/prosciutto-funghi.jpg" alt="pizza-prosciutto-funghi" title="pizza-prosciutto-funghi">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">PROSCIUTTO E FUNGHI</h5>
+                                <h4 class="h5-card d-flex justify-content-center">Prosciutto e Funghi</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="salame" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog3">
-                            <img class="card-img-top custom-radius" src="img/pizza3.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/salame.jpg" alt="pizza-salame" title="pizza-salame">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">SALAME</h5>
+                                <h5 class="h5-card d-flex justify-content-center">Salame</h5>
                             </div>
                         </div>
                     </div>
@@ -74,25 +74,25 @@
                 <div class="row">
                 <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="tonnoCipolla" class="card custom-radius mt-1 mt-md-1" data-dialog="dialog4">
-                            <img class="card-img-top custom-radius" src="img/pizza4.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/tonno-cipolla.jpg" alt="pizza-tonno-cipolla" title="pizza-tonno-cipolla">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">TONNO E CIPOLLA</h5>
+                                <h5 class="h5-card d-flex justify-content-center">Tonno e Cipolla</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
                         <div id="spinaciRicotta" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog5">
-                            <img class="card-img-top custom-radius" src="img/pizza5.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/spinaci-ricotta.jpg" alt="pizza-spinaci-ricotta" title="pizza-spinaci-ricotta">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">SPINACI E RICOTTA</h5>
+                                <h5 class="h5-card d-flex justify-content-center">Spinaci e Ricotta</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="salamePiccante" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog6">
-                            <img class="card-img-top custom-radius" src="img/pizza6.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/salame-piccante.jpg" alt="pizza-salame-piccante" title="pizza-salame-piccante">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">SALAME PICCANTE</h5>
+                                <h5 class="h5-card d-flex justify-content-center">Salame Piccante</h5>
                             </div>
                         </div>
                     </div>
@@ -103,25 +103,25 @@
                 <div class="row">
                 <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="ananas" class="card custom-radius mt-1 mt-md-1" data-dialog="dialog7">
-                            <img class="card-img-top custom-radius" src="img/pizza7.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/prosciutto-ananas.jpg" alt="pizza-prosciutto-ananas" title="pizza-prosciutto-ananas">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">PROSCIUTTO E ANANAS</h5>
+                                <h5 class="h5-card d-flex justify-content-center">Prosciutto e Ananas</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
                         <div id="quattroFormaggi" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog8">
-                            <img class="card-img-top custom-radius" src="img/pizza8.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/quattro-formaggi.jpg" alt="pizza-quattro-formaggi" title="pizza-quattro-formaggi">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">QUATTRO FORMAGGI</h5>
+                                <h5 class="h5-card d-flex justify-content-center">Quattro Formaggi</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="solo" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog9">
-                            <img class="card-img-top custom-radius" src="img/pizza2.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/margherita.jpg" alt="pizza-solo" title="pizza-solo">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">SOLO</h5>
+                                <h5 class="h5-card d-flex justify-content-center">Solo</h5>
                             </div>
                         </div>
                     </div>
@@ -133,14 +133,14 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                    <img class="img-dialog custom-radius" src="img/margherita.jpg" alt="pizza-margherita" title="pizza-margherita">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Margherita</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
+                        <button>in den Einkaufswagen</button>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -153,14 +153,13 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/prosciutto-funghi.jpg" alt="pizza-prosciutto-funghi" title="pizza-prosciutto-funghi">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Prosciutto e Funghi</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -173,11 +172,11 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/salame.jpg" alt="pizza-salame" title="pizza-salame">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Salame</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
@@ -193,11 +192,11 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/tonno-cipolla.jpg" alt="pizza-tonno-cipolla" title="pizza-tonno-cipolla">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Tonno e Cipolla</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
@@ -213,11 +212,11 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/spinaci-ricotta.jpg" alt="pizza-spinaci-ricotta" title="pizza-spinaci-ricotta">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Spinaci e Ricotta</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
@@ -233,11 +232,11 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/salame-piccante.jpg" alt="pizza-salame-piccante" title="pizza-salame-piccante">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Salame Piccante</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
@@ -253,11 +252,11 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/prosciutto-ananas.jpg" alt="pizza-prosciutto-ananas" title="pizza-prosciutto-ananas">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Prosciutto e Ananas</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
@@ -273,11 +272,11 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/quattro-formaggi.jpg" alt="pizza-quattro-formaggi" title="pizza-quattro-formaggi">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Quattro Formaggi</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
@@ -293,11 +292,11 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/pizza.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/margherita.jpg" alt="pizza-solo" title="pizza-solo">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Unsere Tiefkühlpizza</h2>
+                        <h2>Solo</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
