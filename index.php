@@ -204,29 +204,15 @@
 
 <?php include("footer.php") ?>
 
+<div class="social-media-icons">
+        <a href="https://www.facebook.com" target="_blank" class="icon facebook"><img class="img-footer" src="img/Facebook.png" alt=""></a>
+        <a href="https://www.instagram.com" target="_blank" class="icon instagram"><img class="img-footer" src="img/Instagram.png" alt=""></a>
+</div>
+
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
 
 <script src="js/bootstrap.min.js"></script>
-<script>
-  // Hole den Button
-let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+<script src="js/bacio.js"></script>
 
-// Zeige den Button, wenn der Nutzer bis zur Hälfte der Seite scrollt
-window.onscroll = function() { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > window.innerHeight / 2 || document.documentElement.scrollTop > window.innerHeight / 2) {
-        scrollToTopBtn.style.display = "block";
-    } else {
-        scrollToTopBtn.style.display = "none";
-    }
-}
-
-// Scrollt die Seite nach oben, wenn der Button geklickt wird
-function scrollToTop() {
-    document.body.scrollTop = 0; // Für Safari
-    document.documentElement.scrollTop = 0; // Für Chrome, Firefox, IE und Opera
-}
-</script>
 </body>
 </html>

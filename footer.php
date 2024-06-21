@@ -93,10 +93,3 @@
    <p class="text-red">© <span id="current-year"></span> Bacio</p>
   </div>
 </footer>
-
-<script>
-        // Get the current year
-        var currentYear = new Date().getFullYear();
-        // Set the current year to the span with id "current-year"
-        document.getElementById('current-year').textContent = currentYear;
-</script>
