@@ -13,7 +13,7 @@
 
 <section id="artikel__h1">
                 <div class="container mt-5 mb-5">
-                      <h1>Artikel</h1>
+                      <h1>Produkte</h1>
                 </div>
         </section>
 

@@ -9,10 +9,8 @@
    ----color-white: #ffffff;
    ----border-radius:.2rem;
 }
-/* ----color-red: #E81B00; */
-/* ----color-red: #ff1e00; */
 
-
+/* font */
 /* be-vietnam-pro-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -29,18 +27,11 @@
   font-weight: 900;
   src: url('../fonts/be-vietnam-pro-v11-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
 body p {
   font-family: 'Be Vietnam Pro';
   color: var(----color-text-grey);
   font-weight: 400;
 }
-
-img {
-  border: none;
-  box-shadow: none;
-}
-
 h1 {
   font-family: 'Be Vietnam Pro';
   color: var(----color-red);
@@ -67,7 +58,17 @@ h5 {
   color: var(----color-red);
   font-weight: 900;
 }
+.text-red {
+  color: var(----color-red);
+  font-weight: bold;
+ }
+/* font */
 
+/* Generell */
+img {
+  border: none;
+  box-shadow: none;
+}
 .bg-red {
   background-color: var(----color-red);
 }
@@ -77,6 +78,7 @@ h5 {
 .custom-radius {
   border-radius: var(----border-radius);
 }
+/* Generell */
 
 /* -----------card */
 .card {
@@ -88,6 +90,9 @@ h5 {
   transform: scale(1.1);
   cursor: pointer;
   border: none;
+}
+.card-title {
+  color: var(----color-text-grey);
 }
 @media screen and (max-width:770px) {
   .card {
@@ -113,7 +118,6 @@ html::-webkit-scrollbar{
 /* -----------scrollbar */
   
 /* -----------dialog */
-/* General dialog styles */
 dialog {
   width: 70%;
   max-height: 50rem;
@@ -161,8 +165,6 @@ dialog h2 {
   cursor: pointer;
   text-decoration: none;
 }
-
-/* Mobile styles */
 @media screen and (max-width: 990px) {
   .dialog-icon {
     display: none;
@@ -204,6 +206,10 @@ dialog h2 {
 .logo-nav {
   width: 7rem;
 }
+nav a:hover {
+  opacity: .8;
+  cursor: pointer;
+}
   @media (max-width: 767.98px) {
     .navbar-nav {
       text-align: center;
@@ -223,7 +229,6 @@ dialog h2 {
 /* -------------nmaps */
 
 /* -------------formular */
-
 input {
   padding: 1rem;
   border: none;
@@ -240,7 +245,6 @@ input {
 }
 /* -------------formular */
 
-
 /* -------------footer */
 .img-footer {
   width: 2rem;
@@ -255,12 +259,21 @@ footer a:hover {
   opacity: .6;
   cursor: pointer;
 }
-
 footer p {
   font-size: .8rem;
 }
 /* -------------footer */
 
+/* header */
+.kontakt-header{
+  background-image: url(../img/pizzaheader2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 20rem;
+}
 .header-pizza {
   background-image: url(../img/pizzaheader2.jpg);
   background-position: center;
@@ -270,7 +283,6 @@ footer p {
   width: 100%;
   height: 28rem;
 }
-
 .header-artikel {
   background-image: url(../img/header-artikel.jpg);
   background-position: center;
@@ -280,16 +292,6 @@ footer p {
   width: 100%;
   height: 28rem;
 }
-
-.artikel-img {
-  height: 9rem;
-}
-
-.gif {
-  width: 10rem;
-  margin-top: 8rem;
-}
-
 .index-header {
   width: 100%;
   height: 35rem;
@@ -299,16 +301,19 @@ footer p {
   background-size: cover;
   background-attachment: fixed;
 }
+/* header */
 
+/* kontakt */
 .kontakt-icon {
   width: 3rem;
   margin-right: 1rem;
 }
-
 .img-kontakt {
   width: 5rem;
 }
+/* kontakt */
 
+/* button */
 button {
   border: none;
   background-color: var(----color-white);
@@ -325,82 +330,40 @@ button:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
-
-.bg-none {
-  background-color: none;
-}
-
-.card-title {
-   color: var(----color-text-grey);
-}
-
-.clip-container {
-  width: 300px;
-  height: 300px;
-  background-image: url('../img/platzhalter\ Kopie.jpg'); /* Ersetze 'dein-bild-url.jpg' mit dem Pfad zu deinem Bild */
-  background-size: cover;
-  background-position: center;
-  clip-path: url(../tryout.svg/#svgClip);
-  -webkit-clip-path: url(../tryout.svg/#svgClip);
-}
-
-.custom-cta {
-  background-image: url(../img/header.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-.text-red {
- color: var(----color-red);
- font-weight: bold;
-}
-.custom-beschreibung {
-  max-width: 40rem;
-}
+/* button */
 
 /* Scroll to Top Button */
 #scrollToTopBtn {
-  display: none; /* Button ist standardmäßig versteckt */
-  position: fixed; /* Fest positioniert */
-  bottom: 20px; /* Abstand vom unteren Rand */
-  right: 30px; /* Abstand vom rechten Rand */
-  z-index: 99; /* Sicherstellen, dass der Button über anderem Inhalt liegt */
-  font-size: 18px; /* Schriftgröße */
-  border: none; /* Keine Umrandung */
-  outline: none; /* Keine Umrandung bei Fokus */
-  background-color: var(----color-red); /* Hintergrundfarbe */
-  color: white; /* Schriftfarbe */
-  cursor: pointer; /* Mauszeiger wird zur Hand */
-  padding: 15px; /* Innenabstand */
-  border-radius: 4px; /* Abgerundete Ecken */
-  transition: opacity 0.3s; /* Sanfte Einblendung */
-}
-
-#scrollToTopBtn:hover {
-  background-color: #333; /* Dunklere Farbe bei Hover */
-}
-
-.icon-shop {
-  width: 1.5rem;
-}
-
-nav a:hover {
-  opacity: .8;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(----color-red);
+  color: white;
   cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: opacity 0.3s;
 }
-
+#scrollToTopBtn:hover {
+  background-color: #333;
+}
+/* Scroll to Top Button */
 
 /* carousel */
 .carousel-prev-icon {
-  background-image: url(../img/email.png);
+  background-image: url(../img/pfeil-links.png);
 }
-
+.carousel-next-icon {
+  background-image: url(../img/pfeil-rechts.png);
+}
 .img-carousel {
   width: 20rem;
 }
-
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
@@ -414,16 +377,14 @@ nav a:hover {
   background-color: var(----color-red);
   background-clip: padding-box;
   border: 0;
-  border-top: 10px solid #0d6dfd00;
-  border-bottom: 10px solid #ffc10700;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
   opacity: .5;
   transition: opacity .6s ease;
 }
-
 .carousel-height {
   height: 25rem;
 }
-
 @media screen and (max-width:1200px) {
   .carousel-height {
     height: 25rem;
@@ -435,26 +396,63 @@ nav a:hover {
 }
 /* carousel */
 
+/* radio */
 .img-radio {
   width: 5rem;
 }
-
 .audio {
   background-image: url(../img/pizzaofen.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 audio {
   max-width: 30rem;
 }
-
-    /* Stil für das Audio-Element */
     audio {
       padding: .7rem;
       border: 2px solid #ffffff;
       border-radius: var(----border-radius);
       background-color: #ffffff;
-      box-shadow: 0 4px 8px rgba(255, 255, 255, 0);
+      box-shadow: 0 4px 8px transparent;
   }
+/* radio */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-beschreibung {
+  max-width: 40rem;
+}
+.artikel-img {
+  height: 9rem;
+}
+.gif {
+  width: 10rem;
+  margin-top: 8rem;
+}
+.bg-none {
+  background-color: none;
+}
+
+/* .custom-cta {
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+} */

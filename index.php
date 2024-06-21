@@ -135,10 +135,10 @@
           </div>
           <div class="row">
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/hand.png" alt="Illustration-Hand" title="Illustration-Hand">
+            <img class="img-fluid custom-radius" src="img/handgemacht.png" alt="Illustration-Hand" title="Illustration-Hand">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/tomato-big.png" alt="Illustration-Tomate" title="Illustration-Tomate">
+            <img class="img-fluid custom-radius" src="img/qualitaet.png" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/vegan.png" alt="Illustration-Vegan" title="Illustration-Vegan">
@@ -151,7 +151,7 @@
 <div id="carouselExampleIndicators" class="carousel slide carousel-height">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-prev-icon" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-next-icon" aria-label="Slide 2"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">

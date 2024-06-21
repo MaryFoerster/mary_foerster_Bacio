@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse justify-content-end pt-3 pt-md-1 pb-md-0" id="navbarNavAltMarkup">
         <div class="navbar-nav bg-red custom-radius">
           <a class="nav-link active me-2 text-white" href="pizza.php">Pizza</a>
-          <a class="nav-link active me-2 text-white" href="artikel-page.php">Artikel</a>
+          <a class="nav-link active me-2 text-white" href="produkte.php">Produkte</a>
           <a class="nav-link active me-2 text-white" href="ueberUns.php">Über uns</a>
           <a class="nav-link active me-2 text-white" href="kontakt.php">Kontakt</a>
         </div>

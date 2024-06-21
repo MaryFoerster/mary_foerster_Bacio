@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<header>
+<header class="kontakt-header">
 <?php include("nav.php") ?>
 
 </header>
@@ -25,8 +25,8 @@
               <img class="kontakt-icon" src="img/phone.png" alt="">
               <p>+43 664 4132694</p></div>
               <div class="box d-flex mb-4">
-              <img class="kontakt-icon" src="img/email.png" alt="">
-              <p>www.pizzabacio.com</p></div>
+              <img class="kontakt-icon" src="img/mail.png" alt="">
+              <p>mail@pizzabacio.com</p></div>
            
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
