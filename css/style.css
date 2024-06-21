@@ -200,11 +200,21 @@ dialog h2 {
   font-family: 'Be Vietnam Pro';
   font-weight: 900;
 }
+.nav-link:hover {
+  cursor: pointer;
+}
 .img-nav {
-  width: 3rem;
+  width: 2rem;
 }
 .logo-nav {
   width: 7rem;
+}
+.navbar-toggler {
+  border: none;
+  color: rgba(255, 255, 255, 0);
+}
+.navbar-toggler:hover {
+  opacity: .8;
 }
 nav a:hover {
   opacity: .8;
@@ -218,6 +228,10 @@ nav a:hover {
     .navbar-nav .nav-link {
       display: inline-block;
       float: none;
+    }
+    .navbar-nav  {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
     }
   }
 /* -------------nav */
