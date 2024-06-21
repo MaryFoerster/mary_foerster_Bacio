@@ -47,8 +47,12 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="form-custom">
-                        <label class="form-label" for="name"><p class="text-white">Name*</p></label>
-                        <input type="text" id="name" name="name" class="form-control" required>
+                        <label class="form-label" for="vorname"><p class="text-white">Vorname*</p></label>
+                        <input type="text" id="vorname" name="vorname" class="form-control" required>
+                    </div>
+                    <div class="form-custom">
+                        <label class="form-label" for="nachname"><p class="text-white">Nachname*</p></label>
+                        <input type="text" id="nachname" name="nachname" class="form-control" required>
                     </div>
                     <div class="form-custom mt-5">
                         <label class="form-label" for="email"><p class="text-white">E-mail*</p></label>

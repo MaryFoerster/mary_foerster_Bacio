@@ -257,6 +257,24 @@ input {
 .form-label {
   border: none;
 }
+.img-danke {
+  width: 10rem;
+  margin-top: 0rem;
+}
+.danke {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media screen and (max-width:1200px) {
+  .img-danke {
+    width: 10rem;
+    margin-top: 3rem;
+  }
+  .danke {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
 /* -------------formular */
 
 /* -------------footer */
@@ -279,6 +297,15 @@ footer p {
 /* -------------footer */
 
 /* header */
+.danke-header{
+  background-image: url(../img/pizzaheader2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 14rem;
+}
 .kontakt-header{
   background-image: url(../img/pizzaheader2.jpg);
   background-position: center;
@@ -438,7 +465,7 @@ audio {
   cursor: pointer;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
   .social-media-icons {
   position: fixed;
   top: 96%;
