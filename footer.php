@@ -8,7 +8,7 @@
                 <a href="index.php"><img class="logo-footer" src="img/bacio-logo-white.png" alt="bacio-logo" title="bacio-logo"></a>
             </li>
             <li>
-                <img class="logo-footer pt-5" src="img/footer-icon.png" alt="footer-icon" title="footer-icon">
+                <img class="logo-footer pt-5" src="img/footer-icon.jpg" alt="footer-icon" title="footer-icon">
             </li>
           </ul>
         </div>
@@ -18,13 +18,13 @@
 
           <ul class="list-unstyled mb-0">
          <li class="pt-4">
-              <img class="img-footer" src="img/location-white.png" alt="location-icon" title="location-icon"><p class="text-white">Hofgasse 4, 6020 Innsbruck</p>
+              <img class="img-footer" src="img/location-white.jpg" alt="location-icon" title="location-icon"><p class="text-white">Hofgasse 4, 6020 Innsbruck</p>
             </li>
             <li>
-             <img class="img-footer" src="img/phone-white.png" alt="phone-icon" title="phone-icon"><p class="text-white">+43 664 4132694</p>
+             <img class="img-footer" src="img/phone-white.jpg" alt="phone-icon" title="phone-icon"><p class="text-white">+43 664 4132694</p>
             </li>
             <li>
-              <img class="img-footer" src="img/email-white.png" alt="email-icon" title="email-icon"><p class="text-white">mail@pizzabacio.com</p>
+              <img class="img-footer" src="img/email-white.jpg" alt="email-icon" title="email-icon"><p class="text-white">mail@pizzabacio.com</p>
             </li>
           </ul>
         </div>
@@ -45,10 +45,10 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="https://www.facebook.com/?locale=de_DE" class="text-white mb-4"><img class="img-footer pt-4" src="img/Facebook.png" alt="Facebook" title="Facebook"></a>
+              <a href="https://www.facebook.com/?locale=de_DE" class="text-white mb-4"><img class="img-footer pt-4" src="img/Facebook.jpg" alt="Facebook" title="Facebook"></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/" class="text-white"><img class="img-footer pt-4" src="img/Instagram.png" alt="Instagram" title="Instagram"></a>
+              <a href="https://www.instagram.com/" class="text-white"><img class="img-footer pt-4" src="img/Instagram.jpg" alt="Instagram" title="Instagram"></a>
             </li>
           </ul>
         </div>

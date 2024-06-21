@@ -11,7 +11,7 @@
 <div class="container">
   <div class="row">
   <div class="col-12 d-flex justify-content-center align-content-center">
-    <img class="gif" src="img/header.gif" alt="">
+    <img class="gif" src="img/ddd.gif" alt="tomaten-animation" title="tomaten-animation">
   </div>
   </div>
 </div>
@@ -58,7 +58,7 @@
               <h4 class="mt-4"><strong>Basilikum</strong></h4>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/mozzarella.jpg" alt="Mini-Mozzarella" title="Mini-Mozzarella">
+            <img class="img-fluid custom-radius" src="img/mozzarella-img.jpg" alt="Mini-Mozzarella" title="Mini-Mozzarella">
               <h4 class="mt-4"><strong>Mozzarella</strong></h4>
             </div>
             <div class="col-md-4 text-center">
@@ -121,10 +121,10 @@
             <img class="img-fluid custom-radius" src="img/vegan.png" alt="Illustration-Vegan" title="Illustration-Vegan">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/handgemacht.png" alt="Illustration-Hand" title="Illustration-Hand">
+            <img class="img-fluid custom-radius" src="img/handgemacht.jpg" alt="Illustration-Hand" title="Illustration-Hand">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/qualitaet.png" alt="Illustration-Tomate" title="Illustration-Tomate">
+            <img class="img-fluid custom-radius" src="img/qualitaet.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
           </div>
           </div>
@@ -192,8 +192,8 @@
 <?php include("footer.php") ?>
 
 <div class="social-media-icons">
-        <a href="https://www.facebook.com" target="_blank" class="icon facebook"><img class="img-footer" src="img/Facebook.png" alt=""></a>
-        <a href="https://www.instagram.com" target="_blank" class="icon instagram"><img class="img-footer" src="img/Instagram.png" alt=""></a>
+        <a href="https://www.facebook.com" target="_blank" class="icon facebook"><img class="img-footer" src="img/Facebook.jpg" alt=""></a>
+        <a href="https://www.instagram.com" target="_blank" class="icon instagram"><img class="img-footer" src="img/Instagram.jpg" alt=""></a>
 </div>
 
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
