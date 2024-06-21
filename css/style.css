@@ -350,7 +350,8 @@ button:hover {
   transition: opacity 0.3s;
 }
 #scrollToTopBtn:hover {
-  background-color: #333;
+ opacity: .8;
+  cursor: pointer;
 }
 /* Scroll to Top Button */
 
