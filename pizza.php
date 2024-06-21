@@ -23,10 +23,10 @@
                     <h2> Tiefkühlpizza-Pizza in Handarbeit</h2>
                     <p>
                         Mag verrückt klingen, aber bei Pizza BACIO breitet man jeden einzelnen Teig tatsächlich schonend von Hand aus. Eben das macht diese Pizza so authentisch und knusprig. Keine Maschinen also, die den Teig ausrollen und belegen, es stehen Menschen dahinter.</p>
-                    <img class="img-fluid custom-radius" src="img/icon-tomate.png" alt="">
+                    <img class="img-fluid custom-radius" src="img/icon-tomate.png" alt="icon-tomate" title="icon-tomate">
                     </div>
                     <div class="col-lg-6 d-flex justify-content-center">
-                    <img class="img-fluid" src="img/pizza-macher.jpg" alt="">
+                    <img class="img-fluid" src="img/pizza-macher.jpg" alt="pizza-macher" title="pizza-macher">
                     </div>
                   </div>
                 </div>
