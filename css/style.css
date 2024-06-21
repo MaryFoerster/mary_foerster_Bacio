@@ -500,67 +500,6 @@ audio {
 }
 /* carousel */
 
-
-
-
-
-
-
-
-.custom-beschreibung {
-  max-width: 40rem;
-}
-.artikel-img {
-  height: 9rem;
-}
-
-.bg-none {
-  background-color: none;
-}
-
-/* .custom-cta {
-  background-image: url(../img/header.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Stil für Fokus-Effekte */
 .form-custom input:focus,
 .form-custom textarea:focus {
@@ -581,3 +520,36 @@ audio {
   box-shadow: none;
 }
 /* Stil für Fokus-Effekte */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-beschreibung {
+  max-width: 40rem;
+}
+.artikel-img {
+  height: 9rem;
+}
+
+.bg-none {
+  background-color: none;
+}
+
+

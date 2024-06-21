@@ -35,21 +35,12 @@
         </div>
 </section>
 
-
-
-
-
-
-
-
-
-
 <section id="video" class="d-flex justify-content-center mt-5">
         <div class="container mt-3">
           <div class="row">
             <div class="col-xl-12 d-flex justify-content-center">
               <video class="img-fluid custom-radius" controls autoplay muted loop>
-                <source src="viedeo/viedeo.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Viedeo" title="Pizza-Bacio-Werbe-Viedeo"/>
+                <source src="viedeo/viedeo-neu.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Viedeo" title="Pizza-Bacio-Werbe-Viedeo"/>
               </video>
             </div>
           </div>
