@@ -1,3 +1,4 @@
+// scroll to top
   // Hole den Button
   let scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
@@ -17,10 +18,10 @@
       document.body.scrollTop = 0; // Für Safari
       document.documentElement.scrollTop = 0; // Für Chrome, Firefox, IE und Opera
   }
-
+// scroll to top
 
   
-
+// dialog
   document.addEventListener("DOMContentLoaded", function() {
     var cards = document.querySelectorAll('.card');
     cards.forEach(function(card) {
@@ -48,10 +49,12 @@
         });
     });
 });
+// dialog
 
 
-
+// Jahr
    // Get the current year
    var currentYear = new Date().getFullYear();
    // Set the current year to the span with id "current-year"
    document.getElementById('current-year').textContent = currentYear;
+// Jahr
