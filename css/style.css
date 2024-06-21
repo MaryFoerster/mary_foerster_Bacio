@@ -347,6 +347,10 @@ footer p {
   background-size: cover;
   background-attachment: fixed;
 }
+.gif {
+  width: 20rem;
+  margin-top: 3rem;
+}
 /* header */
 
 /* kontakt */
@@ -509,10 +513,7 @@ audio {
 .artikel-img {
   height: 9rem;
 }
-.gif {
-  width: 10rem;
-  margin-top: 8rem;
-}
+
 .bg-none {
   background-color: none;
 }

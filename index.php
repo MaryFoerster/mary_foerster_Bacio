@@ -11,7 +11,7 @@
 <div class="container">
   <div class="row">
   <div class="col-12 d-flex justify-content-center align-content-center">
-    <img class="gif" src="img/shop.png" alt="">
+    <img class="gif" src="img/header.gif" alt="">
   </div>
   </div>
 </div>
@@ -20,7 +20,7 @@
 <main>
 
 <section id="index__beschreibung">
-        <div class="container mt-5 mb-5">
+        <div class="container mt-3 mb-5">
           <div class="row p-4">
             <div class="col-lg-6">
             <h1>Pizza Bacio</h1>
