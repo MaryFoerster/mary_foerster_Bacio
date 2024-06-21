@@ -378,48 +378,6 @@ button:hover {
 }
 /* button */
 
-/* carousel */
-.carousel-prev-icon {
-  background-image: url(../img/pfeil-links.png);
-}
-.carousel-next-icon {
-  background-image: url(../img/pfeil-rechts.png);
-}
-.img-carousel {
-  width: 20rem;
-}
-.carousel-indicators [data-bs-target] {
-  box-sizing: content-box;
-  flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
-  padding: 0;
-  margin-right: 3px;
-  margin-left: 3px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: var(----color-red);
-  background-clip: padding-box;
-  border: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  opacity: .5;
-  transition: opacity .6s ease;
-}
-.carousel-height {
-  height: 25rem;
-}
-@media screen and (max-width:1200px) {
-  .carousel-height {
-    height: 25rem;
-    margin-bottom: 9rem;
-  }
-  .carousel-indicators {
-    display: none;
-  }
-}
-/* carousel */
-
 /* radio */
 .img-radio {
   width: 5rem;
@@ -515,12 +473,32 @@ audio {
 }
 /* Scroll to Top Button */
 
-
-
-
-
-
-
+/* carousel */
+.img-carousel {
+  width: 15rem;
+}
+.carousel-container {
+  height: 30rem;
+  padding-top: 2rem;
+}
+.carousel-control-prev {
+  height: 10rem;
+}
+.carousel-control-next {
+  height: 10rem;
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/pfeil-links.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 2rem;
+}
+.carousel-control-next-icon {
+  background-image: url(../img/pfeil-rechts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* carousel */
 
 
 

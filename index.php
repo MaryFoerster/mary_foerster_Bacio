@@ -90,8 +90,6 @@
         </div>
 </section>
 
-
-
 <section id="audio" class="audio pt-3 pb-3">
   <div class="container pt-5 pb-5">
     <div class="row pt-5 pb-5">
@@ -107,13 +105,6 @@
   </div>
 </section>
 
-
-
-
-
-
-
-
 <section id="index__Pizza Bacio">
         <div class="pb-5 pt-5">
           <div class="container">
@@ -121,84 +112,67 @@
             <h2 class="text-grey pb-5 d-flex justify-content-center">Pizza Bacio
             </h2>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/pizzamacher2.jpg" alt="Ein-Pizzabaecker-der-Teig-knetet" title="Ein-Pizzabaecker-der-Teig-knetet">
-              <h4 class="mt-4"><strong>Handgemacht</strong></h4>
-            </div>
-            <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/pizzahand.jpg" alt="Pizza-Belegen" title="Pizza-Belegen">
-              <h4 class="mt-4"><strong>Beste Qualität</strong></h4>
-            </div>
-            <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/pizza-belegen.jpg" lt="Pizza-Belegen" title="Pizza-Belegen">
-              <h4 class="mt-4"><strong>Vegane Optionen</strong></h4>
+            <h4 class="mt-4"><strong>Vegane Optionen</strong></h4>
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/pizzamacher2.jpg" alt="Ein-Pizzabaecker-der-Teig-knetet" title="Ein-Pizzabaecker-der-Teig-knetet">
+            <h4 class="mt-4"><strong>Handgemacht</strong></h4>
+            </div>
+            <div class="col-md-4 text-center">
+    
+              <img class="img-fluid custom-radius" src="img/pizzahand.jpg" alt="Pizza-Belegen" title="Pizza-Belegen">
+              <h4 class="mt-4"><strong>Beste Qualität</strong></h4>
             </div>
           </div>
           <div class="row">
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/vegan.png" alt="Illustration-Vegan" title="Illustration-Vegan">
+            </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/handgemacht.png" alt="Illustration-Hand" title="Illustration-Hand">
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/qualitaet.png" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
-            <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/vegan.png" alt="Illustration-Vegan" title="Illustration-Vegan">
-            </div>
           </div>
           </div>
         </div>
 </section>
 
-<div id="carouselExampleIndicators" class="carousel slide carousel-height">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-prev-icon" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-next-icon" aria-label="Slide 2"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <div class="container">
-          <div class="row p-4">
-          <div class="col-lg-6 d-flex justify-content-center flex-column">
-            <h3>Armando-Ammirati</h3>
-            <h5>-einer der beiden Inhaber</h5>
-            <p>
-            „Ganz egal, welche Sorte du gerade isst: Du wirst sie lieben. Denn die wichtigste Zutat haben sie alle gemein: allerhöchsten Anspruch an die Qualität.“</p>
+<section id="zitate" class="text-center carousel-container mb-5">
+  <div class="container pt-2 pb-2">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="pb-4">Zitate</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Zitat-Armando.jpg" class="img-carousel custom-radius mb-3" alt="Armando-Ammirati" title="Armando-Ammirati">
+              <h3 class="mb-3">Armando Ammirati</h3>
+              <h5 class="mb-3">- einer der beiden Inhaber</h5>
+              <p>„Ganz egal, welche Sorte du gerade isst: Du wirst sie lieben.<br> Denn die wichtigste Zutat haben sie alle gemein: <strong>allerhöchsten Anspruch an die Qualität.</strong>“</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/Zitat-Armando.jpg" alt="Armando-Ammirati" title="Armando-Ammirati">
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="carousel-item">
-    <div class="container">
-          <div class="row p-4">
-            <div class="col-xs-6 d-flex justify-content-center flex-column">
-            <h3>Andreas Schmid</h3>
-            <h5>-einer der beiden Inhaber</h5>
-            <p>
-            „Wir haben nicht geschaut, wie man eine weitere Tiefkühlpizza hinbekommt. Sondern wie man als Erster eine hochwertige Restaurant-Pizza ohne Qualitätsverlust zu den Menschen nach Hause bringt.“</p>
-            </div>
-            <div class="col-xs-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/zitat-andreas.jpg" alt="Andreas-Schmid" title="Andreas-Schmid">
+            <div class="carousel-item">
+              <img src="img/Zitat-Andreas.jpg" class="img-carousel custom-radius mb-3" alt="Andreas Schmid" title="Andreas Schmid">
+              <h3 class="mb-3">Andreas Schmid</h3>
+              <h5 class="mb-3">- einer der beiden Inhaber</h5>
+              <p>„Wir haben nicht geschaut, wie man eine weitere Tiefkühlpizza hinbekommt.<br> Sondern wie man als Erster eine hochwertige <strong>Restaurant-Pizza ohne Qualitätsverlust</strong> <br> zu den Menschen nach Hause bringt.“</p>
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon carousel-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon carousel-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-
-
-
+</section>
 
 </main>
 
