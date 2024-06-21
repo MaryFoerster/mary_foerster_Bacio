@@ -209,7 +209,7 @@ dialog h2 {
   cursor: pointer;
 }
 .img-nav {
-  width: 2rem;
+  width: 1.7rem;
 }
 .logo-nav {
   width: 7rem;
@@ -427,7 +427,6 @@ audio {
   opacity: .8;
   cursor: pointer;
 }
-
 @media screen and (max-width:1200px) {
   .social-media-icons {
   position: fixed;
@@ -442,9 +441,6 @@ audio {
   border-radius: 0px var(----border-radius) var(----border-radius) 0px;
 }
 }
-/* social-media-icons */
-
-/* Scroll to Top Button */
 #scrollToTopBtn {
   display: none;
   position: fixed;
