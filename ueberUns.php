@@ -12,30 +12,122 @@
 </header>
 
 
+
+
+
+
+
+
+
+
 <main>
 
 <section id="index__beschreibung">
         <div class="container mt-5 mb-5">
           <div class="row p-4">
             <div class="col-lg-6">
-            <h2>Beschreibung</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
+            <h1>Über Uns</h1>
+            <h2 class="mt-5">Die Idee</h2>
+            <p>
+            Pizza ist eine der beliebtesten Speisen weltweit, sowohl für Jung als auch für Alt. Der Grund liegt auf der Hand: Auf einem leckeren Teigboden können die unterschiedlichsten Zutaten kombiniert werden, um den individuellen Geschmack zu treffen. Pizza ist einfach zuzubereiten, schmeckt hervorragend und kann sogar mit den Händen gegessen werden, was das Esserlebnis intensiviert.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/platzhalter.jpg" alt="">
+            <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
             </div>
           </div>
           <div class="row p-4">
             <div class="col-lg-6">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
+            <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
             </div>
-            <div class="col-lg-6">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto.</p>
-             <img class="img-fluid custom-radius" src="img/icon-tomate.png" alt="">
+            <div class="col-lg-6 d-flex justify-content-center">
+             <p>Diese Beliebtheit brachte uns auf die Idee, unser Produkt auch als Tiefkühlpizza zu vertreiben. Pizza BACIO wird somit die erste Tiefkühlpizza sein, die nicht wie eine Tiefkühlpizza schmeckt. Wir haben es uns zur Aufgabe gemacht, hochwertige Restaurant-Pizza ohne Qualitätsverlust zu den Menschen nach Hause zu bringen.</p>
             </div>
           </div>
         </div>
 </section>
+
+
+
+<section id="index__beschreibung">
+        <div class="container mt-5 mb-5">
+          <div class="row p-4">
+            <div class="col-lg-6">
+            <h2>Unsere Geschichte</h2>
+            <p>
+            Vor der Gründung unserer Pizzeria in der Innsbrucker Innenstadt vor 5 Jahren unternahmen wir monatelange „Forschungsreisen“ und Testessen in Italien, um die besten Rezepte und Techniken zu erlernen. Das Ergebnis ist Pizza BACIO: die beste Pizza, die genauso lecker, knusprig und authentisch schmeckt wie frisch vom Italiener. Unser Geheimnis liegt in der Rezeptur des Teiges, der Qualität der Zutaten und vor allem in der Art der Zubereitung in unserem eigenen Holzofen.</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+            </div>
+          </div>
+        </div>
+</section>
+
+
+
+<section id="index__beschreibung">
+        <div class="container mt-5 mb-5">
+          <div class="row p-4">
+            <div class="col-lg-6">
+            <h2> Handarbeit und Qualität</h2>
+            <p>
+              Bei Pizza BACIO breiten wir jeden einzelnen Teig schonend von Hand aus. Das macht unsere Pizza so authentisch und knusprig. Keine Maschinen, sondern Menschen stehen hinter jeder Pizza. Gefertigt wird nach original italienischem Rezept, mit laktosefreiem Mozzarella, der die herrlichen Aromen perfekt zur Geltung bringt.</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+            </div>
+          </div>
+        </div>
+</section>
+
+
+<section id="index__beschreibung">
+        <div class="container mt-5 mb-5">
+          <div class="row p-4">
+            <div class="col-lg-6">
+            <h2>Nachhaltigkeit</h2>
+            <p>
+            Obwohl wir aufgrund der Vielfalt nicht alle Zutaten aus der Region beziehen können, legen wir großen Wert auf Nachhaltigkeit. Denn wir sind überzeugt: Man ist, was man isst.</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+            </div>
+          </div>
+        </div>
+</section>
+
+
+<section id="index__beschreibung">
+        <div class="container mt-5 mb-5">
+          <div class="row p-4">
+            <div class="col-lg-6">
+            <h2>Unser Erfolg</h2>
+            <p>
+            Heute ist die Pizzeria BACIO mit den besten Bewertungen auf verschiedensten Plattformen die Nummer eins in Innsbruck. Auch Touristen folgen den Empfehlungen im Netz und besuchen uns gezielt. Sie lieben unsere Pizza einfach!</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+            </div>
+          </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="container">
@@ -60,15 +152,15 @@
             Pizza BACIO ist die erste Tiefkühlpizza, die nicht schmeckt wie eine Tiefkühlpizza. Dafür verwendet man nur hochwertigste Zutaten und bäckt die Pizza bei über 400°C im Steinofen vor. Dabei kommen auch Holzsorten zum Einsatz, die den Geschmack beeinflussen.</p>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/eiche.jpg" alt="">
+            <img class="img-fluid custom-radius p-5" src="img/eiche.jpg" alt="">
             <h3 class="pt-2">Eiche</h3>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/buche.jpg" alt="">
+            <img class="img-fluid custom-radius p-5" src="img/buche.jpg" alt="">
             <h3 class="pt-2">Buche</h3>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/kirsche.jpg" alt="">
+            <img class="img-fluid custom-radius p-5" src="img/kirsche.jpg" alt="">
             <h3 class="pt-2">Kirsche</h3>
             </div>
           </div>
@@ -109,33 +201,6 @@
           </div>
         </div>
 </section>
-
-
-
-
-<section id="index__beschreibung">
-        <div class="container mt-5 mb-5">
-          <div class="row p-4">
-            <div class="col-lg-6">
-            <h2>Beschreibung</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
-            </div>
-            <div class="col-lg-6 d-flex justify-content-center">
-           <img class="img-fluid custom-radius" src="img/platzhalter.png" alt="">
-            </div>
-          </div>
-          <div class="row p-4">
-            <div class="col-lg-6">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto, laudantium deleniti nobis accusantium iure animi laboriosam minus praesentium eaque labore eligendi dolorem eum dolores porro blanditiis nam, totam autem delectus perspiciatis. Placeat quas repellendus odio iusto autem quia deserunt totam voluptatem.</p>
-            </div>
-            <div class="col-lg-6">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim asperiores sunt maxime tenetur eius fuga corrupti odit dolor quas delectus ut molestias ex, est rerum incidunt consequatur earum dignissimos reprehenderit dolorum quam unde. Fuga ex, adipisci architecto.</p>
-             <img class="img-fluid custom-radius" src="img/icon-tomate.png" alt="">
-            </div>
-          </div>
-        </div>
-</section>
-
 
 </main>
 

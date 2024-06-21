@@ -39,7 +39,7 @@
                 <a href="">  <img class="logo-footer" src="img/bacio-logo-white.png" alt=""></a>
             </li>
             <li>
-                <img class="logo-footer pt-5" src="img/footer-img.png" alt="">
+                <img class="logo-footer pt-5" src="img/footer-icon.png" alt="">
             </li>
           </ul>
         </div>
