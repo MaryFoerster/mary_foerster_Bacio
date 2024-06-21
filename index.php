@@ -131,6 +131,16 @@
         </div>
 </section>
 
+
+<section class="bg-packaging d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="zitate" class="text-center carousel-container mb-5">
   <div class="container pt-2 pb-2">
     <div class="row justify-content-center">
@@ -164,6 +174,18 @@
     </div>
   </div>
 </section>
+
+<section class="cta d-flex justify-content-center align-items-center mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+        <h3 class="text-white mb-5">Hol dir jetzt deine Pizza</h3>
+        <button>Click Me!</button>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 </main>
 

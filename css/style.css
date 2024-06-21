@@ -488,10 +488,7 @@ audio {
   height: 10rem;
 }
 .carousel-control-prev-icon {
-  background-image: url(../img/pfeil-links.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 2rem;
+  background: #85be08;
 }
 .carousel-control-next-icon {
   background-image: url(../img/pfeil-rechts.png);
@@ -521,11 +518,32 @@ audio {
 }
 /* Stil für Fokus-Effekte */
 
+/* bg */
+.bg-packaging  {
+  width: 100%;
+  height: 30rem;
+  background-image: url(../img/bg-packaging.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* cbg */
 
-
-
-
-
+/* cta */
+.cta {
+  width: 100%;
+  height: 30rem;
+  background-image: url(../img/cta6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cta h3 {
+  background-color: var(----color-red);
+  padding: 1rem;
+  border-radius: var(----border-radius);
+}
+/* cta */
 
 
 
