@@ -141,6 +141,11 @@
 
 <?php include("footer.php") ?>
 
+<div class="social-media-icons">
+        <a href="https://www.facebook.com" target="_blank" class="icon facebook"><img class="img-footer" src="img/Facebook.png" alt=""></a>
+        <a href="https://www.instagram.com" target="_blank" class="icon instagram"><img class="img-footer" src="img/Instagram.png" alt=""></a>
+</div>
+
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
 
 <script src="js/bootstrap.min.js"></script>
