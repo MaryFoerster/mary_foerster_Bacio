@@ -36,7 +36,7 @@
                 <a class="footer-link text-white" href="datenschutz.php" alt="Datenschutz" title="Datenschutz">Datenschutz</a>
             </li>
             <li class="pt-4">
-             <a class="footer-link text-white" href="impressum.php" alt="Impressum" title="Impressum">Impressum</a>
+             <a class="footer-link text-white" href="impressum..php" alt="Impressum" title="Impressum">Impressum</a>
             </li>
           </ul>
         </div>

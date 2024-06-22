@@ -487,13 +487,8 @@ audio {
 .carousel-control-next {
   height: 10rem;
 }
-.carousel-control-prev-icon {
-  background: #85be08;
-}
-.carousel-control-next-icon {
-  background-image: url(../img/pfeil-rechts.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+.img-pfeil {
+  width: 1.2rem; 
 }
 /* carousel */
 

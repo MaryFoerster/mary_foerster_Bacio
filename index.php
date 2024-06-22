@@ -71,7 +71,7 @@
             <img class="img-fluid custom-radius" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/mozzarella.png" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
+            <img class="img-fluid custom-radius" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/tomate.png" alt="Illustration-Tomate" title="Illustration-Tomate">
@@ -88,7 +88,7 @@
         <h2 class="text-white d-flex justify-content-center mb-5">Unser Radio-Spot</h2>
         <img class="img-radio mb-5" src="img/footer-img.png" alt="">
         <audio controls>
-          <source src="URL_ZU_IHRER_AUDIO_DATEI.mp3" type="audio/mpeg">
+          <source src="radiotest_2.wav" type="audio/mpeg">
           Ihr Browser unterstützt das Audio-Element nicht.
         </audio>
       </div>
@@ -162,11 +162,11 @@
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span aria-hidden="true"> <img class="img-pfeil" src="img/pfeil-prev.png" alt=""> </span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span aria-hidden="true"><img class="img-pfeil" src="img/pfeil-next.png" alt=""></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -180,7 +180,7 @@
     <div class="row">
       <div class="col-12 d-flex justify-content-center align-items-center flex-column">
         <h3 class="text-white mb-5">Hol dir jetzt deine Pizza</h3>
-        <button>Click Me!</button>
+        <button><a href="pizza.php">Click Me!</a></button>
       </div>
     </div>
   </div>
