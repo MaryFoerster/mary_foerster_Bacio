@@ -1,0 +1,7 @@
+ErrorDocument 400 /mary_foerster_Bacio/error.php?code=400
+ErrorDocument 401 /mary_foerster_Bacio/error.php?code=401
+ErrorDocument 404 /mary_foerster_Bacio/error.php?code=404
+ErrorDocument 405 /mary_foerster_Bacio/error.php?code=405
+ErrorDocument 408 /mary_foerster_Bacio/error.php?code=408
+ErrorDocument 502 /mary_foerster_Bacio/error.php?code=502
+ErrorDocument 504 /mary_foerster_Bacio/error.php?code=504
