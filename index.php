@@ -180,7 +180,7 @@
     <div class="row">
       <div class="col-12 d-flex justify-content-center align-items-center flex-column">
         <h3 class="text-white mb-5">Hol dir jetzt deine Pizza</h3>
-        <button><a href="pizza.php">Click Me!</a></button>
+        <button><a class="p-5" href="pizza.php">Click Me!</a></button>
       </div>
     </div>
   </div>
@@ -192,8 +192,12 @@
 <?php include("footer.php") ?>
 
 <div class="social-media-icons">
-        <a href="https://www.facebook.com" target="_blank" class="icon facebook"><img class="img-footer" src="img/Facebook.jpg" alt=""></a>
-        <a href="https://www.instagram.com" target="_blank" class="icon instagram"><img class="img-footer" src="img/Instagram.jpg" alt=""></a>
+    <a href="https://www.facebook.com" target="_blank" class="icon facebook">
+        <img class="img-footer" src="img/Facebook.jpg" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com" target="_blank" class="icon instagram">
+        <img class="img-footer" src="img/Instagram.jpg" alt="Instagram">
+    </a>
 </div>
 
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>

@@ -373,12 +373,18 @@ button {
   border-radius: var(----border-radius);
   padding: 0;
   padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-right: 2rem;
   transition: transform 0.3s ease;
 }
 button:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+button a {
+  text-decoration: none;
+  color: var(----color-red);
 }
 /* button */
 
@@ -522,7 +528,15 @@ audio {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* cbg */
+.bg-packaging-2  {
+  width: 100%;
+  height: 17rem;
+  background-image: url(../img/packaging.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* bg */
 
 /* cta */
 .cta {

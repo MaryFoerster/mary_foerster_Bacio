@@ -45,10 +45,14 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="https://www.facebook.com/?locale=de_DE" class="text-white mb-4"><img class="img-footer pt-4" src="img/Facebook.jpg" alt="Facebook" title="Facebook"></a>
+            <a href="https://www.facebook.com" target="_blank" class="icon facebook">
+                <img class="img-footer" src="img/Facebook.jpg" alt="Facebook">
+            </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/" class="text-white"><img class="img-footer pt-4" src="img/Instagram.jpg" alt="Instagram" title="Instagram"></a>
+            <a href="https://www.instagram.com" target="_blank" class="icon instagram">
+               <img class="img-footer" src="img/Instagram.jpg" alt="Instagram">
+            </a>
             </li>
           </ul>
         </div>
