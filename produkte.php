@@ -21,7 +21,7 @@
                 <div class="container mt-5 mb-5">
                   <div class="row">
                     <div class="col-lg-6">
-                    <p>Willkommen auf unserer exklusiven Artikel-Seite! Hier findest du eine sorgfältig kuratierte Auswahl an einzigartigen Produkten, die die Leidenschaft und den Charme von Bacio widerspiegeln. Jedes Stück ist mit Liebe zum Detail gestaltet, bietet beste Qualität und besticht durch ein cooles Design.</p>
+                    <p>Willkommen auf unserer exklusiven Produkte-Seite! Hier findest du eine sorgfältig kuratierte Auswahl an einzigartigen Produkten, die die Leidenschaft und den Charme von Bacio widerspiegeln. Jedes Stück ist mit Liebe zum Detail gestaltet, bietet beste Qualität und besticht durch ein cooles Design.</p>
                     </div>
                     <div class="col-lg-6 d-flex justify-content-center">
                     <img class="artikel-img custom-radius" src="img/tomato-big.png" alt="">
