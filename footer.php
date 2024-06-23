@@ -41,12 +41,12 @@
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-lg-1 mt-md-4">
-          <h5 class="text-uppercase text-white">Social Media</h5>
+          <h5 class="text-uppercase text-white mb-4">Social Media</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
             <a href="https://www.facebook.com" target="_blank" class="icon facebook">
-                <img class="img-footer" src="img/Facebook.jpg" alt="Facebook">
+                <img class="img-footer mb-3" src="img/Facebook.jpg" alt="Facebook">
             </a>
             </li>
             <li>

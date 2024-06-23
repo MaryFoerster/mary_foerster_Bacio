@@ -308,8 +308,6 @@
             </div>
         </dialog>
 
-
-
 <section class="bg-packaging-2 d-flex justify-content-center align-items-center">
   <div class="container">
     <div class="row">
@@ -318,7 +316,6 @@
     </div>
   </div>
 </section>
-
 
   </main>
 
@@ -333,9 +330,8 @@
     </a>
 </div>
 
- <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
+<button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
 
- 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bacio.js"></script>
 

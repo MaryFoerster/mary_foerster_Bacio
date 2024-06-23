@@ -311,6 +311,15 @@ footer p {
   width: 100%;
   height: 14rem;
 }
+.header-ueberuns{
+  background-image: url(../img/pizzaheader2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 20rem;
+}
 .kontakt-header{
   background-image: url(../img/pizzaheader2.jpg);
   background-position: center;
@@ -532,6 +541,14 @@ audio {
   width: 100%;
   height: 17rem;
   background-image: url(../img/packaging.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-holzofen  {
+  width: 100%;
+  height: 19rem;
+  background-image: url(../img/pizzaofen.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

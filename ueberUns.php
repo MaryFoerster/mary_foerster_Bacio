@@ -6,19 +6,10 @@
 </head>
 <body>
 
-<header>
+<header class="header-ueberuns">
 <?php include("nav.php") ?>
 
 </header>
-
-
-
-
-
-
-
-
-
 
 <main>
 
@@ -32,12 +23,12 @@
             Pizza ist eine der beliebtesten Speisen weltweit, sowohl für Jung als auch für Alt. Der Grund liegt auf der Hand: Auf einem leckeren Teigboden können die unterschiedlichsten Zutaten kombiniert werden, um den individuellen Geschmack zu treffen. Pizza ist einfach zuzubereiten, schmeckt hervorragend und kann sogar mit den Händen gegessen werden, was das Esserlebnis intensiviert.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-            <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+            <img class="img-fluid custom-radius" src="img/pizza-im-ofen.jpg" alt="pizza-im-ofen" title="pizza-im-ofen">
             </div>
           </div>
           <div class="row p-4">
             <div class="col-lg-6">
-            <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+            <img class="img-fluid custom-radius" src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
              <p>Diese Beliebtheit brachte uns auf die Idee, unser Produkt auch als Tiefkühlpizza zu vertreiben. Pizza BACIO wird somit die erste Tiefkühlpizza sein, die nicht wie eine Tiefkühlpizza schmeckt. Wir haben es uns zur Aufgabe gemacht, hochwertige Restaurant-Pizza ohne Qualitätsverlust zu den Menschen nach Hause zu bringen.</p>
@@ -46,7 +37,14 @@
         </div>
 </section>
 
-
+<section class="bg-holzofen d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+              </div>
+            </div>
+          </div>
+</section>
 
 <section id="index__beschreibung">
         <div class="container mt-5 mb-5">
@@ -140,8 +138,17 @@
             </div>
         </div>
 
+        <section class="bg-holzofen d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+              </div>
+            </div>
+          </div>
+        </section>
 
-<section id="holzsorten">
+
+<section id="holzsorten" class="mb-3">
         <div class="pb-5 pt-5">
         <div class="container">
           <div class="row">
@@ -153,56 +160,42 @@
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius p-5" src="img/eiche.jpg" alt="">
-            <h3 class="pt-2">Eiche</h3>
+            <h3 class="pt-1">Eiche</h3>
+            <p> Eiche ist eine Holzart, die für ihren starken und rauchigen Geschmack bekannt ist.</p>
+            <p class="text-red">Prosciutto e Funghi<br>
+            Salame<br>
+            Solo</p>
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius p-5" src="img/buche.jpg" alt="">
-            <h3 class="pt-2">Buche</h3>
+            <h3 class="pt-1">Buche</h3>
+            <p> Buchenholz ist eine beliebte Wahl zum Backen von Pizza, da es einen milden, süßen Rauchgeschmack verleiht.</p>
+            <p class="text-red">Margherita<br>
+                  Prosciutto e Ananas<br>
+                  Quattro Formaggi</p>
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius p-5" src="img/kirsche.jpg" alt="">
-            <h3 class="pt-2">Kirsche</h3>
+            <h3 class="pt-1">Kirsche</h3>
+            <p> Kirschholz bietet einen süßlichen und fruchtigen Rauchgeschmack, der der Pizza eine einzigartige Note verleiht.</p>
+            <p class="text-red">Tonno e Cipolla<br>
+            Salame Piccante<br>
+            Spinaci e Ricotta</p>
             </div>
           </div>
           </div>
         </div>
-        <div class="container mt-5 mb-5">
-          <div class="row p-4">
-            <div class="col-lg-6">
-            <p class="text-red"><strong>Eiche</strong><br><br></p>
-            <p>
-              Pizza Prosciutto e Funghi<br>
-              Pizza Salame<br><br>
-                Eiche ist eine Holzart, die für ihren starken und rauchigen Geschmack bekannt ist. Beim Backen von Pizza auf Eichenholz erhält die Pizza einen intensiven und robusten Geschmack, der gut zu würzigen Belägen wie Salami oder scharfen Peperoni passt.</p>
-            </div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center">
-            <p class="text-red"><strong>Buchenholz</strong><br><br></p>
-            <p>
-                  Pizza Margherita<br>
-                  Pizza Prosciutto e Ananas<br>
-                  Pizza Quattro Formaggi<br>
-                  Pizza Spinaci e Ricotta<br><br>
-                Buchenholz ist eine beliebte Wahl zum Backen von Pizza, da es einen milden, süßen Rauchgeschmack verleiht. Es ergänzt eine Vielzahl von Belägen gut und ist ideal für klassische Pizzen wie Margherita oder Pizza mit Schinken und Pilzen.</p>
+        <section class="bg-holzofen d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+              </div>
             </div>
           </div>
-          <div class="row p-4">
-            <div class="col-lg-6">
-            <p class="text-red"><strong>Kirschholz</strong><br>
-            </p>
-            <p>
-            <br>
-              Pizza Tonno e Cipolla<br>
-              Pizza Salame Piccante<br><br>
-                Kirschholz bietet einen süßlichen und fruchtigen Rauchgeschmack, der der Pizza eine einzigartige Note verleiht. Es eignet sich besonders gut für Pizzen mit fruchtigen oder leicht süßen Belägen wie Prosciutto und Feigen oder Pizza mit Ziegenkäse und Honig.</p>
-            </div>
-            <div class="col-lg-6">
-             <img class="img-fluid custom-radius" src="img/icon-tomate.png" alt="">
-            </div>
-          </div>
-        </div>
+        </section>
 </section>
 
-</main>
+
 
 <?php include("footer.php") ?>
 
