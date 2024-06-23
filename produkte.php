@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<header class="header-artikel">
+<header class="header-produkte">
 <?php include("nav.php") ?>
 
 </header>
@@ -121,17 +121,6 @@
                 </div>
             </div>
         </dialog>
-
-<section>
-  <div class="container custom-radius mt-3">
-    <div class="row">
-      <div class="col-12">
-        <img class="img-fluid custom-radius" src="img/header-artikel.jpg" alt="">
-      </div>
-    </div>
-  </div>
-</section>
-
 
   </main>
 
