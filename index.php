@@ -141,7 +141,7 @@
   </div>
 </section>
 
-<section id="zitate" class="text-center carousel-container mb-5">
+<section id="zitate" class="text-center carousel-container mt-3 mb-4">
   <div class="container pt-2 pb-2">
     <div class="row justify-content-center">
       <div class="col-12">

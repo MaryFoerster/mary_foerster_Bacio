@@ -61,8 +61,6 @@
         </div>
 </section>
 
-
-
 <section id="index__beschreibung">
         <div class="container mt-5 mb-5">
           <div class="row p-4">
@@ -72,12 +70,11 @@
               Bei Pizza BACIO breiten wir jeden einzelnen Teig schonend von Hand aus. Das macht unsere Pizza so authentisch und knusprig. Keine Maschinen, sondern Menschen stehen hinter jeder Pizza. Gefertigt wird nach original italienischem Rezept, mit laktosefreiem Mozzarella, der die herrlichen Aromen perfekt zur Geltung bringt.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+              <img class="img-fluid custom-radius" src="img/teig.jpg" alt="Teig-Kneten" title="Teig-Kneten">
             </div>
           </div>
         </div>
 </section>
-
 
 <section id="index__beschreibung">
         <div class="container mt-5 mb-5">
@@ -88,12 +85,11 @@
             Obwohl wir aufgrund der Vielfalt nicht alle Zutaten aus der Region beziehen können, legen wir großen Wert auf Nachhaltigkeit. Denn wir sind überzeugt: Man ist, was man isst.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+              <img class="img-fluid custom-radius" src="img/basilikum.jpg" alt="basilikum" title="basilikum">
             </div>
           </div>
         </div>
 </section>
-
 
 <section id="index__beschreibung">
         <div class="container mt-5 mb-5">
@@ -104,29 +100,11 @@
             Heute ist die Pizzeria BACIO mit den besten Bewertungen auf verschiedensten Plattformen die Nummer eins in Innsbruck. Auch Touristen folgen den Empfehlungen im Netz und besuchen uns gezielt. Sie lieben unsere Pizza einfach!</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="packaging-front" title="packaging-front">
             </div>
           </div>
         </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="container">
             <div class="row">
@@ -194,8 +172,6 @@
           </div>
         </section>
 </section>
-
-
 
 <?php include("footer.php") ?>
 
