@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include("head.php") ?>
-  <title>Artikel</title>
+  <title>Produkte</title>
 </head>
 <body>
 
@@ -35,15 +35,15 @@
                 <div class="row">
                 <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="pizzaMargherita" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog1">
-                            <img class="card-img-top custom-radius" src="img/tote-bag.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/tote-bag.jpg" alt="tote-bag" title="tote-bag">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">Tote Bag</h5>
+                                <h5 class="card-title d-flex justify-content-center">Bacio Tote Bag</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center">
                         <div id="ProsciuttoFunghi" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog2">
-                            <img class="card-img-top custom-radius" src="img/teller.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/teller.jpg" alt="teller" title="teller">
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-center">Bacio Pizza Teller</h5>
                             </div>
@@ -51,9 +51,9 @@
                     </div>
                     <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-end">
                         <div id="salame" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog3">
-                            <img class="card-img-top custom-radius" src="img/apron.jpg" alt="Card image cap">
+                            <img class="card-img-top custom-radius" src="img/apron.jpg" alt="kochschürze" title="kochschürze">
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">Kochschürze</h5>
+                                <h5 class="card-title d-flex justify-content-center">Bacio Kochschürze</h5>
                             </div>
                         </div>
                     </div>
@@ -65,16 +65,16 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/tote-bag.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/tote-bag.jpg" alt="tote-bag" title="tote-bag">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Tote Bag</h2>
+                        <h2>Bacio Tote Bag</h2>
                         <p>Trage ein Stück "Bacio" immer bei dir! Unsere Tote Bag mit exklusivem, künstlerischem Design ist nicht nur praktisch, sondern auch ein echter Hingucker. Gefertigt aus strapazierfähiger Baumwolle, ist sie perfekt für den täglichen Gebrauch.</p>
-                        <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
+                        <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
                         <p>Pflegehinweis: Waschbar bei 30°C, nicht bleichen, bügeln bei niedriger Temperatur<br>
                         Hergestellt mit umweltfreundlichen Druckfarben</p>
-                        <h3 class="d-flex justify-content-end">10 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 20,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -86,15 +86,15 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/teller.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/teller.jpg" alt="teller" title="teller">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
                         <h2>Bacio Pizza Teller</h2>
                         <p>Genieße deine Lieblingspizza stilvoll auf unserem exklusiven Bacio Pizza Teller! Mit einem kreativen, handgezeichneten Design, das die Liebe und Leidenschaft für Pizza widerspiegelt, wird jede Mahlzeit zu einem besonderen Erlebnis.</p>
-                        <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
+                        <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
                         <p>Hergestellt aus hochwertiger Keramik, ist der Teller robust, langlebig sowie spülmaschinen- und mikrowellengeeignet.</p>
-                        <h3 class="d-flex justify-content-end">15 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 28,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -106,15 +106,15 @@
             <div class="container mt-5 mb-5">
                 <div class="row p-3 d-flex justify-content-center">
                     <div class="col-xxl-5 col-lg-6 d-flex justify-content-center">
-                        <img class="img-dialog custom-radius" src="img/apron.jpg" alt="">
+                        <img class="img-dialog custom-radius" src="img/apron.jpg" alt="kochschürze" title="kochschürze">
                     </div>
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
-                        <h2>Kochschürze</h2>
-                        <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
-                        <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.png" alt="">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum praesentium libero impedit enim</p>
-                        <h3 class="d-flex justify-content-end">16 euro</h3>
+                        <h2>Bacio Kochschürze</h2>
+                        <p>Genieße das Kochen stilvoll mit unserer exklusiven Bacio Kochschürze! Mit einem kreativen, handgezeichneten Design, das die Liebe und Leidenschaft für das Kochen widerspiegelt, wird jede Kochsession zu einem besonderen Erlebnis.</p>
+                        <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
+                        <p>Hergestellt aus hochwertiger Baumwolle, ist die Schürze robust, langlebig und maschinenwaschbar.</p>
+                        <h3 class="d-flex justify-content-end">€ 25,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -126,17 +126,9 @@
 
  <?php include("footer.php") ?>
 
- <div class="social-media-icons">
-    <a href="https://www.facebook.com" target="_blank" class="icon facebook">
-        <img class="img-footer" src="img/Facebook.jpg" alt="Facebook">
-    </a>
-    <a href="https://www.instagram.com" target="_blank" class="icon instagram">
-        <img class="img-footer" src="img/Instagram.jpg" alt="Instagram">
-    </a>
-</div>
+ <?php include("socialmedia.php") ?>
 
  <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
-
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bacio.js"></script>
