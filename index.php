@@ -100,20 +100,20 @@
         <div class="pb-5 pt-5">
           <div class="container">
           <div class="row">
-            <h2 class="text-grey pb-5 d-flex justify-content-center">Pizza Bacio
+            <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Werte
             </h2>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/pizza-belegen.jpg" lt="Pizza-Belegen" title="Pizza-Belegen">
-            <h4 class="mt-4"><strong>Vegane Optionen</strong></h4>
+            <h4 class="mt-4 pb-2"><strong>Nachhaltigkeit</strong></h4>
             </div>
             <div class="col-md-4 text-center">
             <img class="img-fluid custom-radius" src="img/pizzamacher2.jpg" alt="Ein-Pizzabaecker-der-Teig-knetet" title="Ein-Pizzabaecker-der-Teig-knetet">
-            <h4 class="mt-4"><strong>Handgemacht</strong></h4>
+            <h4 class="mt-4 pb-2"><strong>Handgemacht</strong></h4>
             </div>
             <div class="col-md-4 text-center">
     
               <img class="img-fluid custom-radius" src="img/pizzahand.jpg" alt="Pizza-Belegen" title="Pizza-Belegen">
-              <h4 class="mt-4"><strong>Beste Qualität</strong></h4>
+              <h4 class="mt-4 pb-2"><strong>Beste Qualität</strong></h4>
             </div>
           </div>
           <div class="row">
