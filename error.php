@@ -6,21 +6,24 @@
 </head>
 <body>
 
-<header class="index-header">
+<header class="header-pizza">
   <?php include("nav.php") ?>
-  <div class="container">
-    <div class="row">
-    <div class="col-12 d-flex justify-content-center align-content-center">
-      <img class="gif" src="img/ddd.gif" alt="tomaten-animation" title="tomaten-animation">
-    </div>
-    </div>
-  </div>
 </header>
 
 <main>
 
-<h1>ERROR <?= $_GET['code']; ?></h1>
-<p>bdbgewqiguieguifg</p>
+<div class="container danke mt-5 mb-5">
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6 d-flex align-content-center flex-column">
+          <h1>ERROR <?= $_GET['code']; ?></h1>
+          <p>Entschuldige etwas ist schiffgelaufen</p>
+          <button>Zurück</button>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center ">
+        <img class="img-fluid" src="img/tomate.jpg" alt="">
+      </div>
+    </div>
+</div>
 
 </main>
 
