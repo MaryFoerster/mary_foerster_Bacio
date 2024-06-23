@@ -321,14 +321,7 @@
 
  <?php include("footer.php") ?>
 
- <div class="social-media-icons">
-    <a href="https://www.facebook.com" target="_blank" class="icon facebook">
-        <img class="img-footer" src="img/Facebook.jpg" alt="Facebook">
-    </a>
-    <a href="https://www.instagram.com" target="_blank" class="icon instagram">
-        <img class="img-footer" src="img/Instagram.jpg" alt="Instagram">
-    </a>
-</div>
+ <?php include("socialmedia.php") ?>
 
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
 
