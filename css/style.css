@@ -449,7 +449,7 @@ audio {
 @media screen and (max-width:1200px) {
   .social-media-icons {
   position: fixed;
-  top: 96%;
+  top: 97%;
   left: 0;
   transform: translateY(-50%);
   display: flex;
@@ -480,7 +480,7 @@ audio {
  opacity: .8;
   cursor: pointer;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
   #scrollToTopBtn {
     top: 93%;
     bottom: auto;
