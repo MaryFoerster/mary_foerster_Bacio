@@ -24,14 +24,14 @@
                     <p>Willkommen auf unserer exklusiven Produkte-Seite! Hier findest du eine sorgfältig kuratierte Auswahl an einzigartigen Produkten, die die Leidenschaft und den Charme von Bacio widerspiegeln. Jedes Stück ist mit Liebe zum Detail gestaltet, bietet beste Qualität und besticht durch ein cooles Design.</p>
                     </div>
                     <div class="col-lg-6 d-flex justify-content-center">
-                    <img class="artikel-img custom-radius" src="img/tomato-big.png" alt="">
+                    <img class="artikel-img custom-radius" src="img/tomate.jpg" alt="">
                     </div>
                   </div>
                 </div>
         </section>
 
         <section id="artikel__sortiment">
-            <div class="container mt-5">
+            <div class="container mt-5 mb-5">
                 <div class="row">
                 <div class="col-md-4 text-center d-flex justify-content-center justify-content-md-center justify-content-lg-start">
                         <div id="pizzaMargherita" class="card custom-radius mt-5 mt-md-1" data-dialog="dialog1">

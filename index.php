@@ -74,7 +74,7 @@
             <img class="img-fluid custom-radius" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/tomate.png" alt="Illustration-Tomate" title="Illustration-Tomate">
+            <img class="img-fluid custom-radius" src="img/tomate.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
           </div>
           </div>

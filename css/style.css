@@ -339,13 +339,13 @@ footer p {
   height: 28rem;
 }
 .header-produkte {
-  background-image: url(../img/teller-header.jpg);
+  background-image: url(../img/header-produkte.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 10rem;
+  height: 25rem;
 }
 .index-header {
   width: 100%;
