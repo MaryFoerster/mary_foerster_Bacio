@@ -69,13 +69,13 @@
           </div>
           <div class="row">
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/nachhaltigkeit.jpg" alt="Illustration-Vegan" title="Illustration-Vegan">
+            <img class="img-icon custom-radius hover" src="img/nachhaltigkeit.jpg" alt="Illustration-Vegan" title="Illustration-Vegan">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/handgemacht.jpg" alt="Illustration-Hand" title="Illustration-Hand">
+            <img class="img-icon custom-radius hover" src="img/handgemacht.jpg" alt="Illustration-Hand" title="Illustration-Hand">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/qualitaet.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
+            <img class="img-icon custom-radius hover" src="img/qualitaet.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
           </div>
           </div>
@@ -96,7 +96,6 @@
     </div>
   </div>
 </section>
-
 
 <section id="index__zutaten">
         <div class="pb-5 pt-5">
@@ -119,13 +118,13 @@
           </div>
           <div class="row">
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
+            <img class="img-icon custom-radius hover" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
+            <img class="img-icon custom-radius hover" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/tomate.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
+            <img class="img-icon custom-radius hover" src="img/tomate.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
           </div>
           </div>

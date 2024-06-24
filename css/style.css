@@ -555,11 +555,19 @@ audio {
 
 
 .img-inhaber {
-  width: 20rem;
+  width: 15rem;
 }
 
 
 
+.hover:hover {
+  transform: scale(1.2);
+}
+.img-icon {
+  padding: 3px;
+  width: 8rem;
+  transition: transform 0.3s ease;
+}
 
 
 
