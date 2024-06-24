@@ -247,40 +247,6 @@ nav a:hover {
 }
 /* -------------nmaps */
 
-/* -------------formular */
-input {
-  padding: 1rem;
-  border: none;
-  border-radius: var(----border-radius);
-  width: 100%;
-  background-color: var(----color-white);
-  margin-bottom: 1rem;
-}
-.form-check-input {
-  border: none;
-}
-.form-label {
-  border: none;
-}
-.img-danke {
-  width: 10rem;
-  margin-top: 0rem;
-}
-.danke {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-@media screen and (max-width:1200px) {
-  .img-danke {
-    width: 10rem;
-    margin-top: 3rem;
-  }
-  .danke {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-/* -------------formular */
 
 /* -------------footer */
 .img-footer {
@@ -576,15 +542,6 @@ audio {
 
 
 
-
-
-
-
-
-
-
-
-
 .custom-beschreibung {
   max-width: 40rem;
 }
@@ -595,5 +552,56 @@ audio {
 .bg-none {
   background-color: none;
 }
+
+
+.img-inhaber {
+  width: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------formular */
+/* input {
+  padding: 1rem;
+  border: none;
+  border-radius: var(----border-radius);
+  width: 100%;
+  background-color: var(----color-white);
+  margin-bottom: 1rem;
+}
+.form-check-input {
+  border: none;
+}
+.form-label {
+  border: none;
+}
+.img-danke {
+  width: 10rem;
+  margin-top: 0rem;
+}
+.danke {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media screen and (max-width:1200px) {
+  .img-danke {
+    width: 10rem;
+    margin-top: 3rem;
+  }
+  .danke {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+} */
+/* -------------formular */
 
 

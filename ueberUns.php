@@ -37,21 +37,12 @@
         </div>
 </section>
 
-<section class="bg-holzofen d-flex justify-content-center align-items-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
-              </div>
-            </div>
-          </div>
-</section>
-
-<section id="index__beschreibung">
+<section id="index__beschreibung" class="bg-red pt-2 pb-2">
         <div class="container mt-5 mb-5">
           <div class="row p-4">
             <div class="col-lg-6">
-            <h2>Unsere Geschichte</h2>
-            <p>
+            <h2 class="text-white">Unsere Geschichte</h2>
+            <p class="text-white">
             Vor der Gründung unserer Pizzeria in der Innsbrucker Innenstadt vor 5 Jahren unternahmen wir monatelange „Forschungsreisen“ und Testessen in Italien, um die besten Rezepte und Techniken zu erlernen. Das Ergebnis ist Pizza BACIO: die beste Pizza, die genauso lecker, knusprig und authentisch schmeckt wie frisch vom Italiener. Unser Geheimnis liegt in der Rezeptur des Teiges, der Qualität der Zutaten und vor allem in der Art der Zubereitung in unserem eigenen Holzofen.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
@@ -68,6 +59,7 @@
             <h2> Handarbeit und Qualität</h2>
             <p>
               Bei Pizza BACIO breiten wir jeden einzelnen Teig schonend von Hand aus. Das macht unsere Pizza so authentisch und knusprig. Keine Maschinen, sondern Menschen stehen hinter jeder Pizza. Gefertigt wird nach original italienischem Rezept, mit laktosefreiem Mozzarella, der die herrlichen Aromen perfekt zur Geltung bringt.</p>
+              <img class="img-fluid" src="img/icon-handgemacht.jpg" alt="icon-handgemacht" title="icon-handgemacht">
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
               <img class="img-fluid custom-radius" src="img/teig.jpg" alt="Teig-Kneten" title="Teig-Kneten">
@@ -83,6 +75,7 @@
             <h2>Nachhaltigkeit</h2>
             <p>
             Obwohl wir aufgrund der Vielfalt nicht alle Zutaten aus der Region beziehen können, legen wir großen Wert auf Nachhaltigkeit. Denn wir sind überzeugt: Man ist, was man isst.</p>
+            <img class="img-fluid" src="img/icon-nachhaltigkeit.jpg" alt="icon-nachhaltigkeit" title="icon-nachhaltigkeit">
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
               <img class="img-fluid custom-radius" src="img/basilikum.jpg" alt="basilikum" title="basilikum">
@@ -98,9 +91,10 @@
             <h2>Unser Erfolg</h2>
             <p>
             Heute ist die Pizzeria BACIO mit den besten Bewertungen auf verschiedensten Plattformen die Nummer eins in Innsbruck. Auch Touristen folgen den Empfehlungen im Netz und besuchen uns gezielt. Sie lieben unsere Pizza einfach!</p>
+            <img class="img-fluid" src="img/icon-qualitaet.jpg" alt="icon-qualitaet" title="icon-qualitaet">
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="packaging-front" title="packaging-front">
+              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="verpackung-pizza" title="verpackung-pizza">
             </div>
           </div>
         </div>
@@ -163,15 +157,47 @@
           </div>
           </div>
         </div>
-        <section class="bg-holzofen d-flex justify-content-center align-items-center">
+</section>
+
+<section id="index__zutaten">
+        <div class="pb-5 pt-5">
           <div class="container">
-            <div class="row">
-              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
-              </div>
+          <div class="row">
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/tomate.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
           </div>
-        </section>
+          </div>
+        </div>
 </section>
+
+
+
+<section class="Inhaber">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center">Über die Inhaber</h2>
+      <div class="col-6">
+          <img class="img-inhaber custom-radius" src="img/Andreas-Schmid.jpg" alt="img/Andreas-Schmid.jpg">
+          <h3>Andreas Schmid</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
+      </div>
+      <div class="col-6">
+      <img class="img-inhaber custom-radius" src="img/Andreas-Schmid.jpg" alt="img/Andreas-Schmid.jpg">
+          <h3>Andreas Schmid</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <?php include("footer.php") ?>
 

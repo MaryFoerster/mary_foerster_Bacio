@@ -47,6 +47,57 @@
         </div>
 </section>
 
+<section id="index__Werte Bacio">
+        <div class="pb-5 pt-5">
+          <div class="container">
+          <div class="row">
+            <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Werte
+            </h2>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/pizza-belegen.jpg" lt="Pizza-Belegen" title="Pizza-Belegen">
+            <h4 class="mt-4 pb-2"><strong>Nachhaltigkeit</strong></h4>
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/pizzamacher2.jpg" alt="Ein-Pizzabaecker-der-Teig-knetet" title="Ein-Pizzabaecker-der-Teig-knetet">
+            <h4 class="mt-4 pb-2"><strong>Handgemacht</strong></h4>
+            </div>
+            <div class="col-md-4 text-center">
+    
+              <img class="img-fluid custom-radius" src="img/pizzahand.jpg" alt="Pizza-Belegen" title="Pizza-Belegen">
+              <h4 class="mt-4 pb-2"><strong>Beste Qualität</strong></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/nachhaltigkeit.jpg" alt="Illustration-Vegan" title="Illustration-Vegan">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/handgemacht.jpg" alt="Illustration-Hand" title="Illustration-Hand">
+            </div>
+            <div class="col-md-4 text-center">
+            <img class="img-fluid custom-radius" src="img/qualitaet.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
+            </div>
+          </div>
+          </div>
+        </div>
+</section>
+
+<section id="audio" class="audio pt-3 pb-3">
+  <div class="container pt-5 pb-5">
+    <div class="row pt-5 pb-5">
+      <div class="col-12 d-flex justify-content-center flex-column align-items-center">
+        <h2 class="text-white d-flex justify-content-center mb-5">Unser Radio-Spot</h2>
+        <img class="img-radio mb-5" src="img/footer-img.png" alt="">
+        <audio controls>
+          <source src="radiotest_2.wav" type="audio/mpeg">
+          Ihr Browser unterstützt das Audio-Element nicht.
+        </audio>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section id="index__zutaten">
         <div class="pb-5 pt-5">
           <div class="container">
@@ -81,55 +132,6 @@
         </div>
 </section>
 
-<section id="audio" class="audio pt-3 pb-3">
-  <div class="container pt-5 pb-5">
-    <div class="row pt-5 pb-5">
-      <div class="col-12 d-flex justify-content-center flex-column align-items-center">
-        <h2 class="text-white d-flex justify-content-center mb-5">Unser Radio-Spot</h2>
-        <img class="img-radio mb-5" src="img/footer-img.png" alt="">
-        <audio controls>
-          <source src="radiotest_2.wav" type="audio/mpeg">
-          Ihr Browser unterstützt das Audio-Element nicht.
-        </audio>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="index__Pizza Bacio">
-        <div class="pb-5 pt-5">
-          <div class="container">
-          <div class="row">
-            <h2 class="text-grey pb-5 d-flex justify-content-center">Unsere Werte
-            </h2>
-            <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/pizza-belegen.jpg" lt="Pizza-Belegen" title="Pizza-Belegen">
-            <h4 class="mt-4 pb-2"><strong>Nachhaltigkeit</strong></h4>
-            </div>
-            <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/pizzamacher2.jpg" alt="Ein-Pizzabaecker-der-Teig-knetet" title="Ein-Pizzabaecker-der-Teig-knetet">
-            <h4 class="mt-4 pb-2"><strong>Handgemacht</strong></h4>
-            </div>
-            <div class="col-md-4 text-center">
-    
-              <img class="img-fluid custom-radius" src="img/pizzahand.jpg" alt="Pizza-Belegen" title="Pizza-Belegen">
-              <h4 class="mt-4 pb-2"><strong>Beste Qualität</strong></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/vegan.png" alt="Illustration-Vegan" title="Illustration-Vegan">
-            </div>
-            <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/handgemacht.jpg" alt="Illustration-Hand" title="Illustration-Hand">
-            </div>
-            <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/qualitaet.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
-            </div>
-          </div>
-          </div>
-        </div>
-</section>
 
 
 <section class="bg-packaging d-flex justify-content-center align-items-center">
