@@ -142,11 +142,10 @@
   </div>
 </section>
 
-<section id="zitate" class="text-center carousel-container mt-3 mb-4">
+<section id="zitate" class="text-center carousel-container mt-3 mb-1">
   <div class="container pt-2 pb-2">
     <div class="row justify-content-center">
       <div class="col-12">
-        <h2 class="pb-4">Zitate</h2>
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
