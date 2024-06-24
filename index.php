@@ -89,7 +89,7 @@
         <h2 class="text-white d-flex justify-content-center mb-5">Unser Radio-Spot</h2>
         <img class="img-radio mb-5" src="img/footer-img.png" alt="">
         <audio controls>
-          <source src="radiotest_2.wav" type="audio/mpeg">
+          <source src="audio/radiotest_2.wav" type="audio/mpeg">
           Ihr Browser unterstützt das Audio-Element nicht.
         </audio>
       </div>
