@@ -20,7 +20,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-6">
-                    <h2> Tiefkühlpizza-Pizza in Handarbeit</h2>
+                    <h2>Handgemachte Tiefkühlpizza</h2>
                     <p>
                         Mag verrückt klingen, aber bei Pizza BACIO breitet man jeden einzelnen Teig tatsächlich schonend von Hand aus. Eben das macht diese Pizza so authentisch und knusprig. Keine Maschinen also, die den Teig ausrollen und belegen, es stehen Menschen dahinter.</p>
                     <img class="img-fluid custom-radius" src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
@@ -144,7 +144,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -169,7 +169,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -194,7 +194,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -219,7 +219,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -244,7 +244,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                            Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -269,7 +269,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -294,7 +294,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -319,7 +319,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
@@ -344,7 +344,7 @@
                             <p>+ Warenkorb</p>
                         </div>
                         <div id="notification" class="notification">
-                            Artikel wurde zum Warenkorb hinzugefügt!
+                        Produkt wurde zum Warenkorb hinzugefügt!
                         </div>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
