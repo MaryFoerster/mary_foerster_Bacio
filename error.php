@@ -6,31 +6,26 @@
 </head>
 <body>
 
-<header class="header-pizza">
+<header class="header-error">
   <?php include("nav.php") ?>
 </header>
 
-<main>
-
-<div class="container danke mt-5 mb-5">
+<main class="bg-red mb-2 pb-5 pt-2">
+<div class="container danke pt-5 pb-5">
     <div class="row mt-5 mb-5 justify-content-center">
         <div class="col-md-6 d-flex align-items-center flex-column text-center text-md-left">
-            <h1>ERROR <?= $_GET['code']; ?></h1>
-            <p>Entschuldige etwas ist schiffgelaufen!</p>
+            <h1 class="text-white pb-2">ERROR <?= $_GET['code']; ?></h1>
+            <p class="text-white pb-2">Entschuldige etwas ist schiffgelaufen!</p>
             <div><a class="btn-error" href="index.php">Zurück</a></div>
         </div>
         <div class="col-md-6 d-flex justify-content-center">
-            <img class="img-fluid" src="img/tomate.jpg" alt="">
+            <img class="img-error" src="img/error.png" alt="">
         </div>
     </div>
 </div>
-
-
 </main>
 
 <?php include("footer.php") ?>
-
-<?php include("socialmedia.php") ?>
 
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
 

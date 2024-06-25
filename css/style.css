@@ -267,6 +267,7 @@ footer p {
   width: 100%;
   height: 20rem;
 }
+
 .header-pizza {
   background-image: url(../img/pizzaheader2.jpg);
   background-position: center;
@@ -566,12 +567,21 @@ audio {
 }
 /* cta */
 
-/* btn-error */
+/* error */
+.header-error{
+  background-image: url(../img/pizzaheader2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 14rem;
+}
 .btn-error  {
   border: none;
-  background-color: var(----color-red);
+  background-color: var(----color-white);
   font-family: 'Be Vietnam Pro';
-  color: var(----color-text-white);
+  color: var(----color-red);
   font-weight: 900;
   border-radius: var(----border-radius);
   padding: 0;
@@ -588,7 +598,17 @@ audio {
   transform: scale(1.1);
   cursor: pointer;
 }
-/* btn-error */
+.img-error {
+  width: 12rem;
+  padding-top: 0rem;
+}
+@media screen and (max-width:770px) {
+  .img-error {
+    width: 12rem;
+    padding-top: 3rem;
+  }
+}
+/* error */
 
 
 
@@ -729,9 +749,9 @@ label p {
 }
 .form-control.is-valid, 
 .was-validated .form-control:valid {
-    border-color: #2c28a7;
+    border-color: #ffffff;
     padding-right: calc(1.5em + 0.75rem);
-    background-image: url('../img/basilikum.jpg'); /* Pfad zu Ihrem Bild */
+    background-image: url('../img/valid.jpg');
     background-repeat: no-repeat;
     background-position: right calc(0.375em + 0.1875rem) center;
     background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
@@ -739,7 +759,7 @@ label p {
 .form-check-input.is-valid ~ .form-check-label::after, 
 .was-validated .form-check-input:valid ~ .form-check-label::after {
     content: "";
-    background-image: url('../img/basilikum.jpg'); /* Pfad zu Ihrem Bild */
+    background-image: url('../img/valid.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -754,7 +774,7 @@ label p {
 .was-validated .form-control:invalid {
     border-color: #dc3545;
     padding-right: calc(1.5em + 0.75rem);
-    background-image: url('../img/tomate.jpg'); /* Pfad zu Ihrem Fehlerbild */
+    background-image: url('../img/invalid.jpg');
     background-repeat: no-repeat;
     background-position: right calc(0.375em + 0.1875rem) center;
     background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
@@ -762,7 +782,7 @@ label p {
 .form-check-input.is-invalid ~ .form-check-label::after, 
 .was-validated .form-check-input:invalid ~ .form-check-label::after {
     content: "";
-    background-image: url('../img/tomate.jpg'); /* Pfad zu Ihrem Fehlerbild */
+    background-image: url('../img/invalid.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -787,7 +807,6 @@ label p {
   margin-top: 0rem;
   margin-bottom: 1rem;
 }
-
 .form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after {
   position: absolute;
   inset: 1rem 0.375rem;
@@ -797,5 +816,4 @@ label p {
   background-color: transparent !important;
   border-radius: transparent !important;
 }
-
 /* -------------formular */
