@@ -16,8 +16,8 @@ require 'src/PHPMailer/SMTP.php';
 <?php include("nav.php") ?>
 </header>
 
-<main>
-<div class="container danke mt-5 mb-5">
+<main class="bg-red mb-3">
+<div class="container danke">
     <div class="row mt-5 mb-5 justify-content-center">
         <div class="col-md-6 d-flex justify-content-center align-items-center text-center text-md-left">
             <?php
@@ -63,26 +63,24 @@ require 'src/PHPMailer/SMTP.php';
 
                 try {
                     $mail->send();
-                    echo '<div role="alert"><h1>Danke ' . $vorname . '</h1><br>
-                    <h2>Wir melden uns bei dir!</h2></div>';
+                    echo '<div role="alert"><h1 class="text-white pb-2">Danke ' . $vorname . ' !</h1><br>
+                    <h2 class="text-white pb-5">Wir melden uns bei dir</h2>
+                    <button><a class="text-red" href="index.php">Home</a></button></div>';
                 } catch (Exception $ex) {
-                    echo '<div role="alert"><h1>Entschuldige! Es ist ein Fehler aufgetreten:</h1> ' . $mail->ErrorInfo . ' <button><a class="text-red" href="kontakt.php">Zurück</a></button></div>';
+                    echo '<div role="alert"><h1 class="text-white pb-5">Entschuldige! Es ist ein Fehler aufgetreten:</h1> ' . $mail->ErrorInfo . ' <button><a class="text-red" href="kontakt.php">Zurück</a></button></div>';
                 }
             }
             ?>
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <img class="img-danke" src="img/location.png" alt="">
+            <img class="img-danke" src="img/email-white.jpg" alt="">
         </div>
     </div>
 </div>
 
+</main>
 
 <?php include("footer.php") ?>
-
-<?php include("socialmedia.php") ?>
-
-<button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bacio.js"></script>
