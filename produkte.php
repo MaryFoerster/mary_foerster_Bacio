@@ -70,10 +70,14 @@
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
                         <h2>Bacio Tote Bag</h2>
-                        <p>Trage ein Stück "Bacio" immer bei dir! Unsere Tote Bag mit exklusivem, künstlerischem Design ist nicht nur praktisch, sondern auch ein echter Hingucker. Gefertigt aus strapazierfähiger Baumwolle, ist sie perfekt für den täglichen Gebrauch.</p>
+                        <p>Trage ein Stück "Bacio" immer bei dir! Unsere Tote Bag mit exklusivem, künstlerischem Design ist nicht nur praktisch, sondern auch ein echter Hingucker. Gefertigt aus strapazierfähiger Baumwolle, ist sie perfekt für den täglichen Gebrauch. Waschbar bei 30°C, umweltfreundlichen Druckfarben</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
-                        <p>Pflegehinweis: Waschbar bei 30°C, nicht bleichen, bügeln bei niedriger Temperatur<br>
-                        Hergestellt mit umweltfreundlichen Druckfarben</p>
+                        <div class="warenkorb" data-product-id="1">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">€ 20,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -91,9 +95,14 @@
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
                         <h2>Bacio Pizza Teller</h2>
-                        <p>Genieße deine Lieblingspizza stilvoll auf unserem exklusiven Bacio Pizza Teller! Mit einem kreativen, handgezeichneten Design, das die Liebe und Leidenschaft für Pizza widerspiegelt, wird jede Mahlzeit zu einem besonderen Erlebnis.</p>
+                        <p>Genieße deine Lieblingspizza stilvoll auf unserem exklusiven Bacio Pizza Teller! Mit einem kreativen, handgezeichneten Design, das die Liebe und Leidenschaft für Pizza widerspiegelt, wird jede Mahlzeit zu einem besonderen Erlebnis. Hergestellt aus hochwertiger Keramik.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
-                        <p>Hergestellt aus hochwertiger Keramik, ist der Teller robust, langlebig sowie spülmaschinen- und mikrowellengeeignet.</p>
+                        <div class="warenkorb" data-product-id="1">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">€ 28,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -111,9 +120,14 @@
                     <div class="col-xxl-6 col-lg-5 d-flex flex-column justify-content-center align-content-center">
                         <span class="close">&times;</span>
                         <h2>Bacio Kochschürze</h2>
-                        <p>Genieße das Kochen stilvoll mit unserer exklusiven Bacio Kochschürze! Mit einem kreativen, handgezeichneten Design, das die Liebe und Leidenschaft für das Kochen widerspiegelt, wird jede Kochsession zu einem besonderen Erlebnis.</p>
+                        <p>Genieße das Kochen stilvoll mit unserer exklusiven Bacio Kochschürze! Mit einem kreativen, handgezeichneten Design, das die Liebe und Leidenschaft für das Kochen widerspiegelt, wird jede Kochsession zu einem besonderen Erlebnis. Hochwertiger Baumwolle</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
-                        <p>Hergestellt aus hochwertiger Baumwolle, ist die Schürze robust, langlebig und maschinenwaschbar.</p>
+                        <div class="warenkorb" data-product-id="1">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">€ 25,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -132,6 +146,21 @@
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bacio.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const warenkorbButtons = document.querySelectorAll(".warenkorb");
+    warenkorbButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const notification = button.nextElementSibling;
+            notification.classList.add("show");
+            setTimeout(() => {
+                notification.classList.remove("show");
+            }, 3000);
+        });
+    });
+});
+
+</script>
 
 </body>
 </html>

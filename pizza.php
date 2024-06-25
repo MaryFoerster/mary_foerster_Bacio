@@ -146,7 +146,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -171,7 +171,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -196,7 +196,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -221,7 +221,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -246,7 +246,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -271,7 +271,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -296,7 +296,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -321,7 +321,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>
@@ -346,7 +346,7 @@
                         <div id="notification" class="notification">
                             Artikel wurde zum Warenkorb hinzugefügt!
                         </div>
-                        <h3 class="d-flex justify-content-end">8 euro</h3>
+                        <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
                     </div>

@@ -411,6 +411,11 @@ button a {
     border: none;
     transition: transform 0.3s ease;
   }
+  .card:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    border: none;
+  }
   .h5-card {
     font-size: 1.6rem;
     color: var(----color-text-grey);
