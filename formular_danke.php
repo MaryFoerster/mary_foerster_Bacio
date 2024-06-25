@@ -17,10 +17,9 @@ require 'src/PHPMailer/SMTP.php';
 </header>
 
 <main>
-
 <div class="container danke mt-5 mb-5">
-    <div class="row mt-5 mb-5">
-      <div class="col-md-6 d-flex justify-content-center ">
+    <div class="row mt-5 mb-5 justify-content-center">
+        <div class="col-md-6 d-flex justify-content-center align-items-center text-center text-md-left">
             <?php
             if (isset($_POST['submit'])) {
                 $vorname = $_POST['vorname'];
@@ -49,35 +48,35 @@ require 'src/PHPMailer/SMTP.php';
                 $mail->addEmbeddedImage('img/bacio-logo-email.png', 'logo');
                 $mail->Body = "
                 <div>
-                    <img style='width: 8rem;'  src='cid:logo' alt='logo'>
-                    <p style='color: #E81B00;'><strong>Nachricht von:</strong> <span style='color: #E81B00;'>" . "<strong>" . $vorname . "</strong>" . " " . "<strong>" . $nachname . "</strong>" . "</span></p>
+                    <img style='width: 8rem;' src='cid:logo' alt='logo'>
+                    <p style='color: #E81B00;'><strong>Nachricht von:</strong> <span style='color: #E81B00;'><strong>" . $vorname . "</strong> <strong>" . $nachname . "</strong></span></p>
                     <p style='color: #E81B00;'><strong>E-Mail:</strong> <span style='color: #E81B00;'>" . $email . "</span></p>
                     <p style='color: #E81B00;'><strong>Der DSGVO wurde zugestimmt!</strong></p>
-                    <br>
                     <p style='color: #E81B00;'><strong>Nachricht:</strong></p>
                     <p>" . $nachricht . "</p>
                     <br>
                     <p>Vielen Dank <span style='font-weight: bold; color: #E81B00;'>" . $vorname . "</span> für deine Nachricht,</p>
                     <p>wir melden uns bei dir!</p>
                     <p style='color: #E81B00;'><strong>LG, das Bacio Team</strong></p>
-                    <img style='width: 6rem;'  src='cid:tomate' alt='tomate'>
+                    <img style='width: 6rem;' src='cid:tomate' alt='tomate'>
                 </div>";
 
                 try {
                     $mail->send();
-                    echo '<div role="alert"><h1>Danke' . " " . $vorname . '</h1><br>
+                    echo '<div role="alert"><h1>Danke ' . $vorname . '</h1><br>
                     <h2>Wir melden uns bei dir!</h2></div>';
                 } catch (Exception $ex) {
-                    echo '<div role="alert"><h1>Entschuldige! Es ist ein Fehler aufgetreten:</h1> ' . $mail->ErrorInfo . ' <button><a class="text-red" href="kontakt.php">Zurück</a></a></button></div>';
+                    echo '<div role="alert"><h1>Entschuldige! Es ist ein Fehler aufgetreten:</h1> ' . $mail->ErrorInfo . ' <button><a class="text-red" href="kontakt.php">Zurück</a></button></div>';
                 }
             }
             ?>
-      </div>
-      <div class="col-md-6 d-flex justify-content-center ">
-        <img class="img-danke" src="img/location.png" alt="">
-      </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img class="img-danke" src="img/location.png" alt="">
+        </div>
     </div>
 </div>
+
 
 <?php include("footer.php") ?>
 

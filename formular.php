@@ -56,9 +56,6 @@
                         <div class="form-floating">
                             <input type="text" class="form-control" id="validationServer01" name="vorname" placeholder="Vorname" required>
                             <label for="validationServer01">Vorname*</label>
-                            <div class="valid-feedback">
-                                Sieht gut aus!
-                            </div>
                             <div class="invalid-feedback">
                                 Achtung! Feld ist leer.
                             </div>
@@ -68,9 +65,6 @@
                         <div class="form-floating">
                             <input type="text" class="form-control" id="validationServer02" name="nachname" placeholder="Nachname" required>
                             <label for="validationServer02">Nachname*</label>
-                            <div class="valid-feedback">
-                                Sieht gut aus!
-                            </div>
                             <div class="invalid-feedback">
                                 Achtung! Feld ist leer.
                             </div>
