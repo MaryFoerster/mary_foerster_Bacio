@@ -80,33 +80,6 @@ img {
 }
 /* Generell */
 
-/* -----------card */
-.card {
-  width: 13rem;
-  border: none;
-  transition: transform 0.3s ease;
-}
-.card:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  border: none;
-}
-.h5-card {
-  font-size: 1.4rem;
-  color: var(----color-text-grey);
-}
-@media screen and (max-width:770px) {
-  .card {
-    width: 27rem;
-    border: none;
-    transition: transform 0.3s ease;
-  }
-  .h5-card {
-    font-size: 1.6rem;
-    color: var(----color-text-grey);
-  }
-}
-/* -----------card */
 
 /* -----------scrollbar */
 html::-webkit-scrollbar{
@@ -362,6 +335,102 @@ button a {
   color: var(----color-red);
 }
 /* button */
+
+
+
+    /* button warenkorb */
+    .warenkorb {
+      border: none;
+      width: 10rem;
+      background-color: var(----color-red);
+      font-family: 'Be Vietnam Pro';
+      color:var(----color-white);
+      font-weight: 900;
+      border-radius: var(----border-radius);
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .warenkorb:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    .warenkorb  p {
+      padding: 0;
+      text-decoration: none;
+      color: var(----color-white);
+      margin: 0;
+      font-weight: 900;
+    }
+    .notification {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .notification.show {
+        display: block;
+    }
+    /* button warenkorb */
+
+
+
+
+
+
+
+
+/* -----------card */
+.card {
+  width: 13rem;
+  border: none;
+  transition: transform 0.3s ease;
+  background-color:transparent;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: none;
+}
+.h5-card {
+  font-size: 1.2rem;
+  color: var(----color-text-grey);
+}
+@media screen and (max-width:770px) {
+  .card {
+    width: 27rem;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  .h5-card {
+    font-size: 1.6rem;
+    color: var(----color-text-grey);
+  }
+}
+/* -----------card */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* radio */
 .img-radio {

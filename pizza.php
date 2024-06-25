@@ -140,6 +140,12 @@
                         <h2>Margherita</h2>
                         <p>Die Mutter aller Pizzen. Knusprig dünner Teig, sonnengereifte Tomaten und feinster Mozzarella. Kein anderer Käse zerläuft so gleichmäßig, kein anderer bringt die leckeren Pizza-Aromen so gut zur Geltung.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" data-product-id="1">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -159,6 +165,12 @@
                         <h2>Prosciutto e Funghi</h2>
                         <p>Pilze aus der Dose kommen uns nicht in die Tüte. Wir verwenden für unsere Pizza nur frische Champignons. Und auch unser Hinterschinken spielt in Sachen Geschmack ganz vorne mit.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -178,6 +190,12 @@
                         <h2>Salame</h2>
                         <p>Hier geht’s um die Wurst. Denn was diese TK-Pizza so köstlich macht, ist unsere edle, 100% reine Rindersalami. Schmeckt unglaublich intensiv und auch ganz besonders denjenigen, die keine Salami vom Schwein essen mögen.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -197,6 +215,12 @@
                         <h2>Tonno e Cipolla</h2>
                         <p>Diese Sorte schmeckt auch dem Gewissen. Denn unser Thunfisch wird auf den Malediven einzeln von Hand geangelt. Ganz ohne Beifang und Überfischung. Nachhaltiger kann Genuss nicht sein.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -216,6 +240,12 @@
                         <h2>Spinaci e Ricotta</h2>
                         <p>Du willst vegetarisch? Probier mal vegetastisch! Diese Pizza kommt mit frischem Ricotta und Babyspinat in ganzen Blättern. Noch ganz neu – und jetzt schon unser Evergreen.</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -235,6 +265,12 @@
                         <h2>Salame Piccante</h2>
                         <p>Spice to meet you! Unsere Sorte mit würziger Rindersalami und milder Peperoni freut sich auf deine Pikantschaft. Ein feuriger Genuss mit ordentlich Geschmackes!</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -254,6 +290,12 @@
                         <h2>Prosciutto e Ananas</h2>
                         <p>Unsere Arbeit trägt Früchte, wie man an dieser sensationellen Pizza gut sehen kann. Und wenn du jetzt sagst: Obst auf einer Pizza?! Dann sagen wir: Musst du nicht mögen. Wirst du aber lieben!</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -273,6 +315,12 @@
                         <h2>Quattro Formaggi</h2>
                         <p>Jetzt gibt’s was auf die Kauleiste. Denn diese dampfhammermäßige Mischung aus Mozzarella, Bergkäse, Cheddar und Blauschimmelkäse wird dich einfach umhauen. Faust drauf!</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -292,6 +340,12 @@
                         <h2>Solo</h2>
                         <p>Wir können nicht belegen, dass unsere Pizza die beste der Welt ist. Aber du kannst sie belegen. Mit was immer du willst: mit Gemüse, Fisch, Fleisch,... und mit allem was die sonst noch so in den Geschmackssinn kommt. Unsere Basis mit „nur“ Tomatensauce schmeckt absolut pizzenmäßig, aber mit deiner Unterstützung wird sie sicher noch viel besser. Mach die Beste draus!</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
+                        <div class="warenkorb" id="warenkorb">
+                            <p>+ Warenkorb</p>
+                        </div>
+                        <div id="notification" class="notification">
+                            Artikel wurde zum Warenkorb hinzugefügt!
+                        </div>
                         <h3 class="d-flex justify-content-end">8 euro</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -319,6 +373,21 @@
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bacio.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const warenkorbButtons = document.querySelectorAll(".warenkorb");
+    warenkorbButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const notification = button.nextElementSibling;
+            notification.classList.add("show");
+            setTimeout(() => {
+                notification.classList.remove("show");
+            }, 3000);
+        });
+    });
+});
+
+</script>
 
 </body>
 </html>
