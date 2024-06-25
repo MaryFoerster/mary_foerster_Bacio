@@ -178,24 +178,26 @@
 </section>
 
 
-
-<section class="Inhaber">
+<section class="Inhaber py-5">
   <div class="container">
-    <div class="row">
-      <h2 class="text-center">Über die Inhaber</h2>
-      <div class="col-6">
-          <img class="img-inhaber custom-radius" src="img/Andreas-Schmid.jpg" alt="img/Andreas-Schmid.jpg">
-          <h3>Andreas Schmid</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="text-center">Über die Inhaber</h2>
       </div>
-      <div class="col-6">
-      <img class="img-inhaber custom-radius" src="img/Andreas-Schmid.jpg" alt="img/Andreas-Schmid.jpg">
-          <h3>Andreas Schmid</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
+      <div class="col-md-6 d-flex flex-column align-items-center text-center my-3">
+        <img class="img-inhaber custom-radius mb-3" src="img/Andreas-Schmid.jpg" alt="Andreas Schmid">
+        <h3>Andreas Schmid</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
+      </div>
+      <div class="col-md-6 d-flex flex-column align-items-center text-center my-3">
+        <img class="img-inhaber custom-radius mb-3" src="img/Andreas-Schmid.jpg" alt="Andreas Schmid">
+        <h3>Andreas Schmid</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
