@@ -340,12 +340,7 @@
                         <h2>Solo</h2>
                         <p>Wir können nicht belegen, dass unsere Pizza die beste der Welt ist. Aber du kannst sie belegen. Mit was immer du willst: mit Gemüse, Fisch, Fleisch,... und mit allem was die sonst noch so in den Geschmackssinn kommt. Unsere Basis mit „nur“ Tomatensauce schmeckt absolut pizzenmäßig, aber mit deiner Unterstützung wird sie sicher noch viel besser. Mach die Beste draus!</p>
                         <img class="dialog-icon img-fluid custom-radius " src="img/icon-tomate.jpg" alt="">
-                        <div class="warenkorb" id="warenkorb">
-                            <p>+ Warenkorb</p>
-                        </div>
-                        <div id="notification" class="notification">
-                        Produkt wurde zum Warenkorb hinzugefügt!
-                        </div>
+                        <p>*Nur im Restaurant erhältlich.</p>
                         <h3 class="d-flex justify-content-end">€ 6,-</h3>
                     </div>
                     <div class="col-xxl-1 col-lg-1 d-flex flex-column justify-content-center align-content-center">
@@ -353,6 +348,35 @@
                 </div>
             </div>
         </dialog>
+
+        <section id="index__beschreibung">
+        <div class="container mt-5 mb-5">
+          <div class="row p-4">
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="verpackung-pizza" title="verpackung-pizza">
+            </div>
+            <div class="col-lg-6">
+            <h2>Pizza Pura</h2>
+            <p>Statt eine weitere, fertigbelegte Pizza zu bringen, gehen wir von Pizza BACIO mal wieder einen innovativeren Weg – und liefern mit der Pizza Pura die perfekte Leinwand für deine Kreativität. Denn unsere neueste Sorte besteht erstmal „nur“ aus einem auf Lavastein vorgebackenen Boden und unserer hauseigenen Tomatensoße. So wie du es von unseren Klassikern kennst. Den Belag kannst du einfach selbst bestimmen. Ob vegan, mit Fisch oder mit Fleisch – bei dieser Pizza kommst du ganz sicher auf deinen Geschmack. Und natürlich ist sie auch pur ein Pura Genuss.</p>
+            <br>
+            <p>*Nur im Restaurant erhältlich.</p>
+            <img class="img-fluid" src="img/icon-qualitaet.jpg" alt="icon-qualitaet" title="icon-qualitaet">
+            </div>
+          </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <section class="bg-packaging-2 d-flex justify-content-center align-items-center">
   <div class="container">

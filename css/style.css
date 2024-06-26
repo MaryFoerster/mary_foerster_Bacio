@@ -449,9 +449,8 @@ audio {
   padding: 10px;
   background-color: #E81B00;
   border-radius: 0px var(----border-radius) var(----border-radius) 0px;
-  z-index: 1000; /* Fügen Sie diesen Wert hinzu, um sicherzustellen, dass das Element über anderen angezeigt wird */
+  z-index: 1000;
 }
-
 .social-media-icons .icon {
   display: block;
   width: 40px;
@@ -462,12 +461,10 @@ audio {
   text-decoration: none;
   border-radius: var(----border-radius);
 }
-
 .icon:hover {
   opacity: .8;
   cursor: pointer;
 }
-
 @media screen and (max-width:1200px) {
   .social-media-icons {
     top: 97%;
@@ -475,6 +472,171 @@ audio {
   }
 }
 /* social-media-icons */
+
+/* formular */
+.btn-primary {
+  border-radius: var(----border-radius);
+  background-color: var(----color-text-white);
+  transition: transform 0.3s ease;
+  border: none;
+  font-family: 'Be Vietnam Pro';
+  font-weight: 900;
+  padding: 1rem;
+  margin-right: 5rem;
+  color: var(----color-red);
+}
+.btn-primary:Hover {
+  border: none;
+  transform: scale(1.2);
+  background-color: var(----color-green);
+}
+.datenschutz {
+  text-decoration: var(----color-text-white);
+}
+.datenschutz:hover {
+ opacity: .7;
+}
+.form-custom input:focus,
+.form-custom textarea:focus {
+  border-color: var(----color-red);
+  outline: none;
+  box-shadow: none;
+}
+.form-check-input:checked {
+  background-color: var(----color-green) !important;
+}
+.form-control:focus {
+  color: var(----color-text-grey);
+  background-color: var(--bs-body-bg);
+  border: none;
+  border-color: var(----color-red);
+  font-family: 'Be Vietnam Pro';
+  outline: 0;
+  box-shadow: none;
+}
+input {
+  padding: 1rem;
+  border: none;
+  border-radius: var(----border-radius);
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.form-check-input {
+  border: none;
+}
+.form-label {
+  border: none;
+}
+.img-danke {
+  width: 10rem;
+  margin-top: 0rem;
+}
+.danke {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media screen and (max-width:1200px) {
+  .img-danke {
+    width: 10rem;
+    margin-top: 3rem;
+  }
+  .danke {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+.invalid-feedback {
+  color: var(----color-white);
+}
+.valid-feedback {
+  color: var(----color-white);
+}
+.form-floating .filled {
+  border: none;
+}
+.form-check-input:checked {
+  background-color: transparent;
+  border-color: transparent;
+}
+.form-control.is-valid, .was-validated .form-control:valid {  border-color: var(----color-white) !important;
+box-shadow: none !important;}
+.form-check-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+label p {
+  margin-left: 1rem;
+}
+.form-control.is-valid, 
+.was-validated .form-control:valid {
+    border-color: #ffffff;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url('../img/valid.jpg');
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
+}
+.form-check-input.is-valid ~ .form-check-label::after, 
+.was-validated .form-check-input:valid ~ .form-check-label::after {
+    content: "";
+    background-image: url('../img/valid.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    top: 0.25rem;
+    left: 1.25rem;
+    width: 1rem;
+    height: 1rem;
+}
+.form-control.is-invalid, 
+.was-validated .form-control:invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url('../img/invalid.jpg');
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
+}
+.form-check-input.is-invalid ~ .form-check-label::after, 
+.was-validated .form-check-input:invalid ~ .form-check-label::after {
+    content: "";
+    background-image: url('../img/invalid.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    position: absolute;
+    top: 0.25rem;
+    left: 1.25rem;
+    width: 1rem;
+    height: 1rem;
+}
+.form-check-input.is-valid:checked, .was-validated .form-check-input:valid:checked {
+  background-color: var(----color-green);
+}
+.form-check-input.is-valid, .was-validated .form-check-input:valid {
+  border-color: transparent;
+}
+.valid-feedback {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+.invalid-feedback {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+.form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after {
+  position: absolute;
+  inset: 1rem 0.375rem;
+  z-index: -1;
+  height: 1.5em;
+  content: "";
+  background-color: transparent !important;
+  border-radius: transparent !important;
+}
+/* formular */
 
 /* Scroll to Top Button */
 #scrollToTopBtn {
@@ -652,168 +814,3 @@ audio {
 
 
 
-
-/* -------------formular */
-.btn-primary {
-  border-radius: var(----border-radius);
-  background-color: var(----color-text-white);
-  transition: transform 0.3s ease;
-  border: none;
-  font-family: 'Be Vietnam Pro';
-  font-weight: 900;
-  padding: 1rem;
-  margin-right: 5rem;
-  color: var(----color-red);
-}
-.btn-primary:Hover {
-  border: none;
-  transform: scale(1.2);
-  background-color: var(----color-green);
-}
-.datenschutz {
-  text-decoration: var(----color-text-white);
-}
-.datenschutz:hover {
- opacity: .7;
-}
-.form-custom input:focus,
-.form-custom textarea:focus {
-  border-color: var(----color-red);
-  outline: none;
-  box-shadow: none;
-}
-.form-check-input:checked {
-  background-color: var(----color-green) !important;
-}
-.form-control:focus {
-  color: var(----color-text-grey);
-  background-color: var(--bs-body-bg);
-  border: none;
-  border-color: var(----color-red);
-  font-family: 'Be Vietnam Pro';
-  outline: 0;
-  box-shadow: none;
-}
-input {
-  padding: 1rem;
-  border: none;
-  border-radius: var(----border-radius);
-  width: 100%;
-  margin-bottom: 1rem;
-}
-.form-check-input {
-  border: none;
-}
-.form-label {
-  border: none;
-}
-.img-danke {
-  width: 10rem;
-  margin-top: 0rem;
-}
-.danke {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-@media screen and (max-width:1200px) {
-  .img-danke {
-    width: 10rem;
-    margin-top: 3rem;
-  }
-  .danke {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-.invalid-feedback {
-  color: var(----color-white);
-}
-.valid-feedback {
-  color: var(----color-white);
-}
-.form-floating .filled {
-  border: none;
-}
-.form-check-input:checked {
-  background-color: transparent;
-  border-color: transparent;
-}
-.form-control.is-valid, .was-validated .form-control:valid {  border-color: var(----color-white) !important;
-box-shadow: none !important;}
-.form-check-input:focus {
-  outline: none;
-  box-shadow: none;
-}
-label p {
-  margin-left: 1rem;
-}
-.form-control.is-valid, 
-.was-validated .form-control:valid {
-    border-color: #ffffff;
-    padding-right: calc(1.5em + 0.75rem);
-    background-image: url('../img/valid.jpg');
-    background-repeat: no-repeat;
-    background-position: right calc(0.375em + 0.1875rem) center;
-    background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
-}
-.form-check-input.is-valid ~ .form-check-label::after, 
-.was-validated .form-check-input:valid ~ .form-check-label::after {
-    content: "";
-    background-image: url('../img/valid.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    display: inline-block;
-    position: absolute;
-    top: 0.25rem;
-    left: 1.25rem;
-    width: 1rem;
-    height: 1rem;
-}
-.form-control.is-invalid, 
-.was-validated .form-control:invalid {
-    border-color: #dc3545;
-    padding-right: calc(1.5em + 0.75rem);
-    background-image: url('../img/invalid.jpg');
-    background-repeat: no-repeat;
-    background-position: right calc(0.375em + 0.1875rem) center;
-    background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
-}
-.form-check-input.is-invalid ~ .form-check-label::after, 
-.was-validated .form-check-input:invalid ~ .form-check-label::after {
-    content: "";
-    background-image: url('../img/invalid.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    display: inline-block;
-    position: absolute;
-    top: 0.25rem;
-    left: 1.25rem;
-    width: 1rem;
-    height: 1rem;
-}
-.form-check-input.is-valid:checked, .was-validated .form-check-input:valid:checked {
-  background-color: var(----color-green);
-}
-.form-check-input.is-valid, .was-validated .form-check-input:valid {
-  border-color: transparent;
-}
-.valid-feedback {
-  margin-top: 0rem;
-  margin-bottom: 1rem;
-}
-.invalid-feedback {
-  margin-top: 0rem;
-  margin-bottom: 1rem;
-}
-.form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after {
-  position: absolute;
-  inset: 1rem 0.375rem;
-  z-index: -1;
-  height: 1.5em;
-  content: "";
-  background-color: transparent !important;
-  border-radius: transparent !important;
-}
-/* -------------formular */

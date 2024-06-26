@@ -119,7 +119,6 @@
           </div>
         </section>
 
-
 <section id="holzsorten" class="mb-3">
         <div class="pb-5 pt-5">
         <div class="container">
@@ -186,15 +185,56 @@
       <div class="col-md-6 d-flex flex-column align-items-center text-center my-3">
         <img class="img-inhaber custom-radius mb-3" src="img/Andreas-Schmid.jpg" alt="Andreas-Schmid" title="Andreas-Schmid">
         <h3>Andreas Schmid</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
+        <p>In die Kerbe schlägt auch der zweite GF Andreas Schmid: „Wir haben nicht geschaut, wie man eine weitere Tiefkühlpizza hinbekommt. Sondern wie man als Erster eine hochwertige Restaurant-Pizza ohne Qualitätsverlust zu den Menschen nach Hause bringt.“</p>
       </div>
       <div class="col-md-6 d-flex flex-column align-items-center text-center my-3">
         <img class="img-inhaber custom-radius mb-3" src="img/Armando-Ammirati.jpg" alt="Armando-Ammirati" title="Armando-Ammirati">
         <h3>Armando Ammirati</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
+        <p>Armando Ammirati, einer der beiden Inhaber ist überzeugt: „Ganz egal, welche Sorte du gerade isst: Du wirst sie lieben. Denn die wichtigste Zutat haben sie alle gemein: allerhöchsten Anspruch an die Qualität.“</p>
       </div>
     </div>
   </div>
+</section>
+
+<section id="index__beschreibung">
+        <div class="container mt-5 mb-5">
+          <div class="row p-4">
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="verpackung-pizza" title="verpackung-pizza">
+            </div>
+            <div class="col-lg-6">
+            <h2>Unser Stempel Pass</h2>
+            <p>Entdecken Sie unseren exklusiven Pizza Bacio Sammelpass: Der Schlüssel zu kostenlosen Genusserlebnissen bei jedem Besuch in unserem Restaurant oder bei Ihrer nächsten Bestellung zum Mitnehmen.
+            <br>
+            Wie funktioniert es?
+            <br>
+            Jedes Mal, wenn Sie im Restaurant speisen oder Ihre Bestellung abholen, erhalten Sie einen Stempel auf Ihren Sammelpass. Bei Online-Bestellungen wird automatisch ein Stempel für Sie erfasst.
+            <br>
+            Was sind die Vorteile?
+            <br>
+            Sammeln Sie 10 Stempel und genießen Sie Ihre Lieblingspizza kostenlos bei Ihrem nächsten Besuch oder erhalten Sie sie bequem nach Hause geliefert.</p>
+            <br>
+            <img class="img-fluid" src="img/icon-qualitaet.jpg" alt="icon-qualitaet" title="icon-qualitaet">
+            </div>
+          </div>
+        </div>
+</section>
+
+<section id="index__beschreibung">
+        <div class="container mt-5 mb-5">
+          <div class="row p-4">
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="verpackung-pizza" title="verpackung-pizza">
+            </div>
+            <div class="col-lg-6">
+            <h2>Alles Käse – nur feiner Mozzarella</h2>
+            <p>
+            Gefertigt wird die Pizza nach original italienischem Rezept, und das heißt: nur mit laktosefreiem Mozzarella. Kein anderer Käse zerfließt so schön, kein anderer bringt die herrlichen Aromen so gut zur Geltung.</p>
+            <br>
+            <img class="img-fluid" src="img/icon-qualitaet.jpg" alt="icon-qualitaet" title="icon-qualitaet">
+            </div>
+          </div>
+        </div>
 </section>
 
 <section class="bg-holzofen d-flex justify-content-center align-items-center">
