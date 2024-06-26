@@ -46,7 +46,7 @@
             Vor der Gründung unserer Pizzeria in der Innsbrucker Innenstadt vor 5 Jahren unternahmen wir monatelange „Forschungsreisen“ und Testessen in Italien, um die besten Rezepte und Techniken zu erlernen. Das Ergebnis ist Pizza BACIO: die beste Pizza, die genauso lecker, knusprig und authentisch schmeckt wie frisch vom Italiener. Unser Geheimnis liegt in der Rezeptur des Teiges, der Qualität der Zutaten und vor allem in der Art der Zubereitung in unserem eigenen Holzofen.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="">
+              <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="Belegte-Pizza" title="Belegte-Pizza">
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@
             Pizza BACIO ist die erste Tiefkühlpizza, die nicht schmeckt wie eine Tiefkühlpizza. Dafür verwendet man nur hochwertigste Zutaten und bäckt die Pizza bei über 400°C im Steinofen vor. Dabei kommen auch Holzsorten zum Einsatz, die den Geschmack beeinflussen.</p>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius p-5" src="img/eiche.jpg" alt="">
+            <img class="img-fluid custom-radius p-5" src="img/eiche.jpg" alt="eiche-holz" title="eiche-holz">
             <h3 class="pt-1">Eiche</h3>
             <p> Eiche ist eine Holzart, die für ihren starken und rauchigen Geschmack bekannt ist.</p>
             <p class="text-red">Prosciutto e Funghi<br>
@@ -139,7 +139,7 @@
             Solo</p>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius p-5" src="img/buche.jpg" alt="">
+            <img class="img-fluid custom-radius p-5" src="img/buche.jpg" alt="buche-holz" title="buche-holz">
             <h3 class="pt-1">Buche</h3>
             <p> Buchenholz ist eine beliebte Wahl zum Backen von Pizza, da es einen milden, süßen Rauchgeschmack verleiht.</p>
             <p class="text-red">Margherita<br>
@@ -147,7 +147,7 @@
                   Quattro Formaggi</p>
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius p-5" src="img/kirsche.jpg" alt="">
+            <img class="img-fluid custom-radius p-5" src="img/kirsche.jpg" alt="kirsche-holz" title="kirsche-holz">
             <h3 class="pt-1">Kirsche</h3>
             <p> Kirschholz bietet einen süßlichen und fruchtigen Rauchgeschmack, der der Pizza eine einzigartige Note verleiht.</p>
             <p class="text-red">Tonno e Cipolla<br>
@@ -164,19 +164,18 @@
           <div class="container">
           <div class="row">
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
+            <img class="img-icon custom-radius" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
+            <img class="img-icon custom-radius" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
             </div>
             <div class="col-md-4 text-center">
-            <img class="img-fluid custom-radius" src="img/tomate.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
+            <img class="img-icon custom-radius" src="img/tomate.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
             </div>
           </div>
           </div>
         </div>
 </section>
-
 
 <section class="Inhaber py-5">
   <div class="container">
@@ -185,21 +184,27 @@
         <h2 class="text-center">Über die Inhaber</h2>
       </div>
       <div class="col-md-6 d-flex flex-column align-items-center text-center my-3">
-        <img class="img-inhaber custom-radius mb-3" src="img/Andreas-Schmid.jpg" alt="Andreas Schmid">
+        <img class="img-inhaber custom-radius mb-3" src="img/Andreas-Schmid.jpg" alt="Andreas-Schmid" title="Andreas-Schmid">
         <h3>Andreas Schmid</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
       </div>
       <div class="col-md-6 d-flex flex-column align-items-center text-center my-3">
-        <img class="img-inhaber custom-radius mb-3" src="img/Andreas-Schmid.jpg" alt="Andreas Schmid">
-        <h3>Andreas Schmid</h3>
+        <img class="img-inhaber custom-radius mb-3" src="img/Armando-Ammirati.jpg" alt="Armando-Ammirati" title="Armando-Ammirati">
+        <h3>Armando Ammirati</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo dolores nihil est, dolorum laboriosam deserunt perferendis sunt in provident.</p>
       </div>
     </div>
   </div>
 </section>
 
-
-
+<section class="bg-holzofen d-flex justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+              </div>
+            </div>
+          </div>
+        </section>
 
 <?php include("footer.php") ?>
 
