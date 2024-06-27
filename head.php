@@ -14,16 +14,7 @@
     <!-- Optional: Weitere Open Graph Tags -->
     <meta property="og:site_name" content="Pizza Bacio">
     <meta property="og:locale" content="de_DE">
-    
-    <!-- Facebook Specific Meta Tags -->
-    <meta property="fb:app_id" content="YOUR_FACEBOOK_APP_ID">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pizza Bacio - Handgemachte Tiefkühlpizzen">
-    <meta name="twitter:description" content="Entdecken Sie die besten handgemachten Tiefkühlpizzen von Pizza Bacio. Authentische italienische Qualität, die begeistert. Jetzt online bestellen und genießen!">
-    <meta name="twitter:image" content="https://example.com/images/pizza-bacio.jpg">
-    <meta name="twitter:site" content="@PizzaBacio">
+
     
     <!-- Weitere Meta Tags für SEO und allgemeine Informationen -->
     <meta name="description" content="Pizza Bacio bietet handgemachte Tiefkühlpizzen mit den besten Zutaten. Authentische italienische Qualität für eine schnelle, leckere Mahlzeit.">

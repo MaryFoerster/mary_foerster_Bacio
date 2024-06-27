@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<header>
+<header class="header-pizza">
 <?php include("nav.php") ?>
 
 </header>
@@ -14,8 +14,12 @@
 
 <main>
 
+<section>
+  <div class="container mt-4 mb-5">
+    <div class="row">
+      <div class="col-lg-12">
 
-<h1 data-fontsize="32" data-lineheight="44.8px">Impressum</h1>
+      <h1 data-fontsize="32" data-lineheight="44.8px">Impressum</h1>
   <p>Informationen über den Diensteanbieter.</p>
   <p>Pizzeria Bacio</p>
   <p>Max Mustermann</p>
@@ -65,10 +69,8 @@
   <p>Alle Inhalte dieser Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten wie zum Beispiel auf anderen Websites erneut veröffentlichen. Falls notwendig, werden wir die unerlaubte Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen.</p>
   <p>Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns zu kontaktieren.</p>
   <h2 id="bildernachweis" data-fontsize="24" data-lineheight="36px">Bildernachweis</h2>
-  <p>Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.</p>
-  <p>Die Bilderrechte liegen bei:<br>
-    Fotograf Max Mustermann<br>
-    Fotografin Pia Musterfrau</p>
+  <p>Die Bilderrechte sowie Video und Sound liegen bei:<br>
+  <a href="https://elements.envato.com/de/?clickid=SM6WJ428mxyKWAXxghRi4XjgUkC0QIXBBRzhX80&iradid=628379&iradtype=TEXT_LINK&irgwc=1&irmptype=mediapartner&mp=IDEACLAN%20PRIVATE%20LIMITED&utm_campaign=elements_af_3030402&utm_medium=affiliate&utm_source=impact_radius">Envato Elements</a>
   <p>Alle Texte sind urheberrechtlich geschützt.</p>
   <p>Quelle: Erstellt mit dem <a href="https://www.adsimple.at/impressum-generator/" title="Impressum Generator Österreich von AdSimple">Impressum Generator</a> von AdSimple</p>
   <h1 data-fontsize="32" data-lineheight="44.8px">Datenschutzerklärung</h1>
@@ -454,6 +456,12 @@
     Bei Fragen zum Thema Datenschutz auf unserer Website zögern Sie bitte nicht, uns oder die verantwortliche Stelle zu kontaktieren. Wir wünschen Ihnen noch eine schöne Zeit und hoffen, Sie auf unserer Website bald wieder begrüßen zu dürfen.</p>
   <p>Alle Texte sind urheberrechtlich geschützt.</p>
   <p>Quelle: Erstellt mit dem <a href="https://www.adsimple.at/datenschutz-generator/" title="Datenschutz Generator Österreich von AdSimple">Datenschutz Generator</a> von AdSimple</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 </main>
