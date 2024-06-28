@@ -40,13 +40,14 @@
     <div class="container mt-3">
         <div class="row">
             <div class="col-xl-12 d-flex justify-content-center">
-                <video class="img-fluid custom-radius" controls muted loop poster="path/to/poster-image.jpg">
-                    <source src="video/viedeo-neu.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Viedeo" title="Pizza-Bacio-Werbe-Viedeo"/>
+                <video class="img-fluid custom-radius" controls muted loop poster="img/poster.jpg">
+                    <source src="video/bacio-video.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Video" title="Pizza-Bacio-Werbe-Video"/>
                 </video>
             </div>
         </div>
     </div>
 </section>
+
 
 <section id="index__Werte Bacio">
         <div class="pb-5 pt-5">
@@ -176,8 +177,8 @@
   </div>
 </section>
 
-<section class="cta d-flex justify-content-center align-items-center mb-5">
-  <div class="container">
+<section>
+  <div class="container cta d-flex justify-content-center align-items-center mb-5 custom-radius">
     <div class="row">
       <div class="col-12 d-flex justify-content-center align-items-center flex-column">
         <h3 class="text-white mb-5">Hol dir jetzt deine Pizza</h3>
