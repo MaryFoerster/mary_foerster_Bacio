@@ -20,7 +20,7 @@
             <h1>Über Uns</h1>
             <h2 class="mt-5">Die Idee</h2>
             <p>
-            Pizza ist eine der beliebtesten Speisen weltweit, sowohl für Jung als auch für Alt. Der Grund liegt auf der Hand: Auf einem leckeren Teigboden können die unterschiedlichsten Zutaten kombiniert werden, um den individuellen Geschmack zu treffen. Pizza ist einfach zuzubereiten, schmeckt hervorragend und kann sogar mit den Händen gegessen werden, was das Esserlebnis intensiviert.</p>
+            Pizza ist eine der beliebtesten Speisen weltweit, sowohl für Jung als auch für Alt. Der Grund liegt auf der Hand: Auf einem leckeren Teigboden können die unterschiedlichsten Zutaten kombiniert werden, um den individuellen Geschmack zu treffen. <br><br> Pizza ist einfach zuzubereiten, schmeckt hervorragend und kann sogar mit den Händen gegessen werden, was das Esserlebnis intensiviert.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
             <img class="img-fluid custom-radius" src="img/pizza-im-ofen.jpg" alt="pizza-im-ofen" title="pizza-im-ofen">
@@ -28,10 +28,12 @@
           </div>
           <div class="row p-4">
             <div class="col-lg-6">
-            <img class="img-fluid custom-radius" src="img/icon-tomate.jpg" alt="icon-tomate" title="icon-tomate">
+            <p>Unser Versprechen</p>
+            Noch nie hast du eine Tiefkühlpizza so heiß geliebt.<br> Ganz egal, welche Sorte du gerade isst:<br> <strong>Du wirst sie lieben!</strong> <br><br>Denn die wichtigste Zutat haben sie alle gemein: <br>
+            <strong>allerhöchsten Anspruch an die Qualität.</strong></p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
-             <p>Diese Beliebtheit brachte uns auf die Idee, unser Produkt auch als Tiefkühlpizza zu vertreiben. Pizza BACIO wird somit die erste Tiefkühlpizza sein, die nicht wie eine Tiefkühlpizza schmeckt. Wir haben es uns zur Aufgabe gemacht, hochwertige Restaurant-Pizza ohne Qualitätsverlust zu den Menschen nach Hause zu bringen.</p>
+             <p>Diese Beliebtheit brachte uns auf die Idee, unser Produkt auch als Tiefkühlpizza zu vertreiben. Pizza BACIO wird somit die erste Tiefkühlpizza sein, die nicht wie eine Tiefkühlpizza schmeckt. <br><br> Wir haben es uns zur Aufgabe gemacht, hochwertige Restaurant-Pizza ohne Qualitätsverlust zu den Menschen nach Hause zu bringen.</p>
             </div>
           </div>
         </div>
@@ -43,7 +45,7 @@
             <div class="col-lg-6">
             <h2 class="text-white">Unsere Geschichte</h2>
             <p class="text-white">
-            Vor der Gründung unserer Pizzeria in der Innsbrucker Innenstadt vor 5 Jahren unternahmen wir monatelange „Forschungsreisen“ und Testessen in Italien, um die besten Rezepte und Techniken zu erlernen. Das Ergebnis ist Pizza BACIO: die beste Pizza, die genauso lecker, knusprig und authentisch schmeckt wie frisch vom Italiener. Unser Geheimnis liegt in der Rezeptur des Teiges, der Qualität der Zutaten und vor allem in der Art der Zubereitung in unserem eigenen Holzofen.</p>
+            Vor der Gründung unserer Pizzeria in der Innsbrucker Innenstadt vor 5 Jahren unternahmen wir monatelange „Forschungsreisen“ und Testessen in Italien, um die besten Rezepte und Techniken zu erlernen.  <br><br>Das Ergebnis ist Pizza BACIO: die beste Pizza, die genauso lecker, knusprig und authentisch schmeckt wie frisch vom Italiener. Unser Geheimnis liegt in der Rezeptur des Teiges, der Qualität der Zutaten und vor allem in der Art der Zubereitung in unserem eigenen Holzofen.</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
               <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="Belegte-Pizza" title="Belegte-Pizza">
@@ -103,9 +105,7 @@
 <div class="container">
             <div class="row">
             <div class="col-12 text-center d-flex justify-content-center align-items-center flex-column">
-            <p class="custom-beschreibung"><h2>Unser Versprechen</h2>
-            Noch nie hast du eine Tiefkühlpizza so heiß geliebt.<br> Ganz egal, welche Sorte du gerade isst:<br> <strong>Du wirst sie lieben!</strong> <br><br>Denn die wichtigste Zutat haben sie alle gemein: <br>
-            <strong>allerhöchsten Anspruch an die Qualität.</strong></p>
+            <p class="custom-beschreibung">
             </div>
             </div>
         </div>
@@ -158,30 +158,18 @@
         </div>
 </section>
 
-<section id="index__zutaten">
-        <div class="pb-5 pt-5">
-          <div class="container">
-          <div class="row">
-            <div class="col-md-4 text-center">
-            <img class="img-icon custom-radius" src="img/basilikum.png" alt="Illustration-Basilikum" title="Illustration-Basilikum">
-            </div>
-            <div class="col-md-4 text-center">
-            <img class="img-icon custom-radius" src="img/mozzarella.jpg" alt="Illustration-Mozzarella" title="Illustration-Mozzarella">
-            </div>
-            <div class="col-md-4 text-center">
-            <img class="img-icon custom-radius" src="img/tomate.jpg" alt="Illustration-Tomate" title="Illustration-Tomate">
-            </div>
-          </div>
-          </div>
-        </div>
+<section class="bg-packaging d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="Inhaber py-5">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12">
-        <h2 class="text-center">Über die Inhaber</h2>
-      </div>
       <div class="col-md-6 d-flex flex-column align-items-center text-center my-3">
         <img class="img-inhaber custom-radius mb-3" src="img/Andreas-Schmid.jpg" alt="Andreas-Schmid" title="Andreas-Schmid">
         <h3>Andreas Schmid</h3>
@@ -195,56 +183,6 @@
     </div>
   </div>
 </section>
-
-<section id="index__beschreibung">
-        <div class="container mt-5 mb-5">
-          <div class="row p-4">
-            <div class="col-lg-6 d-flex justify-content-center">
-              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="verpackung-pizza" title="verpackung-pizza">
-            </div>
-            <div class="col-lg-6">
-            <h2>Unser Stempel Pass</h2>
-            <p>Entdecken Sie unseren exklusiven Pizza Bacio Sammelpass: Der Schlüssel zu kostenlosen Genusserlebnissen bei jedem Besuch in unserem Restaurant oder bei Ihrer nächsten Bestellung zum Mitnehmen.
-            <br>
-            Wie funktioniert es?
-            <br>
-            Jedes Mal, wenn Sie im Restaurant speisen oder Ihre Bestellung abholen, erhalten Sie einen Stempel auf Ihren Sammelpass. Bei Online-Bestellungen wird automatisch ein Stempel für Sie erfasst.
-            <br>
-            Was sind die Vorteile?
-            <br>
-            Sammeln Sie 10 Stempel und genießen Sie Ihre Lieblingspizza kostenlos bei Ihrem nächsten Besuch oder erhalten Sie sie bequem nach Hause geliefert.</p>
-            <br>
-            <img class="img-fluid" src="img/icon-qualitaet.jpg" alt="icon-qualitaet" title="icon-qualitaet">
-            </div>
-          </div>
-        </div>
-</section>
-
-<section id="index__beschreibung">
-        <div class="container mt-5 mb-5">
-          <div class="row p-4">
-            <div class="col-lg-6 d-flex justify-content-center">
-              <img class="img-fluid custom-radius" src="img/packaging-front.jpg" alt="verpackung-pizza" title="verpackung-pizza">
-            </div>
-            <div class="col-lg-6">
-            <h2>Alles Käse – nur feiner Mozzarella</h2>
-            <p>
-            Gefertigt wird die Pizza nach original italienischem Rezept, und das heißt: nur mit laktosefreiem Mozzarella. Kein anderer Käse zerfließt so schön, kein anderer bringt die herrlichen Aromen so gut zur Geltung.</p>
-            <br>
-            <img class="img-fluid" src="img/icon-qualitaet.jpg" alt="icon-qualitaet" title="icon-qualitaet">
-            </div>
-          </div>
-        </div>
-</section>
-
-<section class="bg-holzofen d-flex justify-content-center align-items-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 d-flex justify-content-center align-items-center flex-column">
-              </div>
-            </div>
-          </div>
-        </section>
 
 <?php include("footer.php") ?>
 

@@ -80,7 +80,6 @@ img {
 }
 /* Generell */
 
-
 /* -----------scrollbar */
 html::-webkit-scrollbar{
   width: 6px;
@@ -267,7 +266,6 @@ footer p {
   width: 100%;
   height: 20rem;
 }
-
 .header-pizza {
   background-image: url(../img/pizzaheader2.jpg);
   background-position: center;
@@ -416,25 +414,37 @@ button a {
 /* -----------card */
 
 /* radio */
-.img-radio {
-  width: 5rem;
+audio {
+  display: none; /* Hide the default audio controls */
+}
+.audio-text {
+  padding: 2rem;
+  background-color: var(----color-red);
+  border-radius: var(----border-radius);
 }
 .audio {
-  background-image: url(../img/pizzaofen.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+  background-image: url(../img/bg-packaging.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-audio {
-  max-width: 30rem;
+
+#play-button {
+  cursor: pointer;
 }
-    audio {
-      padding: .7rem;
-      border: 2px solid #ffffff;
-      border-radius: var(----border-radius);
-      background-color: #ffffff;
-      box-shadow: 0 4px 8px transparent;
-  }
+.btn-primary {
+  border-radius: var(----border-radius);
+  background-color: var(----color-text-white);
+  transition: transform 0.3s ease;
+  border: none;
+  font-family: 'Be Vietnam Pro';
+  font-weight: 900;
+  padding: 1rem;
+  margin-right: 0rem !important;
+  color: var(----color-red);
+}
 /* radio */
 
 /* social-media-icons */
@@ -771,29 +781,17 @@ label p {
   }
 }
 /* error */
-
-
-
 .custom-beschreibung {
   max-width: 40rem;
 }
 .artikel-img {
   height: 9rem;
 }
-
 .bg-none {
   background-color: none;
 }
-
-
 .img-inhaber {
   width: 15rem;
-}
-
-
-
-.hover:hover {
-  transform: scale(1.2);
 }
 .img-icon {
   padding: 3px;

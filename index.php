@@ -26,7 +26,8 @@
             <h1>Pizza Bacio</h1>
             <p>
             Willkommen bei BACIO – Die Beste Tiefkühlpizza <br>
-            BACIO bringt Ihnen das authentische Geschmackserlebnis einer italienischen Pizzeria direkt nach Hause. Jede Pizza wird nach original italienischem Rezept mit handgemachtem Teig und hochwertigen Zutaten hergestellt und im Steinofen vorgebacken. Genießen Sie die erste Tiefkühlpizza, die schmeckt wie frisch beim Italiener – knusprig, lecker und von höchster Qualität. Erleben Sie den Unterschied mit Pizza BACIO!</p>
+            BACIO bringt Ihnen das authentische Geschmackserlebnis einer italienischen Pizzeria direkt nach Hause. Jede Pizza wird nach original italienischem Rezept mit handgemachtem Teig und hochwertigen Zutaten hergestellt und im Steinofen vorgebacken. 
+            <br><br>Genießen Sie die erste Tiefkühlpizza, die schmeckt wie frisch beim Italiener – knusprig, lecker und von höchster Qualität. Erleben Sie den Unterschied mit Pizza BACIO!</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center">
            <img class="img-fluid custom-radius" src="img/pizzaIMG.jpg" alt="Pizza-Belegt-mit-Tomaten-und-Bailikum" title="Pizza-Belegt-mit-Tomaten-und-Bailikum">
@@ -36,15 +37,15 @@
 </section>
 
 <section id="video" class="d-flex justify-content-center mt-5">
-        <div class="container mt-3">
-          <div class="row">
+    <div class="container mt-3">
+        <div class="row">
             <div class="col-xl-12 d-flex justify-content-center">
-              <video class="img-fluid custom-radius" controls autoplay muted loop>
-                <source src="viedeo/viedeo-neu.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Viedeo" title="Pizza-Bacio-Werbe-Viedeo"/>
-              </video>
+                <video class="img-fluid custom-radius" controls muted loop poster="path/to/poster-image.jpg">
+                    <source src="video/viedeo-neu.mp4" type="video/mp4" alt="Pizza-Bacio-Werbe-Viedeo" title="Pizza-Bacio-Werbe-Viedeo"/>
+                </video>
             </div>
-          </div>
         </div>
+    </div>
 </section>
 
 <section id="index__Werte Bacio">
@@ -86,12 +87,14 @@
   <div class="container pt-5 pb-5">
     <div class="row pt-5 pb-5">
       <div class="col-12 d-flex justify-content-center flex-column align-items-center">
-        <h2 class="text-white d-flex justify-content-center mb-5">Unser Radio-Spot</h2>
+        <h2 class="text-white d-flex justify-content-center p-4 audio-text">Play Me!</h2>
         <img class="img-radio mb-5" src="img/footer-img.png" alt="">
-        <audio controls>
-          <source src="audio/Bacio-Spot.mp3" type="audio/mpeg">
-          Ihr Browser unterstützt das Audio-Element nicht.
-        </audio>
+        
+        <!-- Hidden audio element -->
+        <audio id="custom-audio" src="audio/Bacio-Spot.mp3"></audio>
+        
+        <!-- Custom play button -->
+        <button id="play-button" class="btn btn-primary">Play</button>
       </div>
     </div>
   </div>
@@ -130,8 +133,6 @@
           </div>
         </div>
 </section>
-
-
 
 <section class="bg-packaging d-flex justify-content-center align-items-center">
   <div class="container">
@@ -197,6 +198,22 @@
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bacio.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const audioElement = document.getElementById('custom-audio');
+    const playButton = document.getElementById('play-button');
+    
+    playButton.addEventListener('click', function() {
+      if (audioElement.paused) {
+        audioElement.play();
+        playButton.textContent = 'Pause';
+      } else {
+        audioElement.pause();
+        playButton.textContent = 'Play';
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
