@@ -323,37 +323,6 @@ footer p {
   width: 20rem;
   margin-top: 3rem;
 }
-/* Hochauflösende Displays */
-@media only screen and (min-device-pixel-ratio: 2),
-       only screen and (min-resolution: 192dpi) {
-  .danke-header {
-    background-image: url(../img/pizzaheader2@2x.jpg);
-  }
-
-  .header-ueberuns {
-    background-image: url(../img/pizzaheader2@2x.jpg);
-  }
-
-  .kontakt-header {
-    background-image: url(../img/pizzaheader2@2x.jpg);
-  }
-
-  .header-pizza {
-    background-image: url(../img/pizzaheader2@2x.jpg);
-  }
-
-  .header-produkte {
-    background-image: url(../img/header-produkte@2x.jpg);
-  }
-
-  .index-header {
-    background-image: url(../img/pizzaheader@2x.jpg);
-  }
-
-  .header-error {
-    background-image: url(../img/pizzaheader2@2x.jpg);
-  }
-}
 /* header */
 
 /* kontakt */
