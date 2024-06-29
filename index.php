@@ -48,7 +48,6 @@
     </div>
 </section>
 
-
 <section id="index__Werte Bacio">
         <div class="pb-5 pt-5">
           <div class="container">

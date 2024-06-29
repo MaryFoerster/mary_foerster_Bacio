@@ -22,7 +22,7 @@
       <h1 data-fontsize="32" data-lineheight="44.8px">Impressum</h1>
   <p>Informationen über den Diensteanbieter.</p>
   <p>Pizzeria Bacio</p>
-  <p>Max Mustermann</p>
+  <p>Andreas Schmid, Armando Ammirati</p>
   <p>Hofgasse 4,<br>
     6020 Innsbruck,<br>
     Österreich</p>
@@ -460,9 +460,6 @@
     </div>
   </div>
 </section>
-
-
-
 
 </main>
 

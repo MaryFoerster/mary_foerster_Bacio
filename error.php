@@ -19,15 +19,13 @@
             <div><a class="btn-error" href="index.php">Zurück</a></div>
         </div>
         <div class="col-md-6 d-flex justify-content-center">
-            <img class="img-error" src="img/error.png" alt="">
+            <img class="img-error" src="img/error.png" alt="error-icon" title="error-icon">
         </div>
     </div>
 </div>
 </main>
 
 <?php include("footer.php") ?>
-
-<button onclick="scrollToTop()" id="scrollToTopBtn" title="Nach oben scrollen">Top</button>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bacio.js"></script>

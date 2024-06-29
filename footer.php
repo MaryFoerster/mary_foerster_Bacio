@@ -46,12 +46,12 @@
           <ul class="list-unstyled mb-0">
             <li>
             <a href="https://www.facebook.com" target="_blank" class="icon facebook">
-                <img class="img-footer mb-3" src="img/Facebook.jpg" alt="Facebook">
+                <img class="img-footer mb-3" src="img/Facebook.jpg" alt="Facebook-icon" title="Facebook-icon">
             </a>
             </li>
             <li>
             <a href="https://www.instagram.com" target="_blank" class="icon instagram">
-               <img class="img-footer" src="img/Instagram.jpg" alt="Instagram">
+               <img class="img-footer" src="img/Instagram.jpg" alt="Instagram-icon" title="Instagram-icon">
             </a>
             </li>
           </ul>

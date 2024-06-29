@@ -78,6 +78,23 @@ img {
 .custom-radius {
   border-radius: var(----border-radius);
 }
+.custom-beschreibung {
+  max-width: 40rem;
+}
+.artikel-img {
+  height: 9rem;
+}
+.bg-none {
+  background-color: none;
+}
+.img-inhaber {
+  width: 15rem;
+}
+.img-icon {
+  padding: 3px;
+  width: 8rem;
+  transition: transform 0.3s ease;
+}
 /* Generell */
 
 /* -----------scrollbar */
@@ -293,9 +310,49 @@ footer p {
   background-size: cover;
   background-attachment: fixed;
 }
+.header-error{
+  background-image: url(../img/pizzaheader2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 14rem;
+}
 .gif {
   width: 20rem;
   margin-top: 3rem;
+}
+/* Hochauflösende Displays */
+@media only screen and (min-device-pixel-ratio: 2),
+       only screen and (min-resolution: 192dpi) {
+  .danke-header {
+    background-image: url(../img/pizzaheader2@2x.jpg);
+  }
+
+  .header-ueberuns {
+    background-image: url(../img/pizzaheader2@2x.jpg);
+  }
+
+  .kontakt-header {
+    background-image: url(../img/pizzaheader2@2x.jpg);
+  }
+
+  .header-pizza {
+    background-image: url(../img/pizzaheader2@2x.jpg);
+  }
+
+  .header-produkte {
+    background-image: url(../img/header-produkte@2x.jpg);
+  }
+
+  .index-header {
+    background-image: url(../img/pizzaheader@2x.jpg);
+  }
+
+  .header-error {
+    background-image: url(../img/pizzaheader2@2x.jpg);
+  }
 }
 /* header */
 
@@ -740,15 +797,6 @@ label p {
 /* cta */
 
 /* error */
-.header-error{
-  background-image: url(../img/pizzaheader2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 14rem;
-}
 .btn-error  {
   border: none;
   background-color: var(----color-white);
@@ -781,23 +829,7 @@ label p {
   }
 }
 /* error */
-.custom-beschreibung {
-  max-width: 40rem;
-}
-.artikel-img {
-  height: 9rem;
-}
-.bg-none {
-  background-color: none;
-}
-.img-inhaber {
-  width: 15rem;
-}
-.img-icon {
-  padding: 3px;
-  width: 8rem;
-  transition: transform 0.3s ease;
-}
+
 
 
 

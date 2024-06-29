@@ -51,7 +51,6 @@ require 'src/PHPMailer/SMTP.php';
                     <img style='width: 8rem;' src='cid:logo' alt='logo'>
                     <p style='color: #E81B00;'><strong>Nachricht von:</strong> <span style='color: #E81B00;'><strong>" . $vorname . "</strong> <strong>" . $nachname . "</strong></span></p>
                     <p style='color: #E81B00;'><strong>E-Mail:</strong> <span style='color: #E81B00;'>" . $email . "</span></p>
-                    <p style='color: #E81B00;'><strong>Der DSGVO wurde zugestimmt!</strong></p>
                     <p style='color: #E81B00;'><strong>Nachricht:</strong></p>
                     <p>" . $nachricht . "</p>
                     <br>
@@ -73,7 +72,7 @@ require 'src/PHPMailer/SMTP.php';
             ?>
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <img class="img-danke" src="img/email-white.jpg" alt="">
+            <img class="img-danke" src="img/email-white.jpg" alt="email-icon" title="email-icon">
         </div>
     </div>
 </div>
