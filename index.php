@@ -134,15 +134,6 @@
         </div>
 </section>
 
-<section class="bg-packaging d-flex justify-content-center align-items-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center align-items-center flex-column">
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="zitate" class="text-center carousel-container mt-5 mb-1">
   <div class="container pt-4 pb-1">
     <div class="row justify-content-center">
