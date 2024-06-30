@@ -147,7 +147,7 @@
               <p>„Ganz egal, welche Sorte du gerade isst: Du wirst sie lieben.<br> Denn die wichtigste Zutat haben sie alle gemein: <strong>allerhöchsten Anspruch an die Qualität.</strong>“</p>
             </div>
             <div class="carousel-item">
-              <img src="img/Zitat-Andreas.jpg" class="img-carousel custom-radius mb-3" alt="Andreas Schmid" title="Andreas Schmid">
+              <img src="img/Zitat-andreas.jpg" class="img-carousel custom-radius mb-3" alt="Andreas Schmid" title="Andreas Schmid">
               <h3 class="mb-3">Andreas Schmid</h3>
               <h5 class="mb-3">- einer der beiden Inhaber</h5>
               <p>„Wir haben nicht geschaut, wie man eine weitere Tiefkühlpizza hinbekommt.<br> Sondern wie man als Erster eine hochwertige <strong>Restaurant-Pizza ohne Qualitätsverlust</strong> <br> zu den Menschen nach Hause bringt.“</p>
